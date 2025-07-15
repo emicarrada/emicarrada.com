@@ -1,6 +1,6 @@
 # Emicarrada
 
-Este proyecto es un sitio web moderno desarrollado con Vite, React y Tailwind CSS. Presenta información sobre Emicarrada, incluyendo quién soy, lo que hago, y recursos visuales interactivos.
+Este proyecto es mi sitio web moderno desarrollado con Vite, React y Tailwind CSS. Presenta información sobre emicarrada, incluyendo quién soy, lo que hago, y recursos visuales interactivos.
 
 ## Características principales
 - Interfaz responsiva y moderna
@@ -53,7 +53,7 @@ Este proyecto es un sitio web moderno desarrollado con Vite, React y Tailwind CS
 - Imágenes y modelos 3D propios
 
 ## Licencia
-Este proyecto utiliza fuentes bajo la SIL Open Font License. El resto del código está bajo la licencia que el autor determine.
+Este proyecto utiliza fuentes bajo la SIL Open Font License. El código fuente está licenciado bajo la MIT Licence. Todos los derechos pertenecen a Cristopher Carrada.
 
 ---
-Desarrollado por Emicarrada.
+Desarrollado por Cristopher Carrada.
