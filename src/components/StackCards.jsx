@@ -64,7 +64,7 @@ const cards = [
 
 export default function StackCards() {
   return (
-    <section className="w-full bg-[#041737] py-12 px-2 md:px-8 flex flex-col items-center">
+    <section id="servicios" className="w-full bg-[#041737] py-12 px-2 md:px-8 flex flex-col items-center">
       <h2 className="font-null text-3xl md:text-5xl text-[#ff8200] text-center mb-10 select-none">
         Que puedo hacer por ti
       </h2>

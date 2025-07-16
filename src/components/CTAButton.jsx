@@ -1,6 +1,14 @@
 import React from "react";
 
 export default function CTAButton({ className = "", ...props }) {
+  const handleClick = (e) => {
+    e.preventDefault();
+    const section = document.getElementById("servicios");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+    if (props.onClick) props.onClick(e);
+  };
   return (
     <button
       className={`px-8 py-4 rounded-xl font-title text-xl shadow-inner shadow-[#233a5e] 
@@ -13,6 +21,7 @@ export default function CTAButton({ className = "", ...props }) {
         hover:-translate-y-1 hover:scale-105
         hover:text-[#FF8200]
         " ${className}`}
+      onClick={handleClick}
       {...props}
     >
       Ver servicios
