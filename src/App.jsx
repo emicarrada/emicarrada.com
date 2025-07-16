@@ -1,11 +1,13 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './styles/globals.css';
 import Hero from './components/Hero';
 import QuienSoy from './components/QuienSoy';
 import StackCards from './components/StackCards';
 import Footer from './components/Footer';
+import Proyectos from './components/Proyectos';
 
-export default function App() {
+function Home() {
   return (
     <>
       <Hero />
@@ -13,5 +15,16 @@ export default function App() {
       <StackCards />
       <Footer />
     </>
+  );
+}
+
+export default function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/proyectos" element={<Proyectos />} />
+      </Routes>
+    </Router>
   );
 }

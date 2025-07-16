@@ -1,10 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import HamburgerButton from './layout/HamburgerButton';
 import MobileMenuButton from './layout/MobileMenuButton';
 
 const navLinks = [
-  { href: '#proyectos', label: 'Proyectos' },
+  { href: '/proyectos', label: 'Proyectos' },
   { href: '#libros', label: 'Libros' },
   { href: '#blog', label: 'Blog' },
   { href: '#webs', label: 'Webs' },
@@ -41,7 +42,7 @@ export default function Header() {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-8 h-20 md:h-24 relative">
         {/* Logo siempre visible a la izquierda */}
-        <a href="#" className="flex items-center z-50 select-none focus:outline-none" tabIndex={0} aria-label="Inicio">
+        <Link to="/" className="flex items-center z-50 select-none focus:outline-none" tabIndex={0} aria-label="Inicio">
           <img
             src="/logoemicarrada.png"
             alt="Logo Emicarrada"
@@ -49,7 +50,7 @@ export default function Header() {
             style={{ willChange: 'transform' }}
             draggable="false"
           />
-        </a>
+        </Link>
         {/* Navegación desktop */}
         <nav
           className="hidden md:flex items-center space-x-10 h-32"
