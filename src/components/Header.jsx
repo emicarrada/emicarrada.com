@@ -69,14 +69,6 @@ export default function Header() {
                   <span className="transition-all duration-300">
                     {link.label}
                   </span>
-                  {/* Subrayado animado */}
-                  <motion.span
-                    className="absolute left-0 -bottom-1 w-full h-[3px] bg-[#FF8200] origin-left scale-x-0 group-hover:scale-x-100 group-focus:scale-x-100 transition-transform duration-300"
-                    layoutId={`underline-${idx}`}
-                    whileHover={{ scaleX: 1 }}
-                    initial={{ scaleX: 0 }}
-                    animate={{ scaleX: 0 }}
-                  />
                 </motion.a>
               </li>
             ))}
