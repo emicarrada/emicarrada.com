@@ -59,17 +59,33 @@ export default function Header() {
           <ul className="flex items-center space-x-10">
             {navLinks.map((link, idx) => (
               <li key={link.href}>
-                <motion.a
-                  href={link.href}
-                  className="relative font-title text-xl text-white px-4 py-2 transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF8200] group"
-                  whileHover={{ scale: 1.13, color: '#FF8200' }}
-                  whileTap={{ scale: 0.97 }}
-                  style={{ willChange: 'transform, color' }}
-                >
-                  <span className="transition-all duration-300">
-                    {link.label}
-                  </span>
-                </motion.a>
+                {link.href.startsWith('/') ? (
+                  <Link
+                    to={link.href}
+                    className="relative font-title text-xl text-white px-4 py-2 transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF8200] group"
+                    style={{ willChange: 'transform, color' }}
+                  >
+                    <motion.span
+                      whileHover={{ scale: 1.13, color: '#FF8200' }}
+                      whileTap={{ scale: 0.97 }}
+                      className="transition-all duration-300"
+                    >
+                      {link.label}
+                    </motion.span>
+                  </Link>
+                ) : (
+                  <motion.a
+                    href={link.href}
+                    className="relative font-title text-xl text-white px-4 py-2 transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF8200] group"
+                    whileHover={{ scale: 1.13, color: '#FF8200' }}
+                    whileTap={{ scale: 0.97 }}
+                    style={{ willChange: 'transform, color' }}
+                  >
+                    <span className="transition-all duration-300">
+                      {link.label}
+                    </span>
+                  </motion.a>
+                )}
               </li>
             ))}
           </ul>
