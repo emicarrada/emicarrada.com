@@ -10,7 +10,7 @@ export default function Proyectos() {
       <Header />
       <section id="proyectos" className="w-full py-20 bg-[#041737] text-white">
         <div className="max-w-5xl mx-auto px-4 text-center">
-          <h2 className="text-4xl md:text-5xl mb-8 text-[#FF8200]" style={{ fontFamily: 'Null Free, sans-serif', fontWeight: 'normal' }}>Proyectos</h2>
+          <h2 className="font-title text-4xl md:text-5xl mb-8 text-[#FF8200]">Proyectos</h2>
           <p className="text-lg md:text-xl mb-12" style={{ fontFamily: 'Be Vietnam, sans-serif' }}>
            Startups con los que genero ingresos, aplicando tecnología, estrategia y creatividad para resolver problemas reales y construir negocios escalables.
           </p>
@@ -106,7 +106,7 @@ export default function Proyectos() {
           </div>
           {/* Sección Trabajo Científico y Tecnológico */}
           <div className="mt-16 text-center">
-            <h3 className="text-3xl md:text-4xl mb-4 text-[#FF8200]" style={{ fontFamily: 'Null Free, sans-serif', fontWeight: 'normal' }}>
+            <h3 className="font-title text-3xl md:text-4xl mb-4 text-[#FF8200]">
               Trabajo Científico y Tecnológico
             </h3>
             <p className="text-lg md:text-xl" style={{ fontFamily: 'Be Vietnam, sans-serif' }}>
