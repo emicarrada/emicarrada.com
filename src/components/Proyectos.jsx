@@ -113,7 +113,7 @@ export default function Proyectos() {
               Proyectos donde aplico ciencia, lógica y tecnología para entender problemas complejos y crear soluciones reales.
             </p>
             <div className="mt-6 text-center">
-              <span style={{ fontFamily: 'Null Free, sans-serif', color: '#fff', fontSize: '1.5rem' }}>Proximamente</span>
+              <span className="font-title" style={{ color: '#fff', fontSize: '1.5rem' }}>Proximamente</span>
             </div>
           </div>
         </div>
