@@ -1,3 +1,4 @@
+
 import React from 'react';
 import ProjectCard from './ProjectCard';
 import Header from './Header';
@@ -102,6 +103,18 @@ export default function Proyectos() {
                 </span>
               </div>
             </ProjectCard>
+          </div>
+          {/* Sección Trabajo Científico y Tecnológico */}
+          <div className="mt-16 text-center">
+            <h3 className="text-3xl md:text-4xl mb-4 text-[#FF8200]" style={{ fontFamily: 'Null Free, sans-serif', fontWeight: 'normal' }}>
+              Trabajo Científico y Tecnológico
+            </h3>
+            <p className="text-lg md:text-xl" style={{ fontFamily: 'Be Vietnam, sans-serif' }}>
+              Proyectos donde aplico ciencia, lógica y tecnología para entender problemas complejos y crear soluciones reales.
+            </p>
+            <div className="mt-6 text-center">
+              <span style={{ fontFamily: 'Null Free, sans-serif', color: '#fff', fontSize: '1.5rem' }}>Proximamente</span>
+            </div>
           </div>
         </div>
       </section>
