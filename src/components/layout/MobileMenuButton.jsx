@@ -80,10 +80,15 @@ export default function MobileMenuButton({ navLinks }) {
       {isOpen && (
         <nav
           ref={menuRef}
-          className="fixed inset-0 bg-[#041737] flex flex-col items-center justify-center z-[1000] w-full h-full md:hidden rounded-xl"
+          className="fixed inset-0 bg-[#041737] flex flex-col items-center justify-center z-[1000] w-full md:hidden"
           aria-label="Navegación principal"
           tabIndex={-1}
-          style={{ borderRadius: 24 }}
+          style={{ 
+            borderRadius: 0, 
+            backgroundColor: '#041737',
+            height: '100vh',
+            overflow: 'hidden'
+          }}
         >
           {/* Botón cerrar (solo visible cuando el menú está abierto) */}
           <button
@@ -97,15 +102,16 @@ export default function MobileMenuButton({ navLinks }) {
           >
             <MenuXIcon />
           </button>
-          <ul className="flex flex-col items-center gap-y-10 font-title mt-12">
+          <ul className="flex flex-col items-center justify-center gap-y-8 font-null relative z-10">
             {navLinks && navLinks.map((link) => (
               <li key={link.href} className="w-full flex justify-center">
                 <a
                   href={link.href}
-                  className="font-title text-3xl sm:text-4xl text-white px-6 py-3 rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF8200] hover:text-[#FF8200] transition-all duration-200 text-center"
+                  className="font-null text-3xl sm:text-4xl text-white px-6 py-3 rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF8200] hover:text-[#FF8200] transition-all duration-200 text-center"
                   tabIndex={0}
                   onClick={() => setIsOpen(false)}
                   role="link"
+                  style={{ color: '#FFFFFF', textDecoration: 'none' }}
                 >
                   {link.label}
                 </a>
