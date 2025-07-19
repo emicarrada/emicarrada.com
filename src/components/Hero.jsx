@@ -5,7 +5,7 @@ import TypewriterText from './TypewriterText';
 
 export default function Hero() {
   return (
-    <>
+    <div id="home">
       <Header />
       <section className="w-full h-screen bg-[#041737] flex items-center justify-center relative overflow-hidden">
         {/* Subir los lentes y el texto */}
@@ -15,6 +15,6 @@ export default function Hero() {
         {/* Texto de prueba eliminado, solo TypewriterText */}
         <TypewriterText upMore />
       </section>
-    </>
+    </div>
   );
 }

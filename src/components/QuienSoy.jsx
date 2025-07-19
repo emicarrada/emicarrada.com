@@ -75,9 +75,10 @@ function InteractiveTerminal() {
 
   useEffect(() => {
     scrollToBottom();
-    if (inputRef.current) {
-      inputRef.current.focus();
-    }
+    // Remover el focus automático para evitar que salte a esta sección
+    // if (inputRef.current) {
+    //   inputRef.current.focus();
+    // }
   }, [history]);
 
   const processCommand = (cmd) => {
@@ -151,7 +152,6 @@ function InteractiveTerminal() {
           onChange={(e) => setCurrentCommand(e.target.value)}
           onKeyDown={handleKeyPress}
           className="bg-transparent focus:outline-none flex-1 w-full"
-          autoFocus
         />
       </div>
     </div>

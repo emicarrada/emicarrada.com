@@ -1,5 +1,5 @@
 "use client";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import React from "react";
  
 export const LoaderOne = () => {
@@ -106,16 +106,16 @@ export const LoaderThree = () => {
       strokeWidth="1"
       strokeLinecap="round"
       strokeLinejoin="round"
-      className="h-20 w-20 stroke-white [--fill-final:#FF6B00] [--fill-initial:transparent]"
+      className="h-20 w-20 stroke-white"
     >
       <motion.path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <motion.path
-        initial={{ pathLength: 0, fill: "var(--fill-initial)" }}
-        animate={{ pathLength: 1, fill: "var(--fill-final)" }}
+        initial={{ pathLength: 0, fill: "transparent" }}
+        animate={{ pathLength: 1, fill: "#FF6B00" }}
         transition={{
           duration: 1,
           ease: "easeInOut",
-          repeat: 1,
+          repeat: Infinity,
           repeatType: "reverse",
         }}
         d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11"

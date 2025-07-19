@@ -25,6 +25,27 @@
 body {
   background-color: #041737;
   font-family: 'Be Vietnam', 'Inter', 'ui-sans-serif', 'system-ui';
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+/* Asegurar que el contenido aparezca desde el top */
+#root {
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Reset para asegurar posicionamiento correcto */
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .font-title, .font-heading {
