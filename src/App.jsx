@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './styles/globals.css';
 import Hero from './components/Hero';
@@ -8,8 +8,24 @@ import Footer from './components/Footer';
 import Proyectos from './components/Proyectos';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
+import LoaderOneDemo from './components/ui/loader-one-demo';
 
 function Home() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Wait for loader animation to complete (1.5 seconds draw + 1.5 seconds reverse)
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 3000); // 3 seconds total for one complete animation
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (isLoading) {
+    return <LoaderOneDemo />;
+  }
+
   return (
     <>
       <Hero />
