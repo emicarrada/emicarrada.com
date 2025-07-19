@@ -9,11 +9,11 @@ const AVAILABLE_COMMANDS = {
   projects: "Muestra mis proyectos principales",
   contact: "Muestra mi información de contacto",
   clear: "Limpia la terminal",
-  cris: "Muestra toda mi información",
+  perfil: "Muestra toda mi información",
 };
 
 const COMMAND_OUTPUTS = {
-  whoami: "emicarrada",
+  whoami: "Soy Cristopher Carrada, un desarrollador de software y emprendedor autodidacta. Me apasiona crear tecnología que inspire y resuelva problemas reales. Actualmente soy Co-Founder y CEO de Club+ y Zoi Marketing, donde combino mi visión estratégica con habilidades técnicas para construir soluciones auténticas.",
   skills: `Frontend: React, Next.js, TailwindCSS, JavaScript/TypeScript
 Backend: Node.js, Express, Python
 Databases: MongoDB, PostgreSQL
@@ -24,7 +24,7 @@ Other: Git, Docker, AWS`,
   contact: `Email: contacto@emicarrada.com
 LinkedIn: linkedin.com/in/emicarrada
 Twitter: @emicarrada`,
-  cris: JSON.stringify({
+  perfil: JSON.stringify({
     Nombre: "Cristopher Carrada",
     Nacionalidad: "Mexicano",
     Edad: 18,
@@ -47,7 +47,15 @@ Twitter: @emicarrada`,
       "Club+ y Zoi Marketing, donde combino pensamiento estratégico", 
       "con ejecución técnica para crear soluciones con propósito."
     ]
-  }, null, 2)
+  }, null, 2),
+  hola: "Hola! bienvenido a mi sitio",
+  ls: "Esto no es linux, es solo mi terminal interactiva",
+  titi: "Asi me decian de pequeño, como descubriste eso?",
+  cumpleaños: "19 de septiembre de 2006",
+  series: "Suits, Mr robot, The Office, Sillicon Valley, Drive to Survive",
+  peliculas: "Rocky (1, 3, 4), Creed (1, 2), The Social Network, The Wolf of Wall Street",
+  libros: "El principito, Habitos Atómicos, El monje que vendió su Ferrari, Shoe Dog, Cant hurt me",
+  universidad: "UNAM",
 };
 
 const accent = "text-orange-400";
@@ -154,7 +162,7 @@ export default function QuienSoy() {
   return (
     <section id="quien-soy" className="min-h-screen bg-[#041737]">
       <div className="container mx-auto px-4 py-8">
-        <h2 className="text-5xl font-null text-orange-400 text-center mb-8">Quien Soy</h2>
+        <h2 className="text-5xl font-null text-[#ff8200] text-center mb-8">Quien Soy</h2>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start max-w-6xl mx-auto">
           <div className="order-1 lg:order-1">
