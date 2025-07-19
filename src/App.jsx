@@ -6,6 +6,7 @@ import QuienSoy from './components/QuienSoy';
 import StackCards from './components/StackCards';
 import Footer from './components/Footer';
 import Proyectos from './components/Proyectos';
+import Libros from './Libros';
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/proyectos" element={<Proyectos />} />
+        <Route path="/libros" element={<Libros />} />
       </Routes>
     </Router>
   );

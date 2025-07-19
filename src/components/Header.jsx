@@ -6,7 +6,7 @@ import MobileMenuButton from './layout/MobileMenuButton';
 
 const navLinks = [
   { href: '/proyectos', label: 'Proyectos' },
-  { href: '#libros', label: 'Libros' },
+  { href: '/libros', label: 'Libros' },
   { href: '#blog', label: 'Blog' },
   { href: '#webs', label: 'Webs' },
   { href: '#eventos', label: 'Eventos' },
