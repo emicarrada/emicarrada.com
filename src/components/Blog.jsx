@@ -1,12 +1,12 @@
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from './Header';
+import Footer from './Footer';
 
-export default function Libros() {
+export default function Blog() {
   return (
     <>
       <Header />
       <main className="min-h-screen flex flex-col justify-center items-center">
-        {/* Contenido en blanco */}
+        {/* Contenido del blog irá aquí */}
       </main>
       <Footer />
     </>

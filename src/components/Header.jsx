@@ -6,11 +6,8 @@ import MobileMenuButton from './layout/MobileMenuButton';
 
 const navLinks = [
   { href: '/proyectos', label: 'Proyectos' },
-  { href: '/libros', label: 'Libros' },
-  { href: '#blog', label: 'Blog' },
-  { href: '#webs', label: 'Webs' },
-  { href: '#eventos', label: 'Eventos' },
-  { href: '#contacto', label: 'Contacto' },
+  { href: '/blog', label: 'Blog' },
+  { href: '/contacto', label: 'Contacto' },
 ];
 
 export default function Header() {
