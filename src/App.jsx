@@ -9,6 +9,7 @@ import Proyectos from './components/Proyectos';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import LoaderOneDemo from './components/ui/loader-one-demo';
+import LoQueHago from './components/LoQueHago';
 
 function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -30,6 +31,7 @@ function Home() {
     <>
       <Hero />
       <QuienSoy />
+      <LoQueHago />
       <StackCards />
       <Footer />
     </>

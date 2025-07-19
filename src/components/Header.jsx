@@ -59,13 +59,13 @@ export default function Header() {
                 {link.href.startsWith('/') ? (
                   <Link
                     to={link.href}
-                    className="relative font-title text-xl text-white px-4 py-2 transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF8200] group"
-                    style={{ willChange: 'transform, color' }}
+                    className="relative font-title text-xl text-white px-4 py-2 transition-colors duration-150 hover:text-[#FF6B00] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00] group"
+                    style={{ willChange: 'transform' }}
                   >
                     <motion.span
-                      whileHover={{ scale: 1.13, color: '#FF8200' }}
-                      whileTap={{ scale: 0.97 }}
-                      className="transition-all duration-300"
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.95 }}
+                      className="inline-block transition-transform duration-150"
                     >
                       {link.label}
                     </motion.span>
@@ -73,12 +73,12 @@ export default function Header() {
                 ) : (
                   <motion.a
                     href={link.href}
-                    className="relative font-title text-xl text-white px-4 py-2 transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF8200] group"
-                    whileHover={{ scale: 1.13, color: '#FF8200' }}
-                    whileTap={{ scale: 0.97 }}
-                    style={{ willChange: 'transform, color' }}
+                    className="relative font-title text-xl text-white px-4 py-2 transition-colors duration-150 hover:text-[#FF6B00] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B00] group"
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.95 }}
+                    style={{ willChange: 'transform' }}
                   >
-                    <span className="transition-all duration-300">
+                    <span className="inline-block transition-transform duration-150">
                       {link.label}
                     </span>
                   </motion.a>
