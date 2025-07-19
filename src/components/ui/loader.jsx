@@ -113,7 +113,7 @@ export const LoaderThree = () => {
         initial={{ pathLength: 0, fill: "var(--fill-initial)" }}
         animate={{ pathLength: 1, fill: "var(--fill-final)" }}
         transition={{
-          duration: 1.5,
+          duration: 1,
           ease: "easeInOut",
           repeat: 1,
           repeatType: "reverse",

@@ -14,10 +14,10 @@ function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Wait for loader animation to complete (1.5 seconds draw + 1.5 seconds reverse)
+    // Wait for loader animation to complete (1 second draw + 1 second reverse)
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 3000); // 3 seconds total for one complete animation
+    }, 2000); // 2 seconds total for one complete animation
 
     return () => clearTimeout(timer);
   }, []);
