@@ -24,11 +24,11 @@ export function AppleCardsCarouselDemo() {
       </div>
       
       {/* Sección de Suscripción */}
-      <div className="max-w-7xl mx-auto px-4 py-12 text-center">
+      <div className="max-w-7xl mx-auto px-4 py-6 text-center">
         <h3 className="text-4xl md:text-7xl font-null mb-6" style={{ color: '#FF8200' }}>
           Suscribete
         </h3>
-        <p className="text-lg md:text-xl font-bevietnam text-white max-w-2xl mx-auto mb-8">
+        <p className="text-lg md:text-xl font-bevietnam text-white max-w-2xl mx-auto mb-4">
           Mi blog sobre tecnología, hábitos y crecimiento. Suscríbete y recibe cada nuevo post semanal.
         </p>
         {/* Formulario de Suscripción Terminal */}
@@ -66,41 +66,320 @@ const DummyContent = () => {
   );
 };
 
+// ===== CONTENIDO ESPECÍFICO PARA CADA TARJETA DEL BLOG =====
+// Puedes modificar el texto, imágenes y contenido de cada artículo aquí
+
+// ARTÍCULO 1: Desarrollo Web - React
+const ReactArticleContent = () => {
+  return (
+    <div className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl">
+      {/* Texto 1 */}
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Cuando vi el famoso video del CEO de Astronomer en un concierto de Coldplay, confieso que solté una carcajada.
+        </span>{" "}
+        Como espectador, fue un momento gracioso, típico video viral en el que alguien es "cachado" en una situación incómoda. 
+        Pero, a diferencia de la mayoría, decidí ir más allá del chisme: investigué la empresa y me sorprendí.
+        <br /><br />
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Astronomer es una compañía B2B, técnica y discreta.
+        </span>{" "}
+        Desarrolla Astro, una plataforma de DataOps impulsada por Apache Airflow, y tiene clientes del calibre de Apple, Ford, Uber y Adobe. 
+        No es una marca que invierta en marketing masivo porque no lo necesita; su negocio está en la infraestructura de datos para grandes corporaciones.
+      </p>
+      
+      {/* Imagen 1 */}
+      <img
+        src="/blog/infielceo.png"
+        alt="Astronomer Company"
+        className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
+      />
+      
+      {/* Texto 2 */}
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          El verdadero problema: la reputación y el efecto de las redes.
+        </span>{" "}
+        El video se volvió viral no por lo que pasó, sino por cómo reaccionaron los involucrados: al intentar esconderse, 
+        hicieron evidente lo que todos sospechaban. Y así, de un momento anecdótico, pasamos a un circo mediático.
+        <br /><br />
+        Lo que más me hace ruido es la hipocresía colectiva. Existen CEOs acusados de corrupción, abuso sexual o violencia, 
+        y no reciben ni una fracción de la atención que este hombre está recibiendo por una infidelidad. 
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          No justifico lo que hizo —ser infiel está mal—, pero ¿es realmente un motivo para arruinar su carrera?
+        </span>
+      </p>
+      
+      {/* Imagen 2 */}
+      <img
+        src="/blog/astronomerlogo.png"
+        alt="Social Media Impact"
+        className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
+      />
+      
+      {/* Texto 3 */}
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          ¿Por qué debería importarnos?
+        </span>{" "}
+        Este caso nos muestra un problema preocupante: estamos entrando en una era donde la vida personal define tu vida profesional. 
+        Si eres CEO, o aspiras a serlo, ya no basta con ser técnicamente excelente; ahora también debes ser moralmente perfecto para los ojos del público.
+        <br /><br />
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Las redes sociales han convertido todo en un espectáculo.
+        </span>{" "}
+        Nos creemos jueces de la vida ajena, juzgamos sin mirar nuestras propias contradicciones y exigimos perfección de personas que ni conocemos. 
+        Te invito a que te preguntes: ¿Estamos juzgando con coherencia o solo consumiendo el circo mediático?
+      </p>
+    </div>
+  );
+};
+
+// ARTÍCULO 2: IA & Tecnología
+const AITechArticleContent = () => {
+  return (
+    <div className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl">
+      {/* Texto 1 */}
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          La Inteligencia Artificial está transformando industrias enteras.
+        </span>{" "}
+        Analizamos los avances más recientes en machine learning, procesamiento de lenguaje natural, 
+        y cómo las empresas están implementando IA para resolver problemas complejos.
+      </p>
+      
+      {/* Imagen 1 */}
+      <img
+        src="/blog/openai.jpg"
+        alt="AI Technology"
+        className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
+      />
+      
+      {/* Texto 2 */}
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Conoce las herramientas y frameworks más populares como TensorFlow, PyTorch, y OpenAI API 
+        que están definiendo el futuro tecnológico y cómo integrarlas en tus proyectos.
+      </p>
+      
+      {/* Imagen 2 */}
+      <img
+        src="/blog/chatgpt.jpg"
+        alt="ChatGPT and AI"
+        className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
+      />
+      
+      {/* Texto 3 */}
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        Explora casos de uso reales donde la IA está generando valor tangible en startups y empresas 
+        establecidas, desde automatización hasta personalización de experiencias de usuario.
+      </p>
+    </div>
+  );
+};
+
+// ARTÍCULO 3: Emprendimiento
+const EntrepreneurshipArticleContent = () => {
+  return (
+    <div className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl">
+      {/* Texto 1 */}
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Convertir una idea en un negocio escalable requiere estrategia.
+        </span>{" "}
+        Exploramos metodologías lean startup, validación de producto, captación de inversión, 
+        y cómo construir equipos de alto rendimiento.
+      </p>
+      
+      {/* Imagen 1 */}
+      <img
+        src="/blog/infielceo.png"
+        alt="Startup Growth"
+        className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
+      />
+      
+      {/* Texto 2 */}
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Aprende de casos reales de startups que han logrado escalar exitosamente en el mercado tecnológico, 
+        desde la fase de ideación hasta la captación de serie A y más allá.
+      </p>
+      
+      {/* Imagen 2 */}
+      <img
+        src="/logoclub.png"
+        alt="Business Scaling"
+        className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
+      />
+      
+      {/* Texto 3 */}
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        Descubre las métricas clave que debes monitorear, cómo construir un MVP efectivo, 
+        y estrategias probadas para conseguir product-market fit en tiempo récord.
+      </p>
+    </div>
+  );
+};
+
+// ARTÍCULO 4: Tutorial
+const TutorialArticleContent = () => {
+  return (
+    <div className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl">
+      {/* Texto 1 */}
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Un entorno de desarrollo optimizado aumenta tu productividad.
+        </span>{" "}
+        Te guío paso a paso para configurar VS Code, terminal, Git, Docker, 
+        y las extensiones esenciales para el desarrollo moderno.
+      </p>
+      
+      {/* Imagen 1 */}
+      <img
+        src="/blog/microsoft.jpg"
+        alt="Development Environment"
+        className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
+      />
+      
+      {/* Texto 2 */}
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Incluye configuraciones para diferentes lenguajes de programación y workflows 
+        que utilizan los desarrolladores profesionales en grandes empresas tecnológicas.
+      </p>
+      
+      {/* Imagen 2 */}
+      <img
+        src="/blog/googleoffice.jpg"
+        alt="Coding Setup"
+        className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
+      />
+      
+      {/* Texto 3 */}
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        Automatiza tareas repetitivas, configura shortcuts efectivos, y crea un flujo de trabajo 
+        que te permita enfocarte en lo que realmente importa: escribir código de calidad.
+      </p>
+    </div>
+  );
+};
+
+// ARTÍCULO 5: Arquitectura
+const ArchitectureArticleContent = () => {
+  return (
+    <div className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl">
+      {/* Texto 1 */}
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          La elección entre microservicios y monolitos define tu arquitectura.
+        </span>{" "}
+        Analizamos las ventajas y desventajas de cada patrón, cuándo implementar cada uno, 
+        costos de mantenimiento, escalabilidad, y factores técnicos que debes considerar.
+      </p>
+      
+      {/* Imagen 1 */}
+      <img
+        src="/blog/Google.jpg"
+        alt="Software Architecture"
+        className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
+      />
+      
+      {/* Texto 2 */}
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Incluye ejemplos reales de migración desde monolitos hacia microservicios, 
+        y casos donde mantener un monolito bien estructurado es la mejor opción.
+      </p>
+      
+      {/* Imagen 2 */}
+      <img
+        src="/blog/dazn.jpg"
+        alt="System Design"
+        className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
+      />
+      
+      {/* Texto 3 */}
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        Aprende a diseñar sistemas distribuidos resilientes, implementar patrones como Circuit Breaker, 
+        y manejar la complejidad operacional que viene con arquitecturas modernas.
+      </p>
+    </div>
+  );
+};
+
+// ARTÍCULO 6: Startups
+const StartupsArticleContent = () => {
+  return (
+    <div className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl">
+      {/* Texto 1 */}
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Construir Club+ y Zoi me enseñó lecciones valiosas sobre startups.
+        </span>{" "}
+        Comparto errores cometidos, decisiones acertadas, gestión de equipos remotos, 
+        product-market fit, y estrategias de crecimiento.
+      </p>
+      
+      {/* Imagen 1 */}
+      <img
+        src="/logoclub.png"
+        alt="Club+ Startup"
+        className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
+      />
+      
+      {/* Texto 2 */}
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Experiencias reales de fundraising, pivoteo de producto, y construcción de cultura empresarial 
+        en equipos distribuidos. Lecciones sobre timing de mercado y validación temprana.
+      </p>
+      
+      {/* Imagen 2 */}
+      <img
+        src="/logozoi.png"
+        alt="Zoi Startup"
+        className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
+      />
+      
+      {/* Texto 3 */}
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        Desde la concepción de la idea hasta la escala, te comparto los frameworks mentales 
+        y herramientas prácticas que utilizamos para tomar decisiones críticas bajo incertidumbre.
+      </p>
+    </div>
+  );
+};
+
 const data = [
   {
-    category: "Desarrollo Web",
-    title: "Construyendo aplicaciones React modernas",
-    src: "/QuienSoy.jpg",
-    content: <DummyContent />,
+    category: "CEO de Astronomer renuncia tras beso viral en concierto de Coldplay",
+    title: "El caso Astronomer: ¿Vida personal vs carrera profesional?",
+    src: "/blog/coldplay.jpg",
+    content: <ReactArticleContent />, // Contenido específico para el análisis de Astronomer
   },
   {
     category: "IA & Tecnología",
     title: "El futuro de la Inteligencia Artificial",
     src: "/QuienSoy.jpg",
-    content: <DummyContent />,
+    content: <AITechArticleContent />, // Contenido específico para IA
   },
   {
     category: "Emprendimiento",
     title: "De la idea al negocio escalable",
     src: "/QuienSoy.jpg",
-    content: <DummyContent />,
+    content: <EntrepreneurshipArticleContent />, // Contenido específico para Emprendimiento
   },
   {
     category: "Tutorial",
     title: "Configurando tu entorno de desarrollo perfecto",
     src: "/QuienSoy.jpg",
-    content: <DummyContent />,
+    content: <TutorialArticleContent />, // Contenido específico para Tutorial
   },
   {
     category: "Arquitectura",
     title: "Microservicios vs Monolitos: ¿Cuándo usar cada uno?",
     src: "/QuienSoy.jpg",
-    content: <DummyContent />,
+    content: <ArchitectureArticleContent />, // Contenido específico para Arquitectura
   },
   {
     category: "Startups",
     title: "Lecciones aprendidas construyendo Club+ y Zoi",
     src: "/QuienSoy.jpg",
-    content: <DummyContent />,
+    content: <StartupsArticleContent />, // Contenido específico para Startups
   },
 ];
