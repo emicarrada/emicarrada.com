@@ -178,7 +178,7 @@ const AITechArticleContent = () => {
       
       {/* Imagen 2 */}
       <img
-        src="/blog/chatgpt.jpg"
+        src="/blog/iarobot.jpg"
         alt="ChatGPT and AI"
         className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
       />
