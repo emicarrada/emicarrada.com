@@ -12,27 +12,24 @@ export default function TerminalSubscribeForm() {
     setMessage('');
 
     try {
-      const response = await fetch('https://api.brevo.com/v3/contacts', {
+      const response = await fetch('https://formspree.io/f/mpwlqrnk', {
         method: 'POST',
         headers: {
-          'api-key': import.meta.env.VITE_BREVO_API_KEY, // Usar variable de entorno
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          email: email,
-          listIds: [3],
-          updateEnabled: true
+          email: email
         })
       });
 
       if (response.ok) {
-        setMessage('¡Gracias por suscribirte!');
+        setMessage('¡Gracias por suscribirte! Cada domingo recibirás nuevas actualizaciones.');
         setEmail('');
       } else {
-        setMessage('Hubo un error, intenta de nuevo.');
+        setMessage('Ups, ocurrió un error. Intenta de nuevo, si no funciona contáctame por email.');
       }
     } catch (error) {
-      setMessage('Hubo un error, intenta de nuevo.');
+      setMessage('Ups, ocurrió un error. Intenta de nuevo, si no funciona contáctame por email.');
     } finally {
       setIsLoading(false);
     }
