@@ -12,7 +12,7 @@ export function AppleCardsCarouselDemo() {
   return (
     <div className="w-full min-h-screen flex flex-col py-8 pb-2 md:py-20 md:pb-8">
       <div className="max-w-7xl pl-4 mx-auto mb-6 md:mb-8 text-center">
-        <h2 className="text-4xl md:text-7xl font-null mb-4" style={{ color: '#041737' }}>
+        <h2 className="text-4xl md:text-7xl font-null mb-4" style={{ color: '#FF8200' }}>
           Mi Blog
         </h2>
         <p className="text-lg md:text-xl font-bevietnam text-white max-w-4xl mx-auto">
@@ -25,7 +25,7 @@ export function AppleCardsCarouselDemo() {
       
       {/* Sección de Suscripción */}
       <div className="max-w-7xl mx-auto px-4 py-12 text-center">
-        <h3 className="text-4xl md:text-7xl font-null mb-6" style={{ color: '#041737' }}>
+        <h3 className="text-4xl md:text-7xl font-null mb-6" style={{ color: '#FF8200' }}>
           Suscribete
         </h3>
         <p className="text-lg md:text-xl font-bevietnam text-white max-w-2xl mx-auto mb-8">
