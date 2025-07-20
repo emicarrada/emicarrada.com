@@ -1,0 +1,16 @@
+import Header from './Header';
+import Footer from './Footer';
+
+export default function Blog() {
+  return (
+    <>
+      <Header />
+      <main className="min-h-screen flex flex-col justify-center items-center">
+        <div className="w-full max-w-4xl px-4">
+          <div className="mb-4">Mi Blog</div>
+        </div>
+      </main>
+      <Footer />
+    </>
+  );
+}

@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fuentes personalizadas */
+@font-face {
+  font-family: 'Be Vietnam';
+  src: url('/be-vietnam/BeVietnam-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Be Vietnam';
+  src: url('/be-vietnam/BeVietnam-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Null';
+  src: url('/null_free/Null_Free/Null_Free.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #041737;
+  font-family: 'Be Vietnam', 'Inter', 'ui-sans-serif', 'system-ui';
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+/* Asegurar que el contenido aparezca desde el top */
+#root {
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Reset para asegurar posicionamiento correcto */
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.font-title, .font-heading {
+  font-family: 'Null', 'Be Vietnam', 'Inter', 'ui-sans-serif', 'system-ui';
+}
+
+/* Efecto hover naranja y agrandado para los links del header desktop */
+@media (min-width: 768px) {
+  nav .font-title {
+    color: #fff;
+    font-size: 1.25rem; /* text-xl */
+    transition: color 0.3s, font-size 0.3s;
+  }
+  nav .font-title:hover,
+  nav .font-title:focus {
+    color: #FF8200 !important;
+    font-size: 1.5rem !important; /* text-2xl */
+  }
+}
+
+.font-null {
+  font-family: 'Null', monospace;
+}
+.bg-grid-pattern {
+  background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.animate-blink {
+  animation: blink 1s steps(1) infinite;
+}

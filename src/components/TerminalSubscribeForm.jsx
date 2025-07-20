@@ -19,10 +19,12 @@ export default function TerminalSubscribeForm() {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
+          email: email,
           listIds: [3],
           updateEnabled: true
         })
       });
+
       if (response.ok) {
         setMessage('¡Gracias por suscribirte!');
         setEmail('');
