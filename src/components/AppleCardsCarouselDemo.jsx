@@ -142,23 +142,38 @@ const AITechArticleContent = () => {
       {/* Texto 1 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          La Inteligencia Artificial está transformando industrias enteras.
+          ¿Queremos que la IA actúe por nosotros o solo nos ayude a pensar mejor?
         </span>{" "}
-        Analizamos los avances más recientes en machine learning, procesamiento de lenguaje natural, 
-        y cómo las empresas están implementando IA para resolver problemas complejos.
+        En los últimos días, dos anuncios marcaron un antes y un después en la computación personal: OpenAI presentó el modo "Agent" de ChatGPT, 
+        que permite a la IA ejecutar acciones de manera autónoma, y Microsoft lanzó Copilot Vision, una herramienta multimodal integrada en Windows 11.
+        <br /><br />
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Ambos movimientos plantean la misma pregunta:
+        </span>{" "}
+        ¿queremos que la IA actúe por nosotros o que simplemente nos ayude a procesar mejor la información? Personalmente, creo que nunca 
+        llegaremos a un punto en el que la IA actúe completamente por nosotros.
       </p>
       
       {/* Imagen 1 */}
       <img
         src="/blog/openai.jpg"
-        alt="AI Technology"
+        alt="OpenAI Technology"
         className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
       />
       
       {/* Texto 2 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
-        Conoce las herramientas y frameworks más populares como TensorFlow, PyTorch, y OpenAI API 
-        que están definiendo el futuro tecnológico y cómo integrarlas en tus proyectos.
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          La metáfora del coche: tú sigues siendo el conductor.
+        </span>{" "}
+        Por más avanzada que sea, cada acción humana está cargada de creencias, valores y, en muchos casos, principios personales o religiosos. 
+        La IA puede aprender patrones de comportamiento, pero no puede reemplazar nuestra capacidad de tomar decisiones basadas en lo que somos como individuos.
+        <br /><br />
+        Me gusta verlo como un coche: <span className="font-bold text-neutral-700 dark:text-neutral-200">Tú eres el conductor. La IA es el copiloto.</span> 
+        Puede sugerirte rutas, advertirte de un atasco o recomendarte la mejor salida, pero la decisión final siempre debe ser tuya. 
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Convertirla en un "conductor automático" es peligroso
+        </span>, y no lo digo solo en sentido figurado.
       </p>
       
       {/* Imagen 2 */}
@@ -170,8 +185,20 @@ const AITechArticleContent = () => {
       
       {/* Texto 3 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-        Explora casos de uso reales donde la IA está generando valor tangible en startups y empresas 
-        establecidas, desde automatización hasta personalización de experiencias de usuario.
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          La IA, por ahora, es una herramienta para lo rutinario.
+        </span>{" "}
+        Hoy en día, usar un LLM o una LIA para escribir un ensayo, generar ideas de contenido o hacer un Excel es lógico. 
+        Son tareas repetitivas que no requieren gran carga intelectual y donde la IA realmente potencia nuestra productividad.
+        <br /><br />
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          ¿Revolución real o marketing apresurado?
+        </span>{" "}
+        Mucho de lo que vemos hoy en la industria tecnológica es, en parte, moda y marketing. OpenAI abrió la puerta a una carrera acelerada 
+        entre Big Tech, pero siento que esta revolución está siendo apresurada. 
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          O regulamos ahora con seriedad, o esta revolución se nos saldrá de las manos.
+        </span>
       </p>
     </div>
   );
@@ -353,9 +380,9 @@ const data = [
     content: <ReactArticleContent />, // Contenido específico para el análisis de Astronomer
   },
   {
-    category: "IA & Tecnología",
-    title: "El futuro de la Inteligencia Artificial",
-    src: "/QuienSoy.jpg",
+    category: "OpenAI presenta ChatGPT Agent; llega Copilot Vision a Windows",
+    title: "¿Queremos que la IA actúe por nosotros o solo nos ayude a pensar mejor?",
+    src: "/blog/chatgpt.jpg",
     content: <AITechArticleContent />, // Contenido específico para IA
   },
   {
