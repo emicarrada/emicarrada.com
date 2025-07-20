@@ -404,43 +404,73 @@ const ArchitectureArticleContent = () => {
   );
 };
 
-// ARTÍCULO 6: Startups
+// ARTÍCULO 6: Microsoft
 const StartupsArticleContent = () => {
   return (
     <div className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl">
       {/* Texto 1 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Construir Club+ y Zoi me enseñó lecciones valiosas sobre startups.
+          EE. UU., Microsoft y los ingenieros chinos: ¿seguridad nacional o simple hipocresía?
         </span>{" "}
-        Comparto errores cometidos, decisiones acertadas, gestión de equipos remotos, 
-        product-market fit, y estrategias de crecimiento.
+        Microsoft anunció que dejará de utilizar ingenieros con base en China para brindar soporte técnico a los sistemas en la nube 
+        del Departamento de Defensa de EE. UU. y otros clientes gubernamentales. La decisión llega tras una investigación que, 
+        aunque no encontró evidencia de filtraciones, generó fuertes críticas en Washington.
+        <br /><br />
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Pero, sinceramente, esta noticia me provocó algo que no esperaba: risa.
+        </span>{" "}
+        No una carcajada, sino esa sonrisa irónica con la que miras una incongruencia.
       </p>
       
       {/* Imagen 1 */}
       <img
-        src="/logoclub.png"
-        alt="Club+ Startup"
+        src="/blog/chinatech.jpg"
+        alt="Microsoft Technology"
         className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
       />
       
       {/* Texto 2 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
-        Experiencias reales de fundraising, pivoteo de producto, y construcción de cultura empresarial 
-        en equipos distribuidos. Lecciones sobre timing de mercado y validación temprana.
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          La ironía de todo el asunto.
+        </span>{" "}
+        Es curioso, casi cómico, que Estados Unidos critique públicamente a China mientras emplea ingenieros chinos en su sistema de defensa. 
+        No estamos hablando de una vulnerabilidad real —los sistemas de defensa de EE. UU. están entre los más robustos del mundo—, 
+        sino de una reacción casi visceral ante el hecho de que "extranjeros" participen en procesos críticos.
+        <br /><br />
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          La verdad es que esto huele más a prejuicio político que a una preocupación genuina por la seguridad.
+        </span>{" "}
+        Y aquí hay que decirlo sin rodeos: Estados Unidos sigue teniendo un sentimiento peyorativo hacia otras nacionalidades, 
+        sea por parte del gobierno o de su población.
       </p>
       
       {/* Imagen 2 */}
       <img
-        src="/logozoi.png"
-        alt="Zoi Startup"
+        src="/blog/militar.jpg"
+        alt="Cybersecurity"
         className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
       />
       
       {/* Texto 3 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-        Desde la concepción de la idea hasta la escala, te comparto los frameworks mentales 
-        y herramientas prácticas que utilizamos para tomar decisiones críticas bajo incertidumbre.
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Microsoft no es inocente, pero tampoco culpable.
+        </span>{" "}
+        Si el riesgo era tan grande, ¿por qué contratarlos desde un inicio? Microsoft sabía perfectamente de dónde provenían sus ingenieros, 
+        firmó contratos y los integró en procesos críticos. Ahora, después del escándalo mediático, deciden "corregir" 
+        como si no hubieran sido cómplices desde el principio. 
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Esto no es seguridad nacional, es hipocresía.
+        </span>
+        <br /><br />
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          En la industria tecnológica el talento no tiene nacionalidad.
+        </span>{" "}
+        El hecho de que ingenieros chinos trabajaran en el sistema de defensa de EE. UU. solo demuestra que la tecnología es global, 
+        aunque la política siga siendo provinciana. ¿Es realmente un problema de seguridad o solo un gesto político 
+        para alimentar el discurso nacionalista?
       </p>
     </div>
   );
@@ -478,9 +508,9 @@ const data = [
     content: <ArchitectureArticleContent />, // Contenido específico para Australia verificación edad
   },
   {
-    category: "Startups",
-    title: "Lecciones aprendidas construyendo Club+ y Zoi",
-    src: "/QuienSoy.jpg",
-    content: <StartupsArticleContent />, // Contenido específico para Startups
+    category: "Microsoft deja de usar ingenieros chinos en sistemas de defensa de EE.UU.",
+    title: "EE. UU., Microsoft y los ingenieros chinos: ¿seguridad nacional o hipocresía?",
+    src: "/blog/microsoft.jpg",
+    content: <StartupsArticleContent />, // Contenido específico para Microsoft y seguridad nacional
   },
 ];
