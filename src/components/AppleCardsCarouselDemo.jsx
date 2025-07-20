@@ -2,6 +2,7 @@
 
 import React from "react";
 import { Carousel, Card } from "./ui/apple-cards-carousel";
+import TerminalSubscribeForm from "./TerminalSubscribeForm";
 
 export function AppleCardsCarouselDemo() {
   const cards = data.map((card, index) => (
@@ -10,11 +11,28 @@ export function AppleCardsCarouselDemo() {
 
   return (
     <div className="w-full min-h-screen flex flex-col py-8 pb-2 md:py-20 md:pb-8">
-      <h2 className="max-w-7xl pl-4 mx-auto text-3xl md:text-5xl font-null text-neutral-800 dark:text-neutral-200 mb-6 md:mb-8">
-        Mi Blog
-      </h2>
+      <div className="max-w-7xl pl-4 mx-auto mb-6 md:mb-8 text-center">
+        <h2 className="text-4xl md:text-7xl font-null mb-4" style={{ color: '#041737' }}>
+          Mi Blog
+        </h2>
+        <p className="text-lg md:text-xl font-bevietnam text-white max-w-4xl mx-auto">
+          Cada semana escribo sobre las 6 noticias mas importantes en el mundo tech, suscribete a mi blog para leer semanalmente sobre lo mas relevante en la industria!
+        </p>
+      </div>
       <div className="flex-1">
         <Carousel items={cards} />
+      </div>
+      
+      {/* Sección de Suscripción */}
+      <div className="max-w-7xl mx-auto px-4 py-12 text-center">
+        <h3 className="text-4xl md:text-7xl font-null mb-6" style={{ color: '#041737' }}>
+          Suscribete
+        </h3>
+        <p className="text-lg md:text-xl font-bevietnam text-white max-w-2xl mx-auto mb-8">
+          Mi blog sobre tecnología, hábitos y crecimiento. Suscríbete y recibe cada nuevo post semanal.
+        </p>
+        {/* Formulario de Suscripción Terminal */}
+        <TerminalSubscribeForm />
       </div>
     </div>
   );
