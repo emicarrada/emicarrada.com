@@ -211,36 +211,62 @@ const EntrepreneurshipArticleContent = () => {
       {/* Texto 1 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Convertir una idea en un negocio escalable requiere estrategia.
+          Google une ChromeOS y Android: la mejor decisión que ha tomado este año.
         </span>{" "}
-        Exploramos metodologías lean startup, validación de producto, captación de inversión, 
-        y cómo construir equipos de alto rendimiento.
+        Google confirmó oficialmente el inicio de la integración entre ChromeOS y Android, en un movimiento que busca crear un ecosistema 
+        unificado entre dispositivos móviles y de escritorio. La noticia, aunque esperada, representa un giro estratégico que podría 
+        cambiar por completo la percepción de sus sistemas operativos.
+        <br /><br />
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          ChromeOS: un sistema que nunca despegó.
+        </span>{" "}
+        Hablemos con franqueza: ChromeOS nunca fue atractivo. Lo he visto en acción —varios compañeros en la universidad lo usaban— 
+        y, sinceramente, era un sistema genérico, plano y sin personalidad.
       </p>
       
       {/* Imagen 1 */}
       <img
-        src="/blog/infielceo.png"
-        alt="Startup Growth"
+        src="/blog/android.jpg"
+        alt="Google ChromeOS"
         className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
       />
       
       {/* Texto 2 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
-        Aprende de casos reales de startups que han logrado escalar exitosamente en el mercado tecnológico, 
-        desde la fase de ideación hasta la captación de serie A y más allá.
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Una oportunidad para competir de verdad con Apple.
+        </span>{" "}
+        La integración con Android lo cambia todo. Google ahora tiene la oportunidad de crear un ecosistema sólido y atractivo, 
+        algo que compita de verdad con el dúo iOS + macOS de Apple. Si logran hacerlo bien, no solo tendremos apps y datos 
+        sincronizados nativamente entre móviles y computadoras.
+        <br /><br />
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Mejor rendimiento y optimización, aprovechando un núcleo común.
+        </span>{" "}
+        Sino también, por primera vez, un sistema operativo de Google que sea visualmente atractivo e intuitivo, 
+        algo que invite a usarlo, no solo a tolerarlo.
       </p>
       
       {/* Imagen 2 */}
       <img
-        src="/logoclub.png"
-        alt="Business Scaling"
+        src="/blog/googleapp.jpg"
+        alt="Android Integration"
         className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
       />
       
       {/* Texto 3 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-        Descubre las métricas clave que debes monitorear, cómo construir un MVP efectivo, 
-        y estrategias probadas para conseguir product-market fit en tiempo récord.
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Por qué esta noticia me emociona.
+        </span>{" "}
+        Creo firmemente que la clave del éxito de un sistema operativo no es solo técnico, sino también emocional. 
+        Un buen diseño y un buen marketing hacen que quieras usarlo, que te sientas cómodo y orgulloso de tenerlo.
+        <br /><br />
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          De hecho, esta es, para mí, la mejor decisión que Google ha tomado este año.
+        </span>{" "}
+        Tanto así, que prometo escribir un blog y grabar un video probando el nuevo sistema en cuanto se lance. 
+        Y si me sorprende… hasta podría cambiarme de sistema operativo. El tiempo dirá si Google aprovecha esta oportunidad histórica.
       </p>
     </div>
   );
@@ -253,36 +279,60 @@ const TutorialArticleContent = () => {
       {/* Texto 1 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Un entorno de desarrollo optimizado aumenta tu productividad.
+          DAZN abre hub tecnológico en India: ¿innovación real o solo marketing?
         </span>{" "}
-        Te guío paso a paso para configurar VS Code, terminal, Git, Docker, 
-        y las extensiones esenciales para el desarrollo moderno.
+        DAZN, la plataforma global de streaming deportivo, anunció la apertura de su primer centro tecnológico en Hyderabad, India, 
+        con planes de contratar a 3 000 profesionales para impulsar soluciones con IA y análisis avanzado de datos. 
+        Sin duda, un movimiento ambicioso que llama la atención.
+        <br /><br />
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Pero, ¿realmente este hub marcará una diferencia para los fanáticos del deporte?
+        </span>{" "}
+        Sinceramente, no lo tengo tan claro. Muchos usuarios que disfrutan los deportes solo quieren una transmisión estable y de buena calidad.
       </p>
       
       {/* Imagen 1 */}
       <img
-        src="/blog/microsoft.jpg"
-        alt="Development Environment"
+        src="/blog/boxeodazn.jpg"
+        alt="DAZN Streaming Platform"
         className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
       />
       
       {/* Texto 2 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
-        Incluye configuraciones para diferentes lenguajes de programación y workflows 
-        que utilizan los desarrolladores profesionales en grandes empresas tecnológicas.
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          ¿Tecnología avanzada o sobrecomplicación innecesaria?
+        </span>{" "}
+        No les interesa que un chatbot les sugiera estadísticas o recomendaciones basadas en IA. Quieren ver el partido sin interrupciones. 
+        De hecho, recuerdo la pelea de Mike Tyson contra Jake Paul que vi por Netflix. Fue un desastre: latencia, caídas y mala experiencia.
+        <br /><br />
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          ¿Es la IA un valor real para el espectador promedio?
+        </span>{" "}
+        No me convence la idea de integrar IA para "mejorar la experiencia". En deportes, la esencia está en la acción en vivo, 
+        la emoción, no en un asistente digital que te entregue estadísticas o consejos.
       </p>
       
       {/* Imagen 2 */}
       <img
-        src="/blog/googleoffice.jpg"
-        alt="Coding Setup"
+        src="/blog/streaming.jpg"
+        alt="Technology in Sports"
         className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
       />
       
       {/* Texto 3 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-        Automatiza tareas repetitivas, configura shortcuts efectivos, y crea un flujo de trabajo 
-        que te permita enfocarte en lo que realmente importa: escribir código de calidad.
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          El detalle geográfico: ¿manos de obra barata?
+        </span>{" "}
+        La elección de India, y en particular Hyderabad, habla mucho de la estrategia de DAZN. Por un lado, Hyderabad es un polo tecnológico global 
+        con talento reconocido. Por otro, es claro que la empresa quiere aprovechar una mano de obra especializada y económica.
+        <br /><br />
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          ¿Dónde está la verdadera oportunidad?
+        </span>{" "}
+        Si DAZN realmente quiere revolucionar el streaming deportivo, debería mirar hacia integrar funciones vinculadas con apuestas deportivas. 
+        Ahí sí la IA puede aportar valor real. Pero por ahora, esta apuesta tecnológica me parece más un ejercicio de marketing que una mejora sustancial.
       </p>
     </div>
   );
@@ -295,36 +345,60 @@ const ArchitectureArticleContent = () => {
       {/* Texto 1 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          La elección entre microservicios y monolitos define tu arquitectura.
+          Australia y la verificación de edad en internet: problemas de primer mundo, soluciones de primer mundo.
         </span>{" "}
-        Analizamos las ventajas y desventajas de cada patrón, cuándo implementar cada uno, 
-        costos de mantenimiento, escalabilidad, y factores técnicos que debes considerar.
+        A partir de diciembre de 2025, Australia implementará un sistema obligatorio de verificación de edad para acceder a contenido en línea, 
+        utilizando tecnologías como reconocimiento facial y verificación mediante tarjetas bancarias o documentos oficiales. 
+        El objetivo es claro: proteger a los menores de edad del acceso a material inapropiado.
+        <br /><br />
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Para mí, este movimiento se resume en una frase: problemas de primer mundo, soluciones de primer mundo.
+        </span>
       </p>
       
       {/* Imagen 1 */}
       <img
-        src="/blog/Google.jpg"
-        alt="Software Architecture"
+        src="/blog/niño.jpg"
+        alt="Age Verification Technology"
         className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
       />
       
       {/* Texto 2 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
-        Incluye ejemplos reales de migración desde monolitos hacia microservicios, 
-        y casos donde mantener un monolito bien estructurado es la mejor opción.
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Una decisión inteligente y necesaria.
+        </span>{" "}
+        Habiendo crecido rodeado de tecnología, sé perfectamente lo fácil que es que un menor de edad acceda a contenido explícito o perturbador. 
+        Y aunque muchos prefieran ignorarlo, la web sigue siendo un espacio en gran parte sin regulación.
+        <br /><br />
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Por eso considero que lo que está haciendo Australia es no solo necesario, sino inteligente y responsable.
+        </span>{" "}
+        Pocos países se atreven a tomar decisiones de este tipo porque casi nadie se preocupa realmente por la salud mental 
+        de los menores en el entorno digital. Mientras tanto, en países como México, el tema ni siquiera está en la agenda pública.
       </p>
       
       {/* Imagen 2 */}
       <img
-        src="/blog/dazn.jpg"
-        alt="System Design"
+        src="/blog/babyphone.jpg"
+        alt="Digital Regulation"
         className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
       />
       
       {/* Texto 3 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-        Aprende a diseñar sistemas distribuidos resilientes, implementar patrones como Circuit Breaker, 
-        y manejar la complejidad operacional que viene con arquitecturas modernas.
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          ¿Privacidad o seguridad infantil?
+        </span>{" "}
+        El debate más grande, por supuesto, es el de la privacidad. Verificación biométrica, almacenamiento de datos sensibles… 
+        todo suena peligroso si se gestiona mal. Sin embargo, si un país tiene la capacidad de mantener altos estándares 
+        de ciberseguridad —y Australia los tiene—, no veo problema en que estas medidas se implementen.
+        <br /><br />
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Este tipo de iniciativas demuestran la madurez para regular un entorno digital cada vez más caótico.
+        </span>{" "}
+        Por ahora, Australia ha dado un paso valiente. ¿Estamos listos para aceptar estas regulaciones 
+        o seguimos viendo el internet como tierra de nadie?
       </p>
     </div>
   );
@@ -386,22 +460,22 @@ const data = [
     content: <AITechArticleContent />, // Contenido específico para IA
   },
   {
-    category: "Emprendimiento",
-    title: "De la idea al negocio escalable",
-    src: "/QuienSoy.jpg",
-    content: <EntrepreneurshipArticleContent />, // Contenido específico para Emprendimiento
+    category: "Google une ChromeOS y Android en un ecosistema unificado",
+    title: "Google une ChromeOS y Android: la mejor decisión que ha tomado este año",
+    src: "/blog/googleoffice.jpg",
+    content: <EntrepreneurshipArticleContent />, // Contenido específico para Google ChromeOS + Android
   },
   {
-    category: "Tutorial",
-    title: "Configurando tu entorno de desarrollo perfecto",
-    src: "/QuienSoy.jpg",
-    content: <TutorialArticleContent />, // Contenido específico para Tutorial
+    category: "DAZN abre hub tecnológico en India con 3,000 profesionales",
+    title: "DAZN abre hub tecnológico en India: ¿innovación real o solo marketing?",
+    src: "/blog/dazn.jpg",
+    content: <TutorialArticleContent />, // Contenido específico para DAZN India
   },
   {
-    category: "Arquitectura",
-    title: "Microservicios vs Monolitos: ¿Cuándo usar cada uno?",
-    src: "/QuienSoy.jpg",
-    content: <ArchitectureArticleContent />, // Contenido específico para Arquitectura
+    category: "Australia implementa verificación de edad obligatoria en internet",
+    title: "Australia y la verificación de edad en internet: ¿problemas de primer mundo?",
+    src: "/blog/faceage.jpg",
+    content: <ArchitectureArticleContent />, // Contenido específico para Australia verificación edad
   },
   {
     category: "Startups",
