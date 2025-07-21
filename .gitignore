@@ -1,2 +1,19 @@
 node_modules
 dist/
+
+# Environment files
+.env
+
+# Log files
+*.log
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Vercel
+.vercel/
+
+# Misc
+.DS_Store

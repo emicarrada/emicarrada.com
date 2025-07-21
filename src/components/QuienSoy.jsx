@@ -20,36 +20,13 @@ const AVAILABLE_COMMANDS = {
 
 const COMMAND_OUTPUTS = {
   whoami: "Soy Cristopher Carrada, un desarrollador de software y emprendedor autodidacta. Me apasiona crear tecnología que inspire y resuelva problemas reales. Actualmente soy Co-Founder y CEO de Club+ y Zoi Marketing, donde combino mi visión estratégica con habilidades técnicas para construir soluciones auténticas.",
-  skills: `[✔] Club+ (Full-Stack Subscription Platform)
-     ├── Backend: Node.js + TypeScript | Express.js | JWT Auth | bcryptjs
-     ├── Database: PostgreSQL | Prisma ORM | Migrations
-     ├── Frontend: React | Tailwind CSS
-     ├── Automation: n8n workflows | Platform API integrations (Netflix, Disney+, Spotify)
-     ├── Architecture: Monorepo | dotenv config | Pricing & Validation algorithms
+  skills: `[✔] Club+ (Plataforma de Suscripción Full-Stack) ├── Backend: Node.js + TypeScript | Express.js | Autenticación JWT | bcryptjs ├── Base de datos: PostgreSQL | Prisma ORM | Migraciones ├── Frontend: React | Tailwind CSS ├── Automatización: flujos de trabajo n8n | Integraciones API de plataformas (Netflix, Disney+, Spotify) ├── Arquitectura: Monorepo | Configuración dotenv | Algoritmos de precios y validación
 
-[✔] Zoi Marketing (AI-Powered Marketing Platform)
-     ├── Frontend: React + TypeScript | Vite | Tailwind | React Router | Hot Toast | Lucide Icons
-     ├── Backend: Node.js + Express | Prisma | PostgreSQL | Firebase Auth | Stripe
-     ├── AI/ML: Ollama | Mistral 7B | Prompt engineering for content generation
-     ├── DevOps: Bash scripting | systemctl | DNF package management (Fedora)
-     ├── Database: Relational modeling | Seeding | Prisma Studio
-     ├── Workflow: Hot reload (tsx/nodemon) | Automated deployments
+[✔] Zoi Marketing (Plataforma de Marketing Potenciada por IA) ├── Frontend: React + TypeScript | Vite | Tailwind | React Router | Hot Toast | Lucide Icons ├── Backend: Node.js + Express | Prisma | PostgreSQL | Autenticación Firebase | Stripe ├── IA/ML: Ollama | Mistral 7B | Ingeniería de prompts para generación de contenido ├── DevOps: Scripting Bash | systemctl | Gestión de paquetes DNF (Fedora) ├── Base de datos: Modelado relacional | Seeders | Prisma Studio ├── Flujo de trabajo: Recarga en caliente (tsx/nodemon) | Despliegues automatizados
 
-[✔] emicarrada.com (Personal Portfolio)
-     ├── Frontend: React + TypeScript | Tailwind CSS | Vite
-     ├── Animations: Framer Motion | GSAP | Motion | React Simple Typewriter
-     ├── UI: shadcn/ui | Heroicons | Tabler Icons | Lucide React
-     ├── 3D Graphics: React Three Fiber | Drei
-     ├── Utilities: PostCSS | Autoprefixer | clsx | Class Variance Authority
-     ├── Routing & Forms: React Router DOM | Formspree
+[✔] emicarrada.com (Portafolio Personal) ├── Frontend: React + TypeScript | Tailwind CSS | Vite ├── Animaciones: Framer Motion | GSAP | Motion | React Simple Typewriter ├── UI: shadcn/ui | Heroicons | Tabler Icons | Lucide React ├── Gráficos 3D: React Three Fiber | Drei ├── Utilidades: PostCSS | Autoprefixer | clsx | Class Variance Authority ├── Ruteo y Formularios: React Router DOM | Formspree
 
-[✔] Core Strengths
-     ├── Full-Stack TypeScript development (frontend & backend)
-     ├── Modern React patterns & UI/UX minimalista
-     ├── AI integration & prompt engineering
-     ├── DevOps & Linux (Fedora) administration
-     ├── Automation & API integrations
-     ├── Strong branding & marketing strategy`,
+[✔] Fortalezas Clave ├── Desarrollo Full-Stack con TypeScript (frontend y backend) ├── Patrones modernos de React y UI/UX minimalista ├── Integración de IA e ingeniería de prompts ├── DevOps y administración de Linux (Fedora) ├── Automatización e integraciones API ├── Estrategia sólida de branding y marketing`,
   projects: `- Club+ (Co-Founder & CEO)
 - Zoi Marketing (Co-Founder & CEO)
 - Más proyectos en mi GitHub: github.com/emicarrada`,
