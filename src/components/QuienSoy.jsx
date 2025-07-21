@@ -9,9 +9,9 @@ const AVAILABLE_COMMANDS = {
   projects: "Muestra mis proyectos principales",
   contact: "Muestra mi información de contacto",
   studies: "Muestra mis estudios y formación",
-  universidad: "Muestra mi universidad",
+  university: "Muestra mi universidad",
   clear: "Limpia la terminal",
-  perfil: "Muestra toda mi información",
+  profile: "Muestra toda mi información",
   movies: "Muestra mis películas favoritas",
   series: "Muestra mis series favoritas",
   books: "Muestra mis libros favoritos",
@@ -32,7 +32,7 @@ const COMMAND_OUTPUTS = {
 - Más proyectos en mi GitHub: github.com/emicarrada`,
   contact: `Email: cristopher@emicarrada.com
 LinkedIn, X, Instagram, TikTok, Github, Youtube: @emicarrada`,
-  perfil: JSON.stringify({
+  profile: JSON.stringify({
     Nombre: "Cristopher Carrada",
     Nacionalidad: "Mexicano",
     Edad: 18,
@@ -64,7 +64,7 @@ LinkedIn, X, Instagram, TikTok, Github, Youtube: @emicarrada`,
   movies: "Rocky (1, 3, 4), Creed (1, 2), The Social Network, The Wolf of Wall Street , The Pursuit of Happyness, The Big Short, The Dark Knight, Oceans Eleven",
   books: "El principito, Habitos Atómicos, El monje que vendió su Ferrari, Shoe Dog, Cant hurt me",
   studies: "Técnico Desarrollador de Software - CCH Sur (UNAM), Licenciatura en Ciencias de la Computación (En curso) - UNAM",
-  universidad: "Facultad de Ciencias, UNAM - Estudiante de Ciencias de la Computación",
+  university: "Facultad de Ciencias, UNAM - Estudiante de Ciencias de la Computación",
 };
 
 const accent = "text-orange-400";
@@ -137,7 +137,7 @@ function InteractiveTerminal() {
         </div>
       </div>
       <div className="mt-8 mb-2">
-        Bienvenido a mi terminal interactiva! Escribe 'help' para ver los comandos disponibles.
+        Bienvenido a mi terminal interactiva! Escribe 'help' para ver los comandos disponibles y descubrir más sobre mí.
       </div>
       
       {history.map((entry, i) => (
