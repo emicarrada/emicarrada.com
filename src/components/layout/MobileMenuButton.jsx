@@ -76,42 +76,51 @@ export default function MobileMenuButton({ navLinks }) {
           <MenuStairIcon />
         </button>
       )}
-      {/* Overlay menú móvil */}
+      {/* Overlay menú móvil con Glassmorphism */}
       {isOpen && (
         <nav
           ref={menuRef}
-          className="fixed inset-0 bg-[#041737] flex flex-col items-center justify-center z-[1000] w-full md:hidden"
+          className="fixed inset-0 backdrop-blur-xl bg-gradient-to-br from-[#041737]/80 via-[#0a2550]/70 to-[#041737]/90 flex flex-col items-center justify-center z-[1000] w-full md:hidden border border-white/10"
           aria-label="Navegación principal"
           tabIndex={-1}
           style={{ 
-            borderRadius: 0, 
-            backgroundColor: '#041737',
+            borderRadius: 0,
             height: '100vh',
-            overflow: 'hidden'
+            overflow: 'hidden',
+            boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
+            backdropFilter: 'blur(20px)',
+            WebkitBackdropFilter: 'blur(20px)',
           }}
         >
-          {/* Botón cerrar (solo visible cuando el menú está abierto) */}
+          {/* Botón cerrar sin marco */}
           <button
             aria-label="Cerrar menú"
             role="button"
-            className="absolute right-4 top-4 w-12 h-12 flex items-center justify-center focus:outline-none bg-transparent border-none select-none p-0 font-null"
+            className="absolute right-4 top-4 w-12 h-12 flex items-center justify-center focus:outline-none bg-transparent hover:bg-white/10 transition-all duration-300 select-none p-0"
             onClick={() => setIsOpen(false)}
             tabIndex={0}
             type="button"
-            style={{ minWidth: 48, minHeight: 48 }}
+            style={{ 
+              minWidth: 48, 
+              minHeight: 48,
+            }}
           >
             <MenuXIcon />
           </button>
-          <ul className="flex flex-col items-center justify-center gap-y-8 font-null relative z-10">
+          <ul className="flex flex-col items-center justify-center gap-y-10 font-null relative z-10">
             {navLinks && navLinks.map((link) => (
               <li key={link.href} className="w-full flex justify-center">
                 <a
                   href={link.href}
-                  className="font-null text-3xl sm:text-4xl text-white px-6 py-3 rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF8200] hover:text-[#FF8200] transition-all duration-200 text-center"
+                  className="font-null text-4xl sm:text-5xl text-white px-6 py-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF8200] hover:text-[#FF8200] transition-all duration-300 text-center"
                   tabIndex={0}
                   onClick={() => setIsOpen(false)}
                   role="link"
-                  style={{ color: '#FFFFFF', textDecoration: 'none' }}
+                  style={{ 
+                    color: '#FFFFFF', 
+                    textDecoration: 'none',
+                    textShadow: '0 2px 10px rgba(0,0,0,0.5)',
+                  }}
                 >
                   {link.label}
                 </a>
