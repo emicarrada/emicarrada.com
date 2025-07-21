@@ -1,13 +1,13 @@
 import Header from './Header';
 import Footer from './Footer';
-import { HeroScrollDemo } from './HeroScrollDemo';
+import TerminalContact from './TerminalContact';
 
 export default function Contact() {
   return (
     <>
       <Header className="mb-2" />
-      <HeroScrollDemo />
-      <Footer className="mt-2" />
+      <TerminalContact />
+      <Footer className="mt-0" />
     </>
   );
 }

@@ -4,7 +4,7 @@ import { ContainerScroll } from "./ui/container-scroll-animation";
 
 export function HeroScrollDemo() {
   return (
-    <div className="flex flex-col overflow-hidden">
+    <div className="flex flex-col overflow-hidden -mt-24 md:-mt-36 lg:-mt-48">
       <ContainerScroll
         titleComponent={
           <>
