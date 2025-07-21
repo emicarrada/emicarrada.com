@@ -92,11 +92,11 @@ export default function MobileMenuButton({ navLinks }) {
             WebkitBackdropFilter: 'blur(20px)',
           }}
         >
-          {/* Botón cerrar sin marco */}
+          {/* Botón cerrar solo el ícono X */}
           <button
             aria-label="Cerrar menú"
             role="button"
-            className="absolute right-4 top-4 w-12 h-12 flex items-center justify-center focus:outline-none bg-transparent hover:bg-white/10 transition-all duration-300 select-none p-0"
+            className="absolute right-4 top-4 w-12 h-12 flex items-center justify-center focus:outline-none bg-transparent border-none select-none p-0"
             onClick={() => setIsOpen(false)}
             tabIndex={0}
             type="button"
