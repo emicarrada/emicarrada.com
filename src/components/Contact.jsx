@@ -1,14 +1,13 @@
 import Header from './Header';
 import Footer from './Footer';
+import { HeroScrollDemo } from './HeroScrollDemo';
 
 export default function Contact() {
   return (
     <>
-      <Header />
-      <main className="min-h-screen flex flex-col justify-center items-center">
-        {/* Contenido del contacto irá aquí */}
-      </main>
-      <Footer />
+      <Header className="mb-2" />
+      <HeroScrollDemo />
+      <Footer className="mt-2" />
     </>
   );
 }
