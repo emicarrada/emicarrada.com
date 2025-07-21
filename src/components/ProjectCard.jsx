@@ -43,22 +43,25 @@ export default function ProjectCard({ logo, name, github, live, description, tec
       <AnimatePresence>
         {expanded && (
           <motion.div
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -10 }}
-            transition={{ duration: 0.3 }}
-            className="w-full mt-4 text-left"
+            initial={{ opacity: 0, height: 0, filter: 'blur(8px)' }}
+            animate={{ opacity: 1, height: 'auto', filter: 'blur(0px)' }}
+            exit={{ opacity: 0, height: 0, filter: 'blur(8px)' }}
+            transition={{ opacity: { duration: 0.3 }, height: { duration: 0.45, ease: 'easeInOut' }, filter: { duration: 0.3 } }}
+            className="w-full mt-4 text-left overflow-hidden"
+            style={{ willChange: 'height, opacity, filter' }}
           >
-            <p className="text-white text-base mb-3 text-center" style={{ fontFamily: 'Be Vietnam, sans-serif' }}>{description}</p>
-            {children}
-            {/* Los letreros de techs se eliminan para Club+ si hay children */}
-            {!children && (
-              <div className="flex flex-wrap gap-2 mt-2">
-                {techs.map((tech) => (
-                  <span key={tech} className="bg-[#FF8200] text-white px-3 py-1 rounded-full text-xs font-semibold">{tech}</span>
-                ))}
-              </div>
-            )}
+            <div>
+              <p className="text-white text-base mb-3 text-center" style={{ fontFamily: 'Be Vietnam, sans-serif' }}>{description}</p>
+              {children}
+              {/* Los letreros de techs se eliminan para Club+ si hay children */}
+              {!children && (
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {techs.map((tech) => (
+                    <span key={tech} className="bg-[#FF8200] text-white px-3 py-1 rounded-full text-xs font-semibold">{tech}</span>
+                  ))}
+                </div>
+              )}
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
