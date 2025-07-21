@@ -5,25 +5,56 @@ import LoQueHago from "./LoQueHago";
 const AVAILABLE_COMMANDS = {
   help: "Muestra los comandos disponibles",
   whoami: "Muestra información básica sobre mí",
-  skills: "Lista mis habilidades técnicas",
+  skills: "Lista mis habilidades técnicas por proyecto, sin rodeos",
   projects: "Muestra mis proyectos principales",
   contact: "Muestra mi información de contacto",
+  studies: "Muestra mis estudios y formación",
+  universidad: "Muestra mi universidad",
   clear: "Limpia la terminal",
   perfil: "Muestra toda mi información",
+  movies: "Muestra mis películas favoritas",
+  series: "Muestra mis series favoritas",
+  books: "Muestra mis libros favoritos",
+  birthday: "Muestra mi fecha de nacimiento",
 };
 
 const COMMAND_OUTPUTS = {
   whoami: "Soy Cristopher Carrada, un desarrollador de software y emprendedor autodidacta. Me apasiona crear tecnología que inspire y resuelva problemas reales. Actualmente soy Co-Founder y CEO de Club+ y Zoi Marketing, donde combino mi visión estratégica con habilidades técnicas para construir soluciones auténticas.",
-  skills: `Frontend: React, Next.js, TailwindCSS, JavaScript/TypeScript
-Backend: Node.js, Express, Python
-Databases: MongoDB, PostgreSQL
-Other: Git, Docker, AWS`,
+  skills: `[✔] Club+ (Full-Stack Subscription Platform)
+     ├── Backend: Node.js + TypeScript | Express.js | JWT Auth | bcryptjs
+     ├── Database: PostgreSQL | Prisma ORM | Migrations
+     ├── Frontend: React | Tailwind CSS
+     ├── Automation: n8n workflows | Platform API integrations (Netflix, Disney+, Spotify)
+     ├── Architecture: Monorepo | dotenv config | Pricing & Validation algorithms
+
+[✔] Zoi Marketing (AI-Powered Marketing Platform)
+     ├── Frontend: React + TypeScript | Vite | Tailwind | React Router | Hot Toast | Lucide Icons
+     ├── Backend: Node.js + Express | Prisma | PostgreSQL | Firebase Auth | Stripe
+     ├── AI/ML: Ollama | Mistral 7B | Prompt engineering for content generation
+     ├── DevOps: Bash scripting | systemctl | DNF package management (Fedora)
+     ├── Database: Relational modeling | Seeding | Prisma Studio
+     ├── Workflow: Hot reload (tsx/nodemon) | Automated deployments
+
+[✔] emicarrada.com (Personal Portfolio)
+     ├── Frontend: React + TypeScript | Tailwind CSS | Vite
+     ├── Animations: Framer Motion | GSAP | Motion | React Simple Typewriter
+     ├── UI: shadcn/ui | Heroicons | Tabler Icons | Lucide React
+     ├── 3D Graphics: React Three Fiber | Drei
+     ├── Utilities: PostCSS | Autoprefixer | clsx | Class Variance Authority
+     ├── Routing & Forms: React Router DOM | Formspree
+
+[✔] Core Strengths
+     ├── Full-Stack TypeScript development (frontend & backend)
+     ├── Modern React patterns & UI/UX minimalista
+     ├── AI integration & prompt engineering
+     ├── DevOps & Linux (Fedora) administration
+     ├── Automation & API integrations
+     ├── Strong branding & marketing strategy`,
   projects: `- Club+ (Co-Founder & CEO)
 - Zoi Marketing (Co-Founder & CEO)
 - Más proyectos en mi GitHub: github.com/emicarrada`,
-  contact: `Email: contacto@emicarrada.com
-LinkedIn: linkedin.com/in/emicarrada
-Twitter: @emicarrada`,
+  contact: `Email: cristopher@emicarrada.com
+LinkedIn, X, Instagram, TikTok, Github, Youtube: @emicarrada`,
   perfil: JSON.stringify({
     Nombre: "Cristopher Carrada",
     Nacionalidad: "Mexicano",
@@ -51,11 +82,12 @@ Twitter: @emicarrada`,
   hola: "Hola! bienvenido a mi sitio",
   ls: "Esto no es linux, es solo mi terminal interactiva",
   titi: "Asi me decian de pequeño, como descubriste eso?",
-  cumpleaños: "19 de septiembre de 2006",
+  birthday: "19 de septiembre de 2006",
   series: "Suits, Mr robot, The Office, Sillicon Valley, Drive to Survive",
-  peliculas: "Rocky (1, 3, 4), Creed (1, 2), The Social Network, The Wolf of Wall Street",
-  libros: "El principito, Habitos Atómicos, El monje que vendió su Ferrari, Shoe Dog, Cant hurt me",
-  universidad: "UNAM",
+  movies: "Rocky (1, 3, 4), Creed (1, 2), The Social Network, The Wolf of Wall Street , The Pursuit of Happyness, The Big Short, The Dark Knight, Oceans Eleven",
+  books: "El principito, Habitos Atómicos, El monje que vendió su Ferrari, Shoe Dog, Cant hurt me",
+  studies: "Técnico Desarrollador de Software - CCH Sur (UNAM), Licenciatura en Ciencias de la Computación (En curso) - UNAM",
+  universidad: "Facultad de Ciencias, UNAM - Estudiante de Ciencias de la Computación",
 };
 
 const accent = "text-orange-400";
