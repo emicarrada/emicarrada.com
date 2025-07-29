@@ -24,7 +24,7 @@ export function AppleCardsCarouselDemo() {
       </div>
       
       {/* Sección de Suscripción */}
-      <div className="max-w-7xl mx-auto px-4 py-6 text-center">
+      <div className="max-w-7xl mx-auto px-4 py-6 pb-0 text-center">
         <h3 className="text-4xl md:text-7xl font-null mb-6" style={{ color: '#FF8200' }}>
           Suscribete
         </h3>

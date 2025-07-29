@@ -6,7 +6,7 @@ export default function ProjectCard({ logo, name, github, live, description, tec
 
   return (
     <motion.div
-      className="bg-[#092a5a] rounded-2xl shadow-lg p-6 flex flex-col items-center justify-between min-h-[320px] max-w-md mx-auto transition-all duration-300"
+      className="bg-[#092a5a] rounded-2xl shadow-lg p-6 flex flex-col items-center justify-between min-h-[320px] w-full max-w-lg mx-auto transition-all duration-300"
       initial={{ boxShadow: '0 2px 8px rgba(0,0,0,0.08)' }}
       whileHover={{ boxShadow: '0 4px 16px rgba(0,0,0,0.16)' }}
     >
