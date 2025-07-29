@@ -24,9 +24,14 @@ export default function MobileMenuButton({ navLinks }) {
   const buttonRef = useRef(null);
   const menuRef = useRef(null);
 
-  // Cerrar con Escape o click fuera
+  // Cerrar con Escape o click fuera + controlar scroll del body
   useEffect(() => {
     if (!isOpen) return;
+    
+    // Bloquear scroll del body cuando el menú está abierto
+    const originalStyle = window.getComputedStyle(document.body).overflow;
+    document.body.style.overflow = 'hidden';
+    
     function handleKey(e) {
       if (e.key === "Escape") setIsOpen(false);
     }
@@ -37,7 +42,10 @@ export default function MobileMenuButton({ navLinks }) {
     }
     document.addEventListener("keydown", handleKey);
     document.addEventListener("mousedown", handleClick);
+    
     return () => {
+      // Restaurar scroll del body al cerrar el menú
+      document.body.style.overflow = originalStyle;
       document.removeEventListener("keydown", handleKey);
       document.removeEventListener("mousedown", handleClick);
     };
@@ -66,7 +74,7 @@ export default function MobileMenuButton({ navLinks }) {
           aria-expanded={isOpen}
           aria-label={isOpen ? "Cerrar menú" : "Abrir menú"}
           role="button"
-          className="md:hidden absolute top-4 right-4 z-[1050] p-0 m-0 w-12 h-12 flex items-center justify-center bg-transparent border-none select-none focus:outline-none"
+          className="md:hidden absolute top-4 right-4 z-[10000] p-0 m-0 w-12 h-12 flex items-center justify-center bg-transparent border-none select-none focus:outline-none"
           onClick={() => setIsOpen(true)}
           onKeyDown={handleKeyDown}
           tabIndex={0}
@@ -80,7 +88,7 @@ export default function MobileMenuButton({ navLinks }) {
       {isOpen && (
         <nav
           ref={menuRef}
-          className="fixed inset-0 backdrop-blur-xl bg-gradient-to-br from-[#041737]/80 via-[#0a2550]/70 to-[#041737]/90 flex flex-col items-center justify-center z-[1000] w-full md:hidden border border-white/10"
+          className="fixed inset-0 backdrop-blur-xl bg-gradient-to-br from-[#041737]/80 via-[#0a2550]/70 to-[#041737]/90 flex flex-col items-center justify-center z-[9999] w-full md:hidden border border-white/10"
           aria-label="Navegación principal"
           tabIndex={-1}
           style={{ 
