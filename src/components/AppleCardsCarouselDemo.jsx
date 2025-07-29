@@ -69,408 +69,386 @@ const DummyContent = () => {
 // ===== CONTENIDO ESPECÍFICO PARA CADA TARJETA DEL BLOG =====
 // Puedes modificar el texto, imágenes y contenido de cada artículo aquí
 
-// ARTÍCULO 1: Desarrollo Web - React
+// ARTÍCULO 1: IA y Entretenimiento - Mago de Oz
 const ReactArticleContent = () => {
   return (
     <div className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl">
       {/* Texto 1 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Cuando vi el famoso video del CEO de Astronomer en un concierto de Coldplay, confieso que solté una carcajada.
+          La Inteligencia Artificial está revolucionando también el mundo del entretenimiento.
         </span>{" "}
-        Como espectador, fue un momento gracioso, típico video viral en el que alguien es "cachado" en una situación incómoda. 
-        Pero, a diferencia de la mayoría, decidí ir más allá del chisme: investigué la empresa y me sorprendí.
-        <br /><br />
-        <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Astronomer es una compañía B2B, técnica y discreta.
-        </span>{" "}
-        Desarrolla Astro, una plataforma de DataOps impulsada por Apache Airflow, y tiene clientes del calibre de Apple, Ford, Uber y Adobe. 
-        No es una marca que invierta en marketing masivo porque no lo necesita; su negocio está en la infraestructura de datos para grandes corporaciones.
+        Recientemente, se usó IA para reimaginar El Mago de Oz —una película de 1939— y adaptarla al espectacular formato inmersivo 
+        de la pantalla esférica Sphere en Las Vegas. No se trata simplemente de poner la película en una pantalla más grande, 
+        sino de rehacer escenas, colores y movimientos para que el público experimente algo completamente nuevo.
       </p>
       
       {/* Imagen 1 */}
       <img
-        src="/blog/infielceo.png"
-        alt="Astronomer Company"
+        src="/blog/magooz.jpg"
+        alt="El Mago de Oz reimaginado con IA"
         className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
       />
       
       {/* Texto 2 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          El verdadero problema: la reputación y el efecto de las redes.
+          Un salto tecnológico y artístico.
         </span>{" "}
-        El video se volvió viral no por lo que pasó, sino por cómo reaccionaron los involucrados: al intentar esconderse, 
-        hicieron evidente lo que todos sospechaban. Y así, de un momento anecdótico, pasamos a un circo mediático.
+        Para lograr esto, los ingenieros tuvieron que trabajar con archivos, fotos y recursos originales de la época, 
+        aplicando modelos generativos avanzados para transformar la narrativa visual. Es un avance que me emociona porque abre un mundo nuevo: 
+        la IA no solo sirve para productividad o análisis, sino también para crear experiencias audiovisuales inmersivas que podrían cambiar cómo consumimos cine.
         <br /><br />
-        Lo que más me hace ruido es la hipocresía colectiva. Existen CEOs acusados de corrupción, abuso sexual o violencia, 
-        y no reciben ni una fracción de la atención que este hombre está recibiendo por una infidelidad. 
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          No justifico lo que hizo —ser infiel está mal—, pero ¿es realmente un motivo para arruinar su carrera?
-        </span>
+          ¿Un futuro para el cine inmersivo?
+        </span>{" "}
+        Imagínense una película de Misión Imposible diseñada desde cero para una pantalla como la Sphere, con escenas que nos rodean y nos sumergen en la acción. 
+        Estoy convencido de que no tardarán en surgir empresas especializadas en esto, y que las salas de cine tradicionales también tendrán que adaptarse a esta nueva forma de contar historias.
       </p>
       
       {/* Imagen 2 */}
       <img
-        src="/blog/astronomerlogo.png"
-        alt="Social Media Impact"
+        src="/blog/esferavegas.jpg"
+        alt="Sphere Las Vegas - Cine inmersivo"
         className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
       />
       
       {/* Texto 3 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          ¿Por qué debería importarnos?
+          ¿Una revolución o un lujo?
         </span>{" "}
-        Este caso nos muestra un problema preocupante: estamos entrando en una era donde la vida personal define tu vida profesional. 
-        Si eres CEO, o aspiras a serlo, ya no basta con ser técnicamente excelente; ahora también debes ser moralmente perfecto para los ojos del público.
+        Sin embargo, queda la duda: ¿será esta una transformación que cambie la industria del cine para todos, o solo un lujo para algunos pocos con acceso a tecnología de punta? 
+        Lo cierto es que este tipo de innovación promete mucho, pero todavía está por verse si será accesible y masiva.
         <br /><br />
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Las redes sociales han convertido todo en un espectáculo.
+          ¿Tú qué opinas?
         </span>{" "}
-        Nos creemos jueces de la vida ajena, juzgamos sin mirar nuestras propias contradicciones y exigimos perfección de personas que ni conocemos. 
-        Te invito a que te preguntes: ¿Estamos juzgando con coherencia o solo consumiendo el circo mediático?
+        ¿Crees que la IA generativa será el motor que lleve al cine a un nuevo nivel, o simplemente una novedad pasajera para el entretenimiento de nicho? 
+        Esta convergencia entre inteligencia artificial y entretenimiento inmersivo definitivamente marca un antes y un después en cómo experimentamos las historias.
       </p>
     </div>
   );
 };
 
-// ARTÍCULO 2: IA & Tecnología
+// ARTÍCULO 2: Procesadores de Pago y Libertad Digital
 const AITechArticleContent = () => {
   return (
     <div className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl">
       {/* Texto 1 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          ¿Queremos que la IA actúe por nosotros o solo nos ayude a pensar mejor?
+          La noticia habla sobre la decisión de Itch.io de limitar los juegos con contenido sexualmente explícito, pero sinceramente, ese no es el enfoque que me interesa abordar.
         </span>{" "}
-        En los últimos días, dos anuncios marcaron un antes y un después en la computación personal: OpenAI presentó el modo "Agent" de ChatGPT, 
-        que permite a la IA ejecutar acciones de manera autónoma, y Microsoft lanzó Copilot Vision, una herramienta multimodal integrada en Windows 11.
+        No porque no sea importante, sino porque creo que hay una pregunta más grande de fondo: ¿por qué los procesadores de pago tienen tanto poder sobre lo que ocurre en una plataforma?
         <br /><br />
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Ambos movimientos plantean la misma pregunta:
+          Esto no fue una decisión ética o curatorial. Fue una imposición.
         </span>{" "}
-        ¿queremos que la IA actúe por nosotros o que simplemente nos ayude a procesar mejor la información? Personalmente, creo que nunca 
-        llegaremos a un punto en el que la IA actúe completamente por nosotros.
+        Una presión inmediata por parte de entidades como Mastercard, que obligaron a Itch.io a actuar rápido. Y como alguien que está construyendo dos startups digitales —Zoi Marketing y Club Plus— sé perfectamente lo que significa depender de esos intermediarios financieros.
       </p>
       
       {/* Imagen 1 */}
       <img
-        src="/blog/openai.jpg"
-        alt="OpenAI Technology"
+        src="/blog/gamervisa.jpg"
+        alt="Itch.io y procesadores de pago"
         className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
       />
       
       {/* Texto 2 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          La metáfora del coche: tú sigues siendo el conductor.
+          En el momento en que te bloquean o retiran el servicio, tu negocio deja de existir. Así de simple. Así de brutal.
         </span>{" "}
-        Por más avanzada que sea, cada acción humana está cargada de creencias, valores y, en muchos casos, principios personales o religiosos. 
-        La IA puede aprender patrones de comportamiento, pero no puede reemplazar nuestra capacidad de tomar decisiones basadas en lo que somos como individuos.
+        El problema no es solo la censura de cierto tipo de contenido. El problema es que estamos frente a un monopolio disfrazado de "estándar". 
+        A diferencia de los sistemas operativos donde al menos existe Linux como alternativa open source, en el mundo de los pagos online no hay una vía libre y abierta.
         <br /><br />
-        Me gusta verlo como un coche: <span className="font-bold text-neutral-700 dark:text-neutral-200">Tú eres el conductor. La IA es el copiloto.</span> 
-        Puede sugerirte rutas, advertirte de un atasco o recomendarte la mejor salida, pero la decisión final siempre debe ser tuya. 
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Convertirla en un "conductor automático" es peligroso
-        </span>, y no lo digo solo en sentido figurado.
+          Y eso es algo que la comunidad de software libre debería cuestionar.
+        </span>{" "}
+        Porque ahí hay una oportunidad real: crear un procesador de pagos open source, transparente, libre de presiones corporativas y políticas. 
+        Claro, ya existen las criptomonedas, pero todos sabemos que su adopción masiva aún no es realista, especialmente para el usuario promedio.
       </p>
       
       {/* Imagen 2 */}
       <img
-        src="/blog/iarobot.jpg"
-        alt="ChatGPT and AI"
+        src="/blog/pagovisa.jpg"
+        alt="Monopolio de procesadores de pago"
         className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
       />
       
       {/* Texto 3 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          La IA, por ahora, es una herramienta para lo rutinario.
+          El fondo del asunto es claro: hoy en día, cualquiera que quiera crear una plataforma con pagos en línea está atado de manos.
         </span>{" "}
-        Hoy en día, usar un LLM o una LIA para escribir un ensayo, generar ideas de contenido o hacer un Excel es lógico. 
-        Son tareas repetitivas que no requieren gran carga intelectual y donde la IA realmente potencia nuestra productividad.
+        Y eso no encaja con los principios originales del internet: libertad, descentralización y código abierto. 
+        También sabemos que si alguien crea esa alternativa abierta, no será bien recibida por gigantes como Mastercard o Visa, que tienen el control de las rutas por donde pasa el dinero digital.
         <br /><br />
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          ¿Revolución real o marketing apresurado?
+          ¿Tú qué piensas?
         </span>{" "}
-        Mucho de lo que vemos hoy en la industria tecnológica es, en parte, moda y marketing. OpenAI abrió la puerta a una carrera acelerada 
-        entre Big Tech, pero siento que esta revolución está siendo apresurada. 
-        <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          O regulamos ahora con seriedad, o esta revolución se nos saldrá de las manos.
-        </span>
+        ¿Crees que algún día veremos una alternativa libre y confiable a estos gigantes financieros? ¿O vamos a seguir aceptando que un puñado de corporaciones dicte las reglas de todo el ecosistema digital? 
+        La respuesta a esta pregunta definirá el futuro de la libertad en internet.
       </p>
     </div>
   );
 };
 
-// ARTÍCULO 3: Emprendimiento
+// ARTÍCULO 3: IA en Gobierno y Burocracia
 const EntrepreneurshipArticleContent = () => {
   return (
     <div className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl">
       {/* Texto 1 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Google une ChromeOS y Android: la mejor decisión que ha tomado este año.
+          Este es un avance que personalmente he deseado ver en México desde hace tiempo.
         </span>{" "}
-        Google confirmó oficialmente el inicio de la integración entre ChromeOS y Android, en un movimiento que busca crear un ecosistema 
-        unificado entre dispositivos móviles y de escritorio. La noticia, aunque esperada, representa un giro estratégico que podría 
-        cambiar por completo la percepción de sus sistemas operativos.
+        Me ha tocado vivir, como a muchos, la pesadilla de los trámites burocráticos: registrarse en el SAT, sacar un seguro, hacer cualquier gestión oficial. 
+        Son procesos lentos, repetitivos y absurdamente presenciales.
         <br /><br />
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          ChromeOS: un sistema que nunca despegó.
+          Tengo 18 años, y recientemente tuve que tramitar mi cartilla militar.
         </span>{" "}
-        Hablemos con franqueza: ChromeOS nunca fue atractivo. Lo he visto en acción —varios compañeros en la universidad lo usaban— 
-        y, sinceramente, era un sistema genérico, plano y sin personalidad.
+        Afortunadamente no tuve que hacer el servicio, pero sí tuve que pasar por un sorteo presencial. Me formé, entregué papeles, esperé. 
+        Todo eso, cuando perfectamente se podría hacer desde un sitio web.
       </p>
       
       {/* Imagen 1 */}
       <img
-        src="/blog/android.jpg"
-        alt="Google ChromeOS"
+        src="/blog/aieu.jpg"
+        alt="Digitalización gubernamental"
         className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
       />
       
       {/* Texto 2 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Una oportunidad para competir de verdad con Apple.
+          Con los conocimientos básicos de programación que tengo como estudiante de primer año, puedo imaginar un sistema que automatice este tipo de procesos:
         </span>{" "}
-        La integración con Android lo cambia todo. Google ahora tiene la oportunidad de crear un ecosistema sólido y atractivo, 
-        algo que compita de verdad con el dúo iOS + macOS de Apple. Si logran hacerlo bien, no solo tendremos apps y datos 
-        sincronizados nativamente entre móviles y computadoras.
+        registro en línea, sorteo aleatorio, notificación por correo… sin filas, sin papel. Por eso me emociona —pero también me hace pensar— que EE. UU. haya lanzado una IA específicamente para reducir la burocracia.
         <br /><br />
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Mejor rendimiento y optimización, aprovechando un núcleo común.
+          Y aquí es donde me entra la duda: ¿con qué nivel de supervisión?
         </span>{" "}
-        Sino también, por primera vez, un sistema operativo de Google que sea visualmente atractivo e intuitivo, 
-        algo que invite a usarlo, no solo a tolerarlo.
+        Si esta IA solo potencia tareas repetitivas, que requieren poca carga intelectual y están bien supervisadas, me parece un avance perfecto. 
+        Pero si la IA empieza a tomar decisiones sin una base clara o con sesgos que no podemos detectar fácilmente, ahí entramos a un terreno delicado.
       </p>
       
       {/* Imagen 2 */}
       <img
-        src="/blog/googleapp.jpg"
-        alt="Android Integration"
+        src="/blog/capitolioeu.jpg"
+        alt="IA en el gobierno"
         className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
       />
       
       {/* Texto 3 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Por qué esta noticia me emociona.
+          Hoy vivimos en una "IA-manía". Todo parece llevar IA: startups, marketing, productividad, incluso este blog que estás leyendo.
         </span>{" "}
-        Creo firmemente que la clave del éxito de un sistema operativo no es solo técnico, sino también emocional. 
-        Un buen diseño y un buen marketing hacen que quieras usarlo, que te sientas cómodo y orgulloso de tenerlo.
+        Pero la verdadera pregunta es si estas implementaciones están realmente mejorando las cosas o solo se están usando para presumir modernidad. 
+        EE. UU. es un país que históricamente ha liderado en innovación tecnológica.
         <br /><br />
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          De hecho, esta es, para mí, la mejor decisión que Google ha tomado este año.
+          Yo, desde México, espero que estas ideas funcionen y algún día se implementen aquí. No necesitamos más filas. Necesitamos más código.
         </span>{" "}
-        Tanto así, que prometo escribir un blog y grabar un video probando el nuevo sistema en cuanto se lance. 
-        Y si me sorprende… hasta podría cambiarme de sistema operativo. El tiempo dirá si Google aprovecha esta oportunidad histórica.
+        ¿Tú qué opinas? ¿La IA debería asumir tareas gubernamentales desde ya o es demasiado pronto para dejarla jugar en la cancha del estado? 
+        La respuesta definirá cómo evolucionará la relación entre ciudadanos y gobierno en la era digital.
       </p>
     </div>
   );
 };
 
-// ARTÍCULO 4: Tutorial
+// ARTÍCULO 4: Reino Unido y Verificación de Edad Digital
 const TutorialArticleContent = () => {
   return (
     <div className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl">
       {/* Texto 1 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          DAZN abre hub tecnológico en India: ¿innovación real o solo marketing?
+          La semana pasada ya habíamos hablado de que Australia estaba implementando regulaciones similares. Hoy es Reino Unido el que avanza con esta medida, y sinceramente, creo que esto apenas comienza.
         </span>{" "}
-        DAZN, la plataforma global de streaming deportivo, anunció la apertura de su primer centro tecnológico en Hyderabad, India, 
-        con planes de contratar a 3 000 profesionales para impulsar soluciones con IA y análisis avanzado de datos. 
-        Sin duda, un movimiento ambicioso que llama la atención.
+        Tal vez no lo hemos notado aún, pero los países podrían empezar a competir por quién tiene la mejor regulación en cuanto a protección infantil digital. 
+        ¿Por qué? Porque más regulación y más tecnología dan la impresión de más avance.
         <br /><br />
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Pero, ¿realmente este hub marcará una diferencia para los fanáticos del deporte?
+          Y en el mundo geopolítico, eso importa.
         </span>{" "}
-        Sinceramente, no lo tengo tan claro. Muchos usuarios que disfrutan los deportes solo quieren una transmisión estable y de buena calidad.
+        Reino Unido, al igual que Australia, está enviando un mensaje claro: están comprometidos con la seguridad infantil online, 
+        y lo están haciendo con medidas concretas, no solo promesas.
       </p>
       
       {/* Imagen 1 */}
       <img
-        src="/blog/boxeodazn.jpg"
-        alt="DAZN Streaming Platform"
+        src="/blog/img1niño.jpg"
+        alt="Regulación digital Reino Unido"
         className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
       />
       
       {/* Texto 2 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          ¿Tecnología avanzada o sobrecomplicación innecesaria?
+          Y seamos realistas. Ser menor de edad significa que todavía estás formando tu carácter, tus valores, tu educación.
         </span>{" "}
-        No les interesa que un chatbot les sugiera estadísticas o recomendaciones basadas en IA. Quieren ver el partido sin interrupciones. 
-        De hecho, recuerdo la pelea de Mike Tyson contra Jake Paul que vi por Netflix. Fue un desastre: latencia, caídas y mala experiencia.
+        En esta era, el internet tiene un peso descomunal en eso. ¿Qué niño no tiene acceso a un teléfono o una tablet? 
+        La exposición es constante. Entonces, este tipo de medidas son más que necesarias, son urgentes.
         <br /><br />
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          ¿Es la IA un valor real para el espectador promedio?
+          Mi predicción: no va a pasar mucho tiempo antes de que veamos a Estados Unidos dar el siguiente paso en este terreno.
         </span>{" "}
-        No me convence la idea de integrar IA para "mejorar la experiencia". En deportes, la esencia está en la acción en vivo, 
-        la emoción, no en un asistente digital que te entregue estadísticas o consejos.
+        La pregunta que queda es: ¿cuándo lo hará México? Porque aquí no solo enfrentamos el problema técnico. En México todavía batallamos con cosas más básicas, 
+        como la ética interpersonal o el respeto en espacios públicos.
       </p>
       
       {/* Imagen 2 */}
       <img
-        src="/blog/streaming.jpg"
-        alt="Technology in Sports"
+        src="/blog/Img2niño.jpg"
+        alt="Protección infantil digital"
         className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
       />
       
       {/* Texto 3 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          El detalle geográfico: ¿manos de obra barata?
+          Si ni eso está claro en lo presencial, ¿qué nos hace pensar que en lo digital será diferente?
         </span>{" "}
-        La elección de India, y en particular Hyderabad, habla mucho de la estrategia de DAZN. Por un lado, Hyderabad es un polo tecnológico global 
-        con talento reconocido. Por otro, es claro que la empresa quiere aprovechar una mano de obra especializada y económica.
+        Pero en vez de resignarnos, podríamos usar esto como una llamada de atención. Si el mundo está avanzando, nosotros también deberíamos. 
+        Deberíamos empezar a construir desde ahora un enfoque mexicano sobre cómo proteger a los menores en línea.
         <br /><br />
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          ¿Dónde está la verdadera oportunidad?
+          ¿Tú qué opinas?
         </span>{" "}
-        Si DAZN realmente quiere revolucionar el streaming deportivo, debería mirar hacia integrar funciones vinculadas con apuestas deportivas. 
-        Ahí sí la IA puede aportar valor real. Pero por ahora, esta apuesta tecnológica me parece más un ejercicio de marketing que una mejora sustancial.
+        ¿Crees que estas medidas deberían implementarse en México? ¿O piensas que el acceso libre a internet debe seguir siendo una prioridad para todos, sin importar la edad? 
+        Esta decisión podría definir cómo crecerán las próximas generaciones en un mundo cada vez más digital.
       </p>
     </div>
   );
 };
 
-// ARTÍCULO 5: Arquitectura
+// ARTÍCULO 5: Marketing Viral y Estrategia Mediática
 const ArchitectureArticleContent = () => {
   return (
     <div className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl">
       {/* Texto 1 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Australia y la verificación de edad en internet: problemas de primer mundo, soluciones de primer mundo.
+          "Astronomer" es una empresa B2B. No necesita ni busca un público masivo para sobrevivir, su modelo no depende de eso.
         </span>{" "}
-        A partir de diciembre de 2025, Australia implementará un sistema obligatorio de verificación de edad para acceder a contenido en línea, 
-        utilizando tecnologías como reconocimiento facial y verificación mediante tarjetas bancarias o documentos oficiales. 
-        El objetivo es claro: proteger a los menores de edad del acceso a material inapropiado.
+        Pero en medio de una reciente controversia —al parecer por temas personales de su CEO—, deciden subirse al tren mediático y contratar a Gwyneth Paltrow como vocera temporal, 
+        una movida que, más allá de ingeniosa, tiene un fondo irónico: aprovechar el ruido para capitalizarlo.
         <br /><br />
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Para mí, este movimiento se resume en una frase: problemas de primer mundo, soluciones de primer mundo.
+          Y aquí aplica esa vieja frase: "no existe la mala publicidad". ¿O sí?
         </span>
       </p>
       
       {/* Imagen 1 */}
       <img
-        src="/blog/niño.jpg"
-        alt="Age Verification Technology"
+        src="/blog/img1viral.jpg"
+        alt="Astronomer y marketing viral"
         className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
       />
       
       {/* Texto 2 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Una decisión inteligente y necesaria.
+          Lo interesante es cómo cambian las reglas del juego cuando una empresa, que debería estar en "modo contención", lanza una campaña como esta.
         </span>{" "}
-        Habiendo crecido rodeado de tecnología, sé perfectamente lo fácil que es que un menor de edad acceda a contenido explícito o perturbador. 
-        Y aunque muchos prefieran ignorarlo, la web sigue siendo un espacio en gran parte sin regulación.
+        En lugar de ocultarse, se expone más. En lugar de disculparse, ironiza. En lugar de arreglar su reputación, capitaliza el caos.
         <br /><br />
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Por eso considero que lo que está haciendo Australia es no solo necesario, sino inteligente y responsable.
+          Desde mi perspectiva, la estrategia puede ser efectiva a corto plazo, pero cuestionable éticamente.
         </span>{" "}
-        Pocos países se atreven a tomar decisiones de este tipo porque casi nadie se preocupa realmente por la salud mental 
-        de los menores en el entorno digital. Mientras tanto, en países como México, el tema ni siquiera está en la agenda pública.
+        ¿Realmente vale todo por visibilidad? Porque el resultado más probable es que dentro de un mes, nadie recuerde ni el escándalo ni a Astronomer. 
+        Y el impacto a largo plazo de esa fugaz viralidad es dudoso.
       </p>
       
       {/* Imagen 2 */}
       <img
-        src="/blog/babyphone.jpg"
-        alt="Digital Regulation"
+        src="/blog/img2viral.jpg"
+        alt="Gwyneth Paltrow como vocera"
         className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
       />
       
       {/* Texto 3 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          ¿Privacidad o seguridad infantil?
+          Lo que sí es claro es que en la era post-IA y del marketing viral, muchas startups están experimentando con cómo presentarse ante el mundo…
         </span>{" "}
-        El debate más grande, por supuesto, es el de la privacidad. Verificación biométrica, almacenamiento de datos sensibles… 
-        todo suena peligroso si se gestiona mal. Sin embargo, si un país tiene la capacidad de mantener altos estándares 
-        de ciberseguridad —y Australia los tiene—, no veo problema en que estas medidas se implementen.
+        aunque eso signifique cruzar la línea entre lo estratégico y lo oportunista. Este caso nos muestra cómo las crisis pueden convertirse en oportunidades, 
+        pero también plantea preguntas importantes sobre los límites éticos del marketing moderno.
         <br /><br />
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Este tipo de iniciativas demuestran la madurez para regular un entorno digital cada vez más caótico.
+          ¿Tú qué opinas?
         </span>{" "}
-        Por ahora, Australia ha dado un paso valiente. ¿Estamos listos para aceptar estas regulaciones 
-        o seguimos viendo el internet como tierra de nadie?
+        ¿Crees que este tipo de movimientos pueden dejar huella real en la marca o simplemente son llamaradas de petate? 
+        La respuesta podría definir el futuro de cómo las empresas manejan sus crisis en la era digital.
       </p>
     </div>
   );
 };
 
-// ARTÍCULO 6: Microsoft
+// ARTÍCULO 6: Ciberseguridad en Startups y Protección de Datos
 const StartupsArticleContent = () => {
   return (
     <div className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl">
       {/* Texto 1 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          EE. UU., Microsoft y los ingenieros chinos: ¿seguridad nacional o simple hipocresía?
+          Hoy en día, las startups que operan con datos sensibles —especialmente en apps sociales como las de citas— necesitan una ciberseguridad de primer nivel.
         </span>{" "}
-        Microsoft anunció que dejará de utilizar ingenieros con base en China para brindar soporte técnico a los sistemas en la nube 
-        del Departamento de Defensa de EE. UU. y otros clientes gubernamentales. La decisión llega tras una investigación que, 
-        aunque no encontró evidencia de filtraciones, generó fuertes críticas en Washington.
+        Este caso de Tea, donde se filtraron 72,000 fotos privadas de usuarios, lo deja clarísimo: la privacidad no es un "plus", es una obligación crítica.
         <br /><br />
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Pero, sinceramente, esta noticia me provocó algo que no esperaba: risa.
+          Y ojo: no hablamos solo de proteger la reputación, hablamos de responsabilidad real.
         </span>{" "}
-        No una carcajada, sino esa sonrisa irónica con la que miras una incongruencia.
+        Google y Meta saben casi todo de nosotros, sí, pero al menos su enfoque está claro: publicidad. Pero cuando entregas tus datos a una app pequeña, 
+        que no tiene controles ni inversión en ciberseguridad, los riesgos se multiplican.
       </p>
       
       {/* Imagen 1 */}
       <img
-        src="/blog/chinatech.jpg"
-        alt="Microsoft Technology"
+        src="/blog/img1cita.jpg"
+        alt="App Tea filtración de datos"
         className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
       />
       
       {/* Texto 2 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          La ironía de todo el asunto.
+          Basta una brecha para que alguien con malas intenciones acceda a tus imágenes, tus hábitos y tu privacidad más vulnerable.
         </span>{" "}
-        Es curioso, casi cómico, que Estados Unidos critique públicamente a China mientras emplea ingenieros chinos en su sistema de defensa. 
-        No estamos hablando de una vulnerabilidad real —los sistemas de defensa de EE. UU. están entre los más robustos del mundo—, 
-        sino de una reacción casi visceral ante el hecho de que "extranjeros" participen en procesos críticos.
+        ¿Para qué? Nadie lo sabe, y ese es el verdadero problema. La falta de transparencia en el manejo de datos de startups pequeñas 
+        puede convertirse en una pesadilla para los usuarios que confían en estos servicios.
         <br /><br />
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          La verdad es que esto huele más a prejuicio político que a una preocupación genuina por la seguridad.
+          La diferencia entre las Big Tech y las startups no es solo el tamaño, es la responsabilidad.
         </span>{" "}
-        Y aquí hay que decirlo sin rodeos: Estados Unidos sigue teniendo un sentimiento peyorativo hacia otras nacionalidades, 
-        sea por parte del gobierno o de su población.
+        Las grandes empresas, aunque cuestionables en muchos aspectos, al menos tienen recursos y protocolos establecidos. 
+        Las startups, en su prisa por crecer, a menudo pasan por alto la seguridad como una prioridad secundaria.
       </p>
       
       {/* Imagen 2 */}
       <img
-        src="/blog/militar.jpg"
-        alt="Cybersecurity"
+        src="/blog/img2cita.jpg"
+        alt="Ciberseguridad en apps de citas"
         className="w-full h-64 object-cover rounded-lg mb-8 mx-auto"
       />
       
       {/* Texto 3 */}
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Microsoft no es inocente, pero tampoco culpable.
+          La lección para las startups es clara: no puedes crecer sin proteger.
         </span>{" "}
-        Si el riesgo era tan grande, ¿por qué contratarlos desde un inicio? Microsoft sabía perfectamente de dónde provenían sus ingenieros, 
-        firmó contratos y los integró en procesos críticos. Ahora, después del escándalo mediático, deciden "corregir" 
-        como si no hubieran sido cómplices desde el principio. 
-        <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Esto no es seguridad nacional, es hipocresía.
-        </span>
+        Si trabajas con usuarios, trabajas con confianza. Y esa confianza se pierde en segundos. Tea ya lo aprendió. 
+        Esperemos que otras no tengan que hacerlo igual de tarde.
         <br /><br />
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          En la industria tecnológica el talento no tiene nacionalidad.
+          El futuro de las startups dependerá de entender que la ciberseguridad no es un gasto, es una inversión en supervivencia.
         </span>{" "}
-        El hecho de que ingenieros chinos trabajaran en el sistema de defensa de EE. UU. solo demuestra que la tecnología es global, 
-        aunque la política siga siendo provinciana. ¿Es realmente un problema de seguridad o solo un gesto político 
-        para alimentar el discurso nacionalista?
+        En un mundo donde los datos son el nuevo petróleo, protegerlos no es opcional. Es fundamental para el éxito a largo plazo 
+        y la credibilidad de cualquier empresa que aspire a durar en el mercado.
       </p>
     </div>
   );
@@ -478,39 +456,39 @@ const StartupsArticleContent = () => {
 
 const data = [
   {
-    category: "CEO de Astronomer renuncia tras beso viral en concierto de Coldplay",
-    title: "El caso Astronomer: ¿Vida personal vs carrera profesional?",
-    src: "/blog/coldplay.jpg",
+    category: "IA transforma “El Mago de Oz” para pantallas gigantes como la Sphere en Las Vegas",
+    title: "Cómo la IA está reinventando el cine: del clásico Mago de Oz a experiencias inmersivas en pantalla gigante",
+    src: "/blog/portadavegas.jpg",
     content: <ReactArticleContent />, // Contenido específico para el análisis de Astronomer
   },
   {
-    category: "OpenAI presenta ChatGPT Agent; llega Copilot Vision a Windows",
-    title: "¿Queremos que la IA actúe por nosotros o solo nos ayude a pensar mejor?",
-    src: "/blog/chatgpt.jpg",
+    category: "Itch.io restringe los juegos con contenido adulto, siguiendo pasos de Mastercard y Steam",
+    title: "Procesadores de pago: ¿Vigilantes silenciosos o amenazas para la libertad digital?",
+    src: "/blog/portadavisa.jpg",
     content: <AITechArticleContent />, // Contenido específico para IA
   },
   {
-    category: "Google une ChromeOS y Android en un ecosistema unificado",
-    title: "Google une ChromeOS y Android: la mejor decisión que ha tomado este año",
-    src: "/blog/googleoffice.jpg",
+    category: "El gobierno de EE. UU. lanza una IA para reducir regulaciones burocráticas",
+    title: "¿Fin de la burocracia o nuevo experimento con IA? El futuro de los trámites públicos",
+    src: "/blog/portadaeu.jpg",
     content: <EntrepreneurshipArticleContent />, // Contenido específico para Google ChromeOS + Android
   },
   {
-    category: "DAZN abre hub tecnológico en India con 3,000 profesionales",
-    title: "DAZN abre hub tecnológico en India: ¿innovación real o solo marketing?",
-    src: "/blog/dazn.jpg",
+    category: "Reino Unido impone reglas para verificar edad en contenidos online sensibles",
+    title: "¿Protección infantil o control digital? El dilema de verificar edades en internet",
+    src: "/blog/portadauk.jpg",
     content: <TutorialArticleContent />, // Contenido específico para DAZN India
   },
   {
-    category: "Australia implementa verificación de edad obligatoria en internet",
-    title: "Australia y la verificación de edad en internet: ¿problemas de primer mundo?",
-    src: "/blog/faceage.jpg",
+    category: "Startup Astronomer lanza campaña viral con Gwyneth Paltrow como vocera temporal",
+    title: "¿Publicidad buena o solo polémica? El caso Astronomer y el show mediático como estrategia",
+    src: "/blog/portadaviral.jpg",
     content: <ArchitectureArticleContent />, // Contenido específico para Australia verificación edad
   },
   {
-    category: "Microsoft deja de usar ingenieros chinos en sistemas de defensa de EE.UU.",
-    title: "EE. UU., Microsoft y los ingenieros chinos: ¿seguridad nacional o hipocresía?",
-    src: "/blog/microsoft.jpg",
+    category: "Filtración de la app de citas “Tea” expone 72,000 fotos de usuarios",
+    title: "¿Qué tan segura es tu app favorita? El caso de Tea y la urgencia de proteger los datos en startups",
+    src: "/blog/portadacita.jpg",
     content: <StartupsArticleContent />, // Contenido específico para Microsoft y seguridad nacional
   },
 ];
