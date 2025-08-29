@@ -237,7 +237,7 @@ export default function QuienSoy() {
                 </div>
               </div>
               <img
-                src="/QuienSoy.jpg"
+                src="/ProfilePicture.jpg"
                 alt="Mi foto"
                 className="w-full h-auto"
               />
