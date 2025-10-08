@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import { AppleCardsCarouselDemo } from './AppleCardsCarouselDemo';
+import { AppleCardsCarouselDemo } from './AppleCardsCarouselDemo.lazy';
 
 export default function Blog() {
   return (

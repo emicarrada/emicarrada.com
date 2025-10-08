@@ -14,20 +14,6 @@ export type TechnologyCategory =
   | 'mobile'
   | 'other';
 
-export interface Project {
-  id: string;
-  title: string;
-  description: string;
-  technologies: string[]; // Technology names
-  githubUrl?: string;
-  liveUrl?: string;
-  imageUrl?: string;
-  status: ProjectStatus;
-  category: ProjectCategory;
-  featured: boolean;
-  completedAt?: Date;
-}
-
 export type ProjectStatus = 'completed' | 'in-progress' | 'planned';
 
 export type ProjectCategory = 
@@ -38,14 +24,57 @@ export type ProjectCategory =
   | 'library'
   | 'other';
 
+export interface TechIcon {
+  id: string;
+  name: string;
+  title: string;
+  svgContent: string;
+}
+
+export interface Project {
+  id: string;
+  name: string;
+  logo: string;
+  description: string;
+  github: string;
+  live: string;
+  technologies: string[];
+  category: 'startup' | 'scientific';
+}
+
 export interface ProjectCardProps {
   project: Project;
   className?: string;
-  onClick?: (project: Project) => void;
 }
 
 export interface TechBadgeProps {
-  technology: Technology;
-  size?: 'sm' | 'md' | 'lg';
-  showLabel?: boolean;
+  tech: TechIcon;
+  className?: string;
+}
+
+export interface ProjectsListProps {
+  projects: Project[];
+  className?: string;
+}
+
+export interface ProjectsHeaderProps {
+  title: string;
+  subtitle: string;
+  className?: string;
+}
+
+export interface IProjectsService {
+  getAllProjects(): Promise<Project[]>;
+  getProjectById(id: string): Promise<Project | null>;
+  getProjectsByCategory(category: 'startup' | 'scientific'): Promise<Project[]>;
+}
+
+export interface ITechIconsService {
+  getIconByName(name: string): TechIcon | null;
+  getAllIcons(): TechIcon[];
+}
+
+export interface TechBadgeProps {
+  tech: TechIcon;
+  className?: string;
 }

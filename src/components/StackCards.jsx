@@ -72,7 +72,7 @@ export default function StackCards() {
         {cards.map((card, idx) => (
           <div
             key={card.title}
-            className="group bg-[#041737] border border-white/10 rounded-xl p-5 md:p-7 flex flex-col items-center text-center shadow-lg transition-all duration-200 hover:scale-105 hover:border-orange-400 hover:shadow-orange-400/20 cursor-pointer w-full max-w-xs mx-auto"
+            className="group bg-[#041737] border border-white/10 rounded-xl p-5 md:p-7 flex flex-col items-center text-center shadow-lg transition-all duration-200 hover:scale-105 hover:border-orange-400 hover:shadow-orange-400/20 w-full max-w-xs mx-auto"
           >
             <div className="mb-4">{icons[idx]}</div>
             <h3 className="font-null text-white text-xl mb-2">
