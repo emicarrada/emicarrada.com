@@ -43,64 +43,64 @@ export class BlogService implements IBlogService {
 
     const articles: BlogArticle[] = [
       {
-        id: 'ai-mago-oz',
-        category: "IA transforma \"El Mago de Oz\" para pantallas gigantes como la Sphere en Las Vegas",
-        title: "Cómo la IA está reinventando el cine: del clásico Mago de Oz a experiencias inmersivas en pantalla gigante",
-        src: "/blog/portadavegas.jpg",
+        id: 'primer-startup-fracaso',
+        category: "Emprendimiento personal",
+        title: "Mi primer startup: cómo convertí un fracaso en la mejor lección de mi vida",
+        src: "/QuienSoy.jpg", // Placeholder temporal - cambiar por portada real
         content: null, // Will be set by the component
         publishedAt: new Date('2024-10-01'),
         author: 'Cristopher Carrada',
-        tags: ['IA', 'Entretenimiento', 'Tecnología']
+        tags: ['Emprendimiento', 'Startups', 'Lecciones']
       },
       {
-        id: 'procesadores-pago',
-        category: "Itch.io restringe los juegos con contenido adulto, siguiendo pasos de Mastercard y Steam",
-        title: "Procesadores de pago: ¿Vigilantes silenciosos o amenazas para la libertad digital?",
-        src: "/blog/portadavisa.jpg",
+        id: 'codigo-vs-negocio',
+        category: "Desarrollo profesional",
+        title: "¿Programador o empresario? Por qué aprendí que el código solo es el 20% del éxito",
+        src: "/QuienSoy.jpg", // Placeholder temporal - cambiar por portada real
         content: null,
         publishedAt: new Date('2024-09-28'),
         author: 'Cristopher Carrada',
-        tags: ['Fintech', 'Regulación', 'Libertad Digital']
+        tags: ['Desarrollo', 'Negocios', 'Carrera']
       },
       {
-        id: 'gobierno-ia-burocracia',
-        category: "El gobierno de EE. UU. lanza una IA para reducir regulaciones burocráticas",
-        title: "¿Fin de la burocracia o nuevo experimento con IA? El futuro de los trámites públicos",
-        src: "/blog/portadaeu.jpg",
+        id: 'remote-work-realidad',
+        category: "Trabajo remoto",
+        title: "3 años de trabajo remoto: la verdad que nadie te cuenta sobre la vida digital",
+        src: "/QuienSoy.jpg", // Placeholder temporal - cambiar por portada real
         content: null,
         publishedAt: new Date('2024-09-25'),
         author: 'Cristopher Carrada',
-        tags: ['IA', 'Gobierno', 'Burocracia']
+        tags: ['Remote Work', 'Productividad', 'Vida Digital']
       },
       {
-        id: 'verificacion-edad-uk',
-        category: "Reino Unido impone reglas para verificar edad en contenidos online sensibles",
-        title: "¿Protección infantil o control digital? El dilema de verificar edades en internet",
-        src: "/blog/portadauk.jpg",
+        id: 'herramientas-productividad',
+        category: "Productividad y tools",
+        title: "Mi stack de herramientas 2024: las apps y sistemas que realmente uso cada día",
+        src: "/QuienSoy.jpg", // Placeholder temporal - cambiar por portada real
         content: null,
         publishedAt: new Date('2024-09-22'),
         author: 'Cristopher Carrada',
-        tags: ['Regulación', 'Privacidad', 'Reino Unido']
+        tags: ['Productividad', 'Herramientas', 'Tech Stack']
       },
       {
-        id: 'astronomer-gwyneth',
-        category: "Startup Astronomer lanza campaña viral con Gwyneth Paltrow como vocera temporal",
-        title: "¿Publicidad buena o solo polémica? El caso Astronomer y el show mediático como estrategia",
-        src: "/blog/portadaviral.jpg",
+        id: 'equilibrio-vida-tech',
+        category: "Reflexiones personales",
+        title: "Burnout en tech: cómo reconocí las señales y qué hice para recuperar el equilibrio",
+        src: "/QuienSoy.jpg", // Placeholder temporal - cambiar por portada real
         content: null,
         publishedAt: new Date('2024-09-19'),
         author: 'Cristopher Carrada',
-        tags: ['Marketing', 'Startups', 'Estrategia']
+        tags: ['Burnout', 'Bienestar', 'Tech Life']
       },
       {
-        id: 'tea-app-filtracion',
-        category: "Filtración de la app de citas \"Tea\" expone 72,000 fotos de usuarios",
-        title: "¿Qué tan segura es tu app favorita? El caso de Tea y la urgencia de proteger los datos en startups",
-        src: "/blog/portadacita.jpg",
+        id: 'aprender-publico',
+        category: "Learning in public",
+        title: "Por qué decidí documentar todo mi proceso de aprendizaje (y tú también deberías)",
+        src: "/QuienSoy.jpg", // Placeholder temporal - cambiar por portada real
         content: null,
         publishedAt: new Date('2024-09-16'),
         author: 'Cristopher Carrada',
-        tags: ['Seguridad', 'Apps', 'Privacidad']
+        tags: ['Aprendizaje', 'Comunidad', 'Desarrollo Personal']
       }
     ];
 

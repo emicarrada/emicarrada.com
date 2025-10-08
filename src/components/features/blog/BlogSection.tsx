@@ -5,14 +5,14 @@ import { BlogCarousel } from './BlogCarousel';
 import { BlogSubscription } from './BlogSubscription';
 import { useBlog } from '../../../hooks/useBlog';
 
-// Import content components for now - in a full refactor these would be in separate files
+// Import content components for personal blog
 import { 
-  ReactArticleContent,
-  AITechArticleContent,
-  EntrepreneurshipArticleContent,
-  TutorialArticleContent,
-  ArchitectureArticleContent,
-  StartupsArticleContent
+  PrimerStartupContent,
+  CodigoNegocioContent,
+  RemoteWorkContent,
+  HerramientasContent,
+  EquilibrioContent,
+  LearningPublicContent
 } from '../../../services/content/BlogContentComponents';
 
 export const BlogSection: React.FC<BlogSectionProps> = ({ className = '' }) => {
@@ -20,12 +20,12 @@ export const BlogSection: React.FC<BlogSectionProps> = ({ className = '' }) => {
 
   // Map content components to articles
   const contentMap = {
-    'ai-mago-oz': <ReactArticleContent />,
-    'procesadores-pago': <AITechArticleContent />,
-    'gobierno-ia-burocracia': <EntrepreneurshipArticleContent />,
-    'verificacion-edad-uk': <TutorialArticleContent />,
-    'astronomer-gwyneth': <ArchitectureArticleContent />,
-    'tea-app-filtracion': <StartupsArticleContent />
+    'primer-startup-fracaso': <PrimerStartupContent />,
+    'codigo-vs-negocio': <CodigoNegocioContent />,
+    'remote-work-realidad': <RemoteWorkContent />,
+    'herramientas-productividad': <HerramientasContent />,
+    'equilibrio-vida-tech': <EquilibrioContent />,
+    'aprender-publico': <LearningPublicContent />
   };
 
   // Add content to articles
@@ -36,7 +36,7 @@ export const BlogSection: React.FC<BlogSectionProps> = ({ className = '' }) => {
 
   if (loading) {
     return (
-      <div className={`w-full min-h-screen flex flex-col py-8 pb-2 md:py-20 md:pb-8 ${className}`}>
+      <div className={`w-full min-h-screen flex flex-col py-8 pb-16 md:py-20 md:pb-20 ${className}`}>
         <div className="flex justify-center items-center h-64">
           <div className="text-white text-xl">Cargando artículos...</div>
         </div>
@@ -46,7 +46,7 @@ export const BlogSection: React.FC<BlogSectionProps> = ({ className = '' }) => {
 
   if (error) {
     return (
-      <div className={`w-full min-h-screen flex flex-col py-8 pb-2 md:py-20 md:pb-8 ${className}`}>
+      <div className={`w-full min-h-screen flex flex-col py-8 pb-16 md:py-20 md:pb-20 ${className}`}>
         <div className="flex justify-center items-center h-64">
           <div className="text-red-400 text-xl">Error: {error}</div>
         </div>
@@ -55,17 +55,17 @@ export const BlogSection: React.FC<BlogSectionProps> = ({ className = '' }) => {
   }
 
   return (
-    <div className={`w-full min-h-screen flex flex-col py-8 pb-2 md:py-20 md:pb-8 ${className}`}>
+    <div className={`w-full min-h-screen flex flex-col py-8 pb-16 md:py-20 md:pb-20 ${className}`}>
       <BlogHeader 
-        title="Mi Blog"
-        subtitle="Cada semana escribo sobre las 6 noticias mas importantes en el mundo tech, suscribete a mi blog para leer semanalmente sobre lo mas relevante en la industria!"
+        title="Mi Blog Personal"
+        subtitle="Reflexiones sobre desarrollo, emprendimiento y vida en tech. Cada semana comparto experiencias reales, lecciones aprendidas y pensamientos sobre la industria desde mi perspectiva personal."
       />
       
       <BlogCarousel articles={articles} />
       
       <BlogSubscription 
-        title="Suscribete"
-        subtitle="Mi blog sobre tecnología, hábitos y crecimiento. Suscríbete y recibe cada nuevo post semanal."
+        title="Suscríbete a mi blog"
+        subtitle="Recibe mis reflexiones sobre desarrollo, emprendimiento y experiencias en tech. Sin spam, solo contenido real y personal."
       />
     </div>
   );
