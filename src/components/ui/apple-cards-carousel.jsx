@@ -96,14 +96,14 @@ export const Carousel = ({ items, initialScroll = 0 }) => {
               <motion.div
                 initial={{
                   opacity: 0,
-                  y: 20,
+                  y: 10,
                 }}
                 animate={{
                   opacity: 1,
                   y: 0,
                   transition: {
-                    duration: 0.5,
-                    delay: 0.2 * index,
+                    duration: 0.3,
+                    delay: index < 3 ? 0.1 * index : 0, // Solo animar las primeras 3 tarjetas
                     ease: "easeOut",
                     once: true,
                   },
@@ -255,21 +255,50 @@ export const BlurImage = ({
   ...rest
 }) => {
   const [isLoading, setLoading] = useState(true);
+  const [isInView, setIsInView] = useState(false);
+  const imgRef = useRef(null);
+
+  // Intersection Observer para lazy loading
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsInView(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.1, rootMargin: '100px' }
+    );
+
+    if (imgRef.current) {
+      observer.observe(imgRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <img
-      className={cn(
-        "h-full w-full transition duration-300",
-        isLoading ? "blur-sm" : "blur-0",
-        className,
+    <div ref={imgRef} className={cn("h-full w-full relative", className)}>
+      {!isInView ? (
+        <div className="h-full w-full bg-gray-200 animate-pulse flex items-center justify-center">
+          <div className="text-gray-400 text-sm">Cargando...</div>
+        </div>
+      ) : (
+        <img
+          className={cn(
+            "h-full w-full object-cover transition-opacity duration-300",
+            isLoading ? "opacity-0" : "opacity-100"
+          )}
+          onLoad={() => setLoading(false)}
+          src={src}
+          width={width}
+          height={height}
+          loading="lazy"
+          decoding="async"
+          alt={alt ? alt : "Background of a beautiful view"}
+          {...rest}
+        />
       )}
-      onLoad={() => setLoading(false)}
-      src={src}
-      width={width}
-      height={height}
-      loading="lazy"
-      decoding="async"
-      alt={alt ? alt : "Background of a beautiful view"}
-      {...rest}
-    />
+    </div>
   );
 };

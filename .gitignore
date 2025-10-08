@@ -65,3 +65,4 @@ coverage/
 
 # TypeScript cache
 *.tsbuildinfo
+.vercel

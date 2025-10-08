@@ -5,8 +5,8 @@ export class BlogService implements IBlogService {
 
   // Método optimizado para precargar imágenes críticas
   private async preloadCriticalImages(articles: BlogArticle[]): Promise<void> {
-    // Solo precargar las primeras 3 imágenes (las que están visible inicialmente)
-    const criticalArticles = articles.slice(0, 3);
+    // Solo precargar la primera imagen (hero)
+    const criticalArticles = articles.slice(0, 1);
     
     const preloadPromises = criticalArticles.map(article => {
       if (this.imageCache.has(article.src)) {
@@ -24,19 +24,22 @@ export class BlogService implements IBlogService {
           resolve(); // No bloquear por imágenes que fallan
         };
         img.src = article.src;
+        
+        // Timeout rápido para evitar bloqueos
+        setTimeout(() => resolve(), 800);
       });
     });
 
-    // No esperar más de 2 segundos por las imágenes
+    // Reducir tiempo de espera
     await Promise.race([
       Promise.all(preloadPromises),
-      new Promise(resolve => setTimeout(resolve, 2000))
+      new Promise(resolve => setTimeout(resolve, 800))
     ]);
   }
 
   async getAllArticles(): Promise<BlogArticle[]> {
-    // Simular delay de red más realista
-    await new Promise(resolve => setTimeout(resolve, 300));
+    // Simular delay de red mínimo para evitar flicker
+    await new Promise(resolve => setTimeout(resolve, 100));
 
     const articles: BlogArticle[] = [
       {
