@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import './styles/globals.css';
 import Hero from './components/Hero';
-import QuienSoy from './components/QuienSoy';
+import QuienSoy from './components/pages/QuienSoy';
 import StackCards from './components/StackCards';
 import Footer from './components/Footer';
 import Proyectos from './components/Proyectos';
