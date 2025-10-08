@@ -36,7 +36,7 @@ export const BlogSection: React.FC<BlogSectionProps> = ({ className = '' }) => {
 
   if (loading) {
     return (
-      <div className={`w-full min-h-screen flex flex-col py-8 pb-16 md:py-20 md:pb-20 ${className}`}>
+      <div className={`w-full min-h-screen flex flex-col py-8 pb-4 md:py-20 md:pb-8 ${className}`}>
         <div className="flex justify-center items-center h-64">
           <div className="text-white text-xl">Cargando artículos...</div>
         </div>
@@ -46,7 +46,7 @@ export const BlogSection: React.FC<BlogSectionProps> = ({ className = '' }) => {
 
   if (error) {
     return (
-      <div className={`w-full min-h-screen flex flex-col py-8 pb-16 md:py-20 md:pb-20 ${className}`}>
+      <div className={`w-full min-h-screen flex flex-col py-8 pb-4 md:py-20 md:pb-8 ${className}`}>
         <div className="flex justify-center items-center h-64">
           <div className="text-red-400 text-xl">Error: {error}</div>
         </div>
@@ -55,10 +55,10 @@ export const BlogSection: React.FC<BlogSectionProps> = ({ className = '' }) => {
   }
 
   return (
-    <div className={`w-full min-h-screen flex flex-col py-8 pb-16 md:py-20 md:pb-20 ${className}`}>
+    <div className={`w-full min-h-screen flex flex-col py-8 pb-4 md:py-20 md:pb-8 ${className}`}>
       <BlogHeader 
-        title="Mi Blog Personal"
-        subtitle="Reflexiones sobre desarrollo, emprendimiento y vida en tech. Cada semana comparto experiencias reales, lecciones aprendidas y pensamientos sobre la industria desde mi perspectiva personal."
+        title="Mi Blog"
+        subtitle="Un espacio donde comparto cosas que me pasan, que pienso y anecdotas de mi vida, suscribete y recibe un nuevo blog cada domingo"
       />
       
       <BlogCarousel articles={articles} />
