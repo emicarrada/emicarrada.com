@@ -3,14 +3,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import './styles/globals.css';
 import Hero from './components/Hero';
-import QuienSoy from './components/QuienSoy';
+import QuienSoy from './components/pages/QuienSoy';
 import StackCards from './components/StackCards';
 import Footer from './components/Footer';
 import Proyectos from './components/Proyectos';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import LoaderOneDemo from './components/ui/loader-one-demo';
-import LoQueHago from './components/LoQueHago';
 
 function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -106,17 +105,6 @@ function Home() {
               ease: [0.25, 0.46, 0.45, 0.94] 
             }}
           >
-            <LoQueHago />
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ 
-              duration: 1, 
-              delay: 0.8,
-              ease: [0.25, 0.46, 0.45, 0.94] 
-            }}
-          >
             <StackCards />
           </motion.div>
           <motion.div
@@ -124,7 +112,7 @@ function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ 
               duration: 1, 
-              delay: 1.0,
+              delay: 0.8,
               ease: [0.25, 0.46, 0.45, 0.94] 
             }}
           >
