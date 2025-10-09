@@ -7,12 +7,12 @@ import { useBlog } from '../../../hooks/useBlog';
 
 // Import content components for personal blog
 import { 
-  PrimerStartupContent,
-  CodigoNegocioContent,
-  RemoteWorkContent,
-  HerramientasContent,
-  EquilibrioContent,
-  LearningPublicContent
+  IngresoUnamContent,
+  VidaDiariaContent,
+  EventosTechContent,
+  HerramientasProductividadContent,
+  BitacoraDevContent,
+  VidaFreelancerContent
 } from '../../../services/content/BlogContentComponents';
 
 export const BlogSection: React.FC<BlogSectionProps> = ({ className = '' }) => {
@@ -20,12 +20,12 @@ export const BlogSection: React.FC<BlogSectionProps> = ({ className = '' }) => {
 
   // Map content components to articles
   const contentMap = {
-    'primer-startup-fracaso': <PrimerStartupContent />,
-    'codigo-vs-negocio': <CodigoNegocioContent />,
-    'remote-work-realidad': <RemoteWorkContent />,
-    'herramientas-productividad': <HerramientasContent />,
-    'equilibrio-vida-tech': <EquilibrioContent />,
-    'aprender-publico': <LearningPublicContent />
+    'ingreso-unam': <IngresoUnamContent />,
+    'vida-diaria': <VidaDiariaContent />,
+    'eventos-tech': <EventosTechContent />,
+    'herramientas-productividad': <HerramientasProductividadContent />,
+    'Bitacora-de-un-developer': <BitacoraDevContent />,
+    'vida-freelancer': <VidaFreelancerContent />
   };
 
   // Add content to articles

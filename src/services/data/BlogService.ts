@@ -43,60 +43,60 @@ export class BlogService implements IBlogService {
 
     const articles: BlogArticle[] = [
       {
-        id: 'primer-startup-fracaso',
-        category: "Emprendimiento personal",
-        title: "Mi primer startup: cómo convertí un fracaso en la mejor lección de mi vida",
-        src: "/QuienSoy.jpg", // Placeholder temporal - cambiar por portada real
+        id: 'ingreso-unam',
+        category: "Anecdotarío",
+        title: "¿Cómo entre a la mejor universidad de Latinoamérica estudiando con Youtube?",
+        src: "/blog/unamportada.jpg",
         content: null, // Will be set by the component
         publishedAt: new Date('2024-10-01'),
         author: 'Cristopher Carrada',
-        tags: ['Emprendimiento', 'Startups', 'Lecciones']
+        tags: ['UNAM', 'Computer Science', 'Lecciones']
       },
       {
-        id: 'codigo-vs-negocio',
-        category: "Desarrollo profesional",
-        title: "¿Programador o empresario? Por qué aprendí que el código solo es el 20% del éxito",
-        src: "/QuienSoy.jpg", // Placeholder temporal - cambiar por portada real
+        id: 'vida-diaria',
+        category: "Vida diaria",
+        title: "Mi rutina como estudiante de Computer Science en la UNAM",
+        src: "/blog/LibroJulia.jpeg",
         content: null,
         publishedAt: new Date('2024-09-28'),
         author: 'Cristopher Carrada',
-        tags: ['Desarrollo', 'Negocios', 'Carrera']
+        tags: ['Universidad', 'UNAM', 'Carrera']
       },
       {
-        id: 'remote-work-realidad',
-        category: "Trabajo remoto",
-        title: "3 años de trabajo remoto: la verdad que nadie te cuenta sobre la vida digital",
-        src: "/QuienSoy.jpg", // Placeholder temporal - cambiar por portada real
+        id: 'eventos-tech',
+        category: "Consejos y tips",
+        title: "Como ser social en eventos tech siendo introvertido (o en cualquier situación)",
+        src: "/blog/Googleentrada.jpeg",
         content: null,
         publishedAt: new Date('2024-09-25'),
         author: 'Cristopher Carrada',
-        tags: ['Remote Work', 'Productividad', 'Vida Digital']
+        tags: ['Google', 'Tech', 'Industry Events']
       },
       {
         id: 'herramientas-productividad',
         category: "Productividad y tools",
-        title: "Mi stack de herramientas 2024: las apps y sistemas que realmente uso cada día",
-        src: "/QuienSoy.jpg", // Placeholder temporal - cambiar por portada real
+        title: "Las apps y sistemas que realmente uso para estudiar en la UNAM",
+        src: "/blog/mydesk.jpeg",
         content: null,
         publishedAt: new Date('2024-09-22'),
         author: 'Cristopher Carrada',
         tags: ['Productividad', 'Herramientas', 'Tech Stack']
       },
       {
-        id: 'equilibrio-vida-tech',
-        category: "Reflexiones personales",
-        title: "Burnout en tech: cómo reconocí las señales y qué hice para recuperar el equilibrio",
-        src: "/QuienSoy.jpg", // Placeholder temporal - cambiar por portada real
+        id: 'Bitacora-de-un-developer',
+        category: "Desarrollando fciencias.app",
+        title: "fciencias.app: cómo estoy desarrollando una red social",
+        src: "/blog/portadaredsocial.jpeg",
         content: null,
         publishedAt: new Date('2024-09-19'),
         author: 'Cristopher Carrada',
         tags: ['Burnout', 'Bienestar', 'Tech Life']
       },
       {
-        id: 'aprender-publico',
-        category: "Learning in public",
-        title: "Por qué decidí documentar todo mi proceso de aprendizaje (y tú también deberías)",
-        src: "/QuienSoy.jpg", // Placeholder temporal - cambiar por portada real
+        id: 'vida-freelancer',
+        category: "Consejos y tips",
+        title: "Como conseguir clientes como web developer freelance en CDMX",
+        src: "/blog/portadapolanco.jpeg",
         content: null,
         publishedAt: new Date('2024-09-16'),
         author: 'Cristopher Carrada',
