@@ -39,23 +39,61 @@ export const IngresoUnamContent = () => {
     <PersonalBlogTemplate>
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Mi historia para entrar a la UNAM siempre la recuerdo con sentimiento porque para mi no nada mas fue rellenar opciones en un examen, lo sentí mas como mi verdadero desarrollo personal, el reto de entrar a la unam me hizo estar por primera vez en una situación donde mi futuro dependia nada mas de mis resultados.
+          Les voy a poner un poco en contexto. Estaba por hacer mi examen COMIPEMS en el año 2021. Para quienes no lo sepan, el examen COMIPEMS es la prueba de ingreso a las preparatorias. La mejor universidad de Latinoamérica, la UNAM, tiene una extensión de bachillerato que permite entrar a la universidad directamente sin tener que presentar un examen de admisión.
         </span>{" "}
-        Comenzaré contando esto: Pasaba el año 2020 en la pandemia del covid, ya a finales entrando a 2021, mientras mis compañeros de secundaria tomaban cursos caros, yo decidí confiar en YouTube, exactamente con el canal Iknium  
-        y en mi disciplina. Al principio parecía que estaba loco y no lo iba a lograr, pero terminó siendo la mejor decisión que pude tomar.
+        Desde que salí de la secundaria ya podía entrar a esta universidad, y para lograrlo debía hacerlo mediante ese examen. El COMIPEMS consiste en agrupar todas las preparatorias de la zona metropolitana de la Ciudad de México; el proceso es que seleccionas tus opciones de preparatoria, y conforme a los aciertos que obtienes en el examen, es la escuela a la que te asignan.
       </p>
       
       <img
-        src="/blog/PizarronLineal.jpeg"
-        alt="Estudiando matemáticas"
+        src="/blog/unamportada.jpg"
+        alt="Campus de la UNAM"
         className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
       />
       
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Les explicaré mas o menos como estaba el plan, chequen, el curso iknium era una lista de reproducción de videos de youtube con los temas de cada materia, para esto yo iba a hacer el examen COMIPEMS, (el examen que ya quitó sheinbaum) este examen en pocas palabras, tenía 128 preguntas, yo lo que tenía que hacer era sacar mínimo 99 aciertos para quedarme en mi primera opción, el CCH Sur.
+          La UNAM tiene muchos bachilleratos, pero yo quería uno en especial: el CCH Sur, que pedía un mínimo de 99 aciertos. Pongámonos aún más en contexto: estábamos en plena pandemia, y mi familia no tenía dinero para pagarme un curso privado de ingreso. Esos cursos normalmente cuestan más de $20,000 pesos, una cantidad que mi familia no podía cubrir.
         </span>{" "}
-        Mi plan era estudiar 6 horas diarias divididas en bloques de 2 horas cada materia: matemáticas, español y ciencias. No tenía un escritorio fancy ni nada, literalmente estudiaba en la mesa del comedor con mi cuaderno y una calculadora básica que había comprado en el Oxxo. Mi mamá a veces me decía "¿no quieres que te metamos a un curso?" pero yo ya estaba convencido de que mi método iba a funcionar.
+        Entonces decidí estudiar autodidacta, con ayuda de YouTube, específicamente con un canal llamado Iknium. Pero ese no fue mi único recurso. La propia universidad me proporcionó una guía de estudio con los temas oficiales y un examen de simulación. (Esto es importante: recuerden los exámenes de simulación).
+      </p>
+
+      <img
+        src="/blog/PizarronLineal.jpeg"
+        alt="Estudiando matemáticas"
+        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Esta historia no se trata solo de que estudié, hice el examen y pasé. Lo viví más como un proceso de desarrollo personal, porque literalmente fue el primer reto en el que mis decisiones podían cambiar mi futuro. Al principio, no me lo tomaba tan en serio. No estudiaba tanto, me lo tomaba como un hobby.
+        </span>{" "}
+        Sentía que tenía demasiado tiempo y que no era necesario matarme estudiando desde temprano. Así que durante varios meses no avancé mucho. También tenía otra guía que conseguí en internet, pero resultó inservible: contenía temas de años pasados, no del temario oficial.
+      </p>
+
+      <img
+        src="/blog/Setup1AM.jpeg"
+        alt="Setup de estudio nocturno"
+        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          El canal Iknium ofrecía exámenes de simulación en línea para practicar. Un día decidí resolver uno de esos exámenes y terminé con una pésima calificación: de 128 aciertos, solo obtuve 50. Eso me desanimó completamente. Me sentí devastado, aunque sabía que en el fondo no había estudiado bien.
+        </span>{" "}
+        Ese fue mi momento de introspección, el punto donde decidí analizar: ¿cómo estoy estudiando?, ¿qué estoy haciendo mal? A partir de ahí, con el poco esfuerzo que ya había tenido, decidí empezar desde cero. Sentía que no dominaba todos los temas, y dominarlo todo me haría sentir más seguro para el examen.
+      </p>
+
+      <img
+        src="/blog/LibroJulia.jpeg"
+        alt="Materiales de estudio"
+        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Entonces lo que hice fue ver todos los videos del canal Iknium, siguiendo el temario oficial de la guía de la UNAM. A veces me aburría o me hartaba, pero siempre escuchaba con atención. Además, practicaba constantemente con ejercicios y preguntas.
+        </span>{" "}
+        Al final, en mi último examen de simulación, obtuve 110 aciertos de 128. Ya eran las últimas semanas antes del examen real, y sentí que lo tenía todo… pero me faltaba algo: lo mental. Porque si no tenía resiliencia ni nervios de acero, por más que hubiera estudiado, no iba a pasar el examen.
       </p>
 
       <img
@@ -66,9 +104,9 @@ export const IngresoUnamContent = () => {
 
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          La parte más difícil no eran las matemáticas, era la constancia. Imagínense estar en pandemia, encerrado, viendo que tus amigos estan jugando videojuegos o viendo Netflix, y tu ahí dale que dale con ecuaciones cuadráticas.
+          Recuerdo perfectamente el día del examen. Un día antes no estudié nada, porque ya había repasado todo. Confiaba en mi proceso y en que todo saldría bien. Dormí muy bien y me levanté a las 5 de la mañana, porque el examen era a las 7.
         </span>{" "}
-        Hubo días que quería tirar la toalla, especialmente cuando no entendía algún tema de geometría analítica. Pero cada vez que veía los videos de Iknium y resolvía un ejercicio que antes no entendía, sentía como que estaba desbloqueando un nuevo nivel en un videojuego. Esa sensación me mantuvo motivado los 8 meses que duró mi preparación.
+        Mientras me arreglaba y desayunaba, estaba librando una batalla interna de motivación. Llegué a la sede, me pasaron al aula y traté de platicar con alguien, pero estaba demasiado nervioso. Me senté, vi el examen y sentí una enorme satisfacción: casi todas las preguntas me las sabía.
       </p>
 
       <img
@@ -77,11 +115,24 @@ export const IngresoUnamContent = () => {
         className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
       />
 
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          No contesté en orden. Empecé por la materia más fácil y dejé matemáticas para el final. Terminé siendo el último en salir del aula, porque no quería desperdiciar ni un minuto. Cuando faltaban cinco minutos, ya había terminado, pero decidí quedarme para relajarme y repetirme mentalmente: "Pasará lo que tenga que pasar."
+        </span>{" "}
+        Pasaron meses hasta que dieron los resultados. Un día de julio anunciaron la fecha, y recuerdo que estaba totalmente nervioso, angustiado y preocupado. Cuando por fin los vi, decía mi nombre y la frase mágica: "Aspirante seleccionado." Con mi primera opción y 100 aciertos de 128.
+      </p>
+
+      <img
+        src="/blog/mydesk.jpeg"
+        alt="Mi espacio de estudio actual"
+        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+      />
+
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          El día que salieron los resultados casi no lo podía creer. Saqué 105 aciertos de 128, me quedé en CCH Sur como primera opción y ahí fue cuando realmente entendí que el esfuerzo había valido la pena.
+          No saben la felicidad que sentí. Lloré. Sí, lloré con los resultados. Me sentí profundamente orgulloso de mí mismo. Fue una batalla mental más que académica: por primera vez me probé a mí mismo y supe quién era de verdad.
         </span>{" "}
-        Mi familia estaba súper emocionada, yo me sentía como si hubiera ganado la Champions League. Después del CCH, el paso a Ciencias de la Computación en la UNAM fue más directo, pero esa primera experiencia de lograr algo completamente por mis propios medios me marcó para siempre. Hoy cuando veo a chavos preguntando si vale la pena estudiar en YouTube, siempre les digo: "claro que sí, pero necesitas disciplina de monje".
+        Me dijeron que no iba a poder. Me dijeron que estaba loco. Pero fue mi miedo a no pasar lo que me hizo estudiar más… y lo que me llevó a la mejor universidad de Latinoamérica solo estudiando con YouTube y disciplina. Moraleja: aunque no te compren un curso caro ni tengas las mejores herramientas, si te preparas mentalmente y tienes lo necesario, puedes lograrlo. Después de eso, actualmente estudio en la UNAM, en la carrera de Ciencias de la Computación.
       </p>
     </PersonalBlogTemplate>
   );
