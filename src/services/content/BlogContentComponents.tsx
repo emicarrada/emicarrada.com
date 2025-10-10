@@ -132,7 +132,7 @@ export const IngresoUnamContent = () => {
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
           Pasaron meses hasta que dieron los resultados. Un día de julio anunciaron la fecha, y recuerdo que estaba totalmente nervioso, angustiado y preocupado. Cuando por fin los vi, decía mi nombre y la frase mágica: "Aspirante seleccionado." Con mi primera opción y 100 aciertos de 128. No saben la felicidad que sentí. Lloré. Sí, lloré con los resultados.
         </span>{" "}
-        Me sentí profundamente orgulloso de mí mismo. Fue una batalla mental más que académica: por primera vez me probé a mí mismo y supe quién era de verdad. Me dijeron que no iba a poder. Me dijeron que estaba loco. Pero fue mi miedo a no pasar lo que me hizo estudiar más… y lo que me llevó a la mejor universidad de Latinoamérica solo estudiando con YouTube y disciplina. Moraleja: aunque no te compren un curso caro ni tengas las mejores herramientas, si te preparas mentalmente y tienes lo necesario, puedes lograrlo. Esta experiencia me enseñó una gran lección: me dio autoestima, orgullo y algo que siempre llevaré conmigo. Después de eso, actualmente estudio en la UNAM, en la carrera de Ciencias de la Computación. Pero las historias con mis amigas de la preparatoria se las contaré después. Muchas gracias por leer. Si esto te sirve de algo, puedes mandarme un mensaje por Instagram y con gusto te puedo aconsejar cómo lo hice o qué sistemas utilicé para estudiar de la mejor manera. Gracias por leer mi historia.
+        Me sentí profundamente orgulloso de mí mismo. Fue una batalla mental más que académica: por primera vez me probé a mí mismo y supe quién era de verdad. Me dijeron que no iba a poder. Me dijeron que estaba loco. Pero fue mi miedo a no pasar lo que me hizo estudiar más… y lo que me llevó a la mejor universidad de Latinoamérica solo estudiando con YouTube y disciplina. Moraleja: aunque no te compren un curso caro ni tengas las mejores herramientas, si te preparas mentalmente y tienes lo necesario, puedes lograrlo. Esta experiencia me enseñó una gran lección: me dio autoestima, orgullo y algo que siempre llevaré conmigo. Después de eso, actualmente estudio en la UNAM, en la carrera de Ciencias de la Computación. Pero las historias de la preparatoria se las contaré después. Muchas gracias por leer. Si esto te sirve de algo, puedes mandarme un mensaje por Instagram y con gusto te puedo aconsejar cómo lo hice o qué sistemas utilicé para estudiar de la mejor manera. Gracias por leer mi historia.
       </p>
     </PersonalBlogTemplate>
   );
@@ -575,7 +575,7 @@ export const HerramientasProductividadContent = () => {
       </p>
       
       <img
-        src="/blog/mydesk.jpeg"
+        src="/public/blog/1ap.jpeg"
         alt="Mi setup de estudio"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -607,7 +607,7 @@ export const HerramientasProductividadContent = () => {
       </p>
 
       <img
-        src="/blog/PizarronLineal.jpeg"
+        src="/public/blog/2ap.jpeg"
         alt="Trabajando con álgebra lineal"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -679,7 +679,7 @@ export const HerramientasProductividadContent = () => {
       </p>
 
       <img
-        src="/blog/Setup1AM.jpeg"
+        src="/public/blog/3ap.jpeg"
         alt="Sesiones de estudio nocturnas"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -741,7 +741,7 @@ export const HerramientasProductividadContent = () => {
       </p>
 
       <img
-        src="/blog/LibroJulia.jpeg"
+        src="/public/blog/4ap.jpeg"
         alt="Estudiando con libros de programación"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -757,11 +757,11 @@ export const HerramientasProductividadContent = () => {
       </p>
 
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
-        Tibias (notas rápidas)
+        Notas
       </p>
 
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
-        Cahoots o cuestionarios
+        Kahoots o cuestionarios
       </p>
 
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
@@ -787,7 +787,7 @@ export const HerramientasProductividadContent = () => {
       </p>
 
       <img
-        src="/blog/Pasillo.jpeg"
+        src="/public/blog/5ap.jpeg"
         alt="Estudiando en la facultad"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -823,8 +823,8 @@ export const HerramientasProductividadContent = () => {
       </p>
 
       <img
-        src="/blog/portadayo.jpeg"
-        alt="Balance entre estudio y descanso"
+        src="/public/blog/6ap.jpeg"
+        alt=""
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
 
@@ -862,7 +862,7 @@ export const BitacoraDevContent = () => {
       
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          ¿Qué es F Ciencias?
+          ¿Qué es fciencias?
         </span>
       </p>
 
