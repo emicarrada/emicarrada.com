@@ -45,9 +45,9 @@ export const IngresoUnamContent = () => {
       </p>
       
       <img
-        src="/blog/unamportada.jpg"
-        alt="Campus de la UNAM"
-        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+        src="/public/blog/cchsur.jpeg"
+        alt="Letras en el CCH Sur"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
       
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
@@ -58,9 +58,9 @@ export const IngresoUnamContent = () => {
       </p>
 
       <img
-        src="/blog/PizarronLineal.jpeg"
-        alt="Estudiando matemáticas"
-        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+        src="/public/blog/cch7am.jpeg"
+        alt="llegando al CCH Sur"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
 
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
@@ -71,9 +71,9 @@ export const IngresoUnamContent = () => {
       </p>
 
       <img
-        src="/blog/Setup1AM.jpeg"
-        alt="Setup de estudio nocturno"
-        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+        src="/public/blog/jardinbotanico.jpeg"
+        alt="Jardín Botánico de la UNAM"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
 
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
@@ -84,55 +84,55 @@ export const IngresoUnamContent = () => {
       </p>
 
       <img
-        src="/blog/LibroJulia.jpeg"
-        alt="Materiales de estudio"
-        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+        src="/public/blog/primerafotounam.jpeg"
+        alt="Primera foto en la UNAM"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
 
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Entonces lo que hice fue ver todos los videos del canal Iknium, siguiendo el temario oficial de la guía de la UNAM. A veces me aburría o me hartaba, pero siempre escuchaba con atención. Además, practicaba constantemente con ejercicios y preguntas.
+          Entonces lo que hice fue ver todos los videos del canal Iknium, siguiendo el temario oficial de la guía de la UNAM. A veces me aburría o me hartaba, pero siempre escuchaba con atención. Además, practicaba constantemente con ejercicios y preguntas. Al final, en mi último examen de simulación, obtuve 110 aciertos de 128.
         </span>{" "}
-        Al final, en mi último examen de simulación, obtuve 110 aciertos de 128. Ya eran las últimas semanas antes del examen real, y sentí que lo tenía todo… pero me faltaba algo: lo mental. Porque si no tenía resiliencia ni nervios de acero, por más que hubiera estudiado, no iba a pasar el examen.
+        Ya eran las últimas semanas antes del examen real, y sentí que lo tenía todo… pero me faltaba algo: lo mental. Porque si no tenía resiliencia ni nervios de acero, por más que hubiera estudiado, no iba a pasar el examen. Así que los últimos días me dediqué a practicar y prepararme mentalmente para el reto más grande que había enfrentado hasta entonces.
       </p>
 
       <img
-        src="/blog/Pasillo.jpeg"
-        alt="Pasillos de la UNAM"
-        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+        src="/public/blog/primeravisitacu.jpeg"
+        alt="Primera visita a la UNAM"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
 
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Recuerdo perfectamente el día del examen. Un día antes no estudié nada, porque ya había repasado todo. Confiaba en mi proceso y en que todo saldría bien. Dormí muy bien y me levanté a las 5 de la mañana, porque el examen era a las 7.
+          Recuerdo perfectamente el día del examen. Un día antes no estudié nada, porque ya había repasado todo. Confiaba en mi proceso y en que todo saldría bien. Dormí muy bien y me levanté a las 5 de la mañana, porque el examen era a las 7. Mientras me arreglaba y desayunaba, estaba librando una batalla interna de motivación.
         </span>{" "}
-        Mientras me arreglaba y desayunaba, estaba librando una batalla interna de motivación. Llegué a la sede, me pasaron al aula y traté de platicar con alguien, pero estaba demasiado nervioso. Me senté, vi el examen y sentí una enorme satisfacción: casi todas las preguntas me las sabía.
+        Llegué a la sede, me pasaron al aula y traté de platicar con alguien, pero estaba demasiado nervioso. Me senté, vi el examen y sentí una enorme satisfacción: casi todas las preguntas me las sabía. Esa sensación de "esto ya lo estudié" fue increíble.
       </p>
 
       <img
-        src="/blog/portadayo.jpeg"
-        alt="Celebrando el ingreso"
-        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+        src="/public/blog/sisepuede.jpeg"
+        alt="Motivación para el examen"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
 
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          No contesté en orden. Empecé por la materia más fácil y dejé matemáticas para el final. Terminé siendo el último en salir del aula, porque no quería desperdiciar ni un minuto. Cuando faltaban cinco minutos, ya había terminado, pero decidí quedarme para relajarme y repetirme mentalmente: "Pasará lo que tenga que pasar."
+          No contesté en orden. Empecé por la materia más fácil y dejé matemáticas para el final. Terminé siendo el último en salir del aula, porque no quería desperdiciar ni un minuto. Cuando faltaban cinco minutos, ya había terminado, pero decidí quedarme para relajarme, revisar mis respuestas y repetirme mentalmente:
         </span>{" "}
-        Pasaron meses hasta que dieron los resultados. Un día de julio anunciaron la fecha, y recuerdo que estaba totalmente nervioso, angustiado y preocupado. Cuando por fin los vi, decía mi nombre y la frase mágica: "Aspirante seleccionado." Con mi primera opción y 100 aciertos de 128.
+        "Pasará lo que tenga que pasar. Si apruebo o no, di mi mejor esfuerzo. Ya no puedo castigarme más mentalmente si repruebo, porque realmente luché y di mi máximo." Salí de la sede aliviado, con la sensación de haber cumplido. Poco después fue mi graduación de secundaria, pero estábamos en pandemia, así que fue en línea (una graduación bastante chistosa, por cierto).
       </p>
 
       <img
-        src="/blog/mydesk.jpeg"
-        alt="Mi espacio de estudio actual"
-        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+        src="/public/blog/resultados.jpeg"
+        alt="Resultados del examen"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
 
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          No saben la felicidad que sentí. Lloré. Sí, lloré con los resultados. Me sentí profundamente orgulloso de mí mismo. Fue una batalla mental más que académica: por primera vez me probé a mí mismo y supe quién era de verdad.
+          Pasaron meses hasta que dieron los resultados. Un día de julio anunciaron la fecha, y recuerdo que estaba totalmente nervioso, angustiado y preocupado. Cuando por fin los vi, decía mi nombre y la frase mágica: "Aspirante seleccionado." Con mi primera opción y 100 aciertos de 128. No saben la felicidad que sentí. Lloré. Sí, lloré con los resultados.
         </span>{" "}
-        Me dijeron que no iba a poder. Me dijeron que estaba loco. Pero fue mi miedo a no pasar lo que me hizo estudiar más… y lo que me llevó a la mejor universidad de Latinoamérica solo estudiando con YouTube y disciplina. Moraleja: aunque no te compren un curso caro ni tengas las mejores herramientas, si te preparas mentalmente y tienes lo necesario, puedes lograrlo. Después de eso, actualmente estudio en la UNAM, en la carrera de Ciencias de la Computación.
+        Me sentí profundamente orgulloso de mí mismo. Fue una batalla mental más que académica: por primera vez me probé a mí mismo y supe quién era de verdad. Me dijeron que no iba a poder. Me dijeron que estaba loco. Pero fue mi miedo a no pasar lo que me hizo estudiar más… y lo que me llevó a la mejor universidad de Latinoamérica solo estudiando con YouTube y disciplina. Moraleja: aunque no te compren un curso caro ni tengas las mejores herramientas, si te preparas mentalmente y tienes lo necesario, puedes lograrlo. Esta experiencia me enseñó una gran lección: me dio autoestima, orgullo y algo que siempre llevaré conmigo. Después de eso, actualmente estudio en la UNAM, en la carrera de Ciencias de la Computación. Pero las historias con mis amigas de la preparatoria se las contaré después. Muchas gracias por leer. Si esto te sirve de algo, puedes mandarme un mensaje por Instagram y con gusto te puedo aconsejar cómo lo hice o qué sistemas utilicé para estudiar de la mejor manera. Gracias por leer mi historia.
       </p>
     </PersonalBlogTemplate>
   );
@@ -144,48 +144,87 @@ export const VidaDiariaContent = () => {
     <PersonalBlogTemplate>
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Ok, les voy a contar como es realmente un día normal estudiando Computer Science en la UNAM, porque la verdad no es como se ve en las películas gringas. Mi día empieza a las 5:30 AM, no porque sea madrugador, sino porque vivir lejos de CU es una realidad que muchos no consideramos cuando elegimos carrera.
+          Mi horario como estudiante de Ciencias de la Computación en la UNAM es bastante variado, así que les contaré exactamente qué hago y cómo cambian mis días. Lo primero que hago es levantarme a las 4:30 de la mañana. Esto porque vivo un poco lejos de la universidad, así que necesito salir temprano.
         </span>{" "}
-        Me levanto, café instantáneo porque no da tiempo para nada fancy, y me subo al metro Línea 3 hacia Universidad. Son como 45 minutos de viaje que aprovecho para leer papers en el celular o repasar apuntes. A veces hay gente que me ve leyendo código en el metro y me voltean a ver como si fuera alien, pero ya me acostumbré.
+        Me levanto, me baño, me cambio, desayuno y salgo rumbo a la UNAM. Llego aproximadamente entre 6:50 y 7:00 de la mañana, justo a tiempo para mi primera clase: Álgebra Lineal.
       </p>
       
       <img
-        src="/blog/LibroJulia.jpeg"
-        alt="Libro de Julia Programming"
-        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+        src="/public/blog/1ru.jpeg"
+        alt="Álgebra Lineal en el pizarrón"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
       
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Las clases en la Facultad de Ciencias son otro nivel. No es que sean imposibles, pero definitivamente te obligan a cambiar tu forma de pensar. Recuerdo mi primera clase de Estructuras de Datos donde el profesor empezó hablando de complejidad O(n) y yo ahí de "¿qué madres es eso?"
+          En esa clase vemos cosas rarísimas, como matrices, vectores y transformaciones, temas que al principio pueden parecer abstractos, pero que son esenciales para la carrera. Después, a las 8:00 a.m., tengo otra materia: Modelado y Programación. En ella aprendemos a estructurar el código, a escribirlo de forma ordenada y limpia, y en general a pensar de manera más lógica para resolver problemas complejos.
         </span>{" "}
-        Pero esa es la magia de estudiar aquí, cada semestre sientes como tu cerebro literalmente se expande. Los profesores no te van a llevar de la mano, esperan que llegues preparado y que sepas hacer preguntas inteligentes. Al principio es intimidante, pero después entiendes que te están preparando para resolver problemas reales en la industria.
+        Más tarde tengo Probabilidad, una de las clases más pesadas del semestre. Las materias de Álgebra Lineal y Probabilidad las tomo junto con alumnos de Actuaría, Matemáticas y Física, así que ya se imaginarán el nivel de dificultad. Aunque es demandante, estoy seguro de que puedo aprobarla con buena calificación.
       </p>
 
       <img
-        src="/blog/Setup1AM.jpeg"
-        alt="Setup de estudio nocturno"
-        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+        src="/public/blog/2ru.jpeg"
+        alt="Materiales de programación"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
 
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Las noches son sagradas para programar. Mientras mis amigos de otras carreras andan en fiestas o viendo series, yo estoy aquí debuggeando código hasta las 2 AM. No es que no tenga vida social, pero cuando agarras el hilo de un problema de programación, es como una adicción.
+          Después de esas clases tengo un espacio libre de cinco horas, de 10:00 a.m. a 3:00 p.m.. Originalmente pensaba usar ese tiempo para hacer ejercicio, pero por diferentes motivos no he podido hacerlo con regularidad.
         </span>{" "}
-        Mi setup nocturno es básico: mi laptop, una lámpara que compré en mercado libre, café de olla que preparo en termo, y Spotify con lo-fi hip hop para concentrarme. He resuelto mis mejores algoritmos entre las 11 PM y las 2 AM, algo tiene la noche que te hace más creativo para el código.
+        En lugar de eso, esas cinco horas las utilizo para estudiar, adelantar tareas, avanzar proyectos o repasar temas de mis clases. Todo eso lo hago en un lugar muy especial dentro de la facultad: el Laboratorio Simbólico de Alumnos de Ciencias de la Computación. Si eres de la carrera y estás leyendo esto, probablemente me veas ahí todos los días alrededor de las 10 de la mañana hasta las 3 de la tarde.
       </p>
 
       <img
-        src="/blog/mydesk.jpeg"
-        alt="Mi escritorio de estudio"
-        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+        src="/public/blog/3ru.jpeg"
+        alt="Mi espacio de trabajo en el laboratorio"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          No soy un robot que pueda pasar cinco horas seguidas pegado a la computadora. No tengo esa capacidad, pero sí tengo la habilidad de organizar mi tiempo y concentrarme en tareas específicas. Normalmente dejo de trabajar alrededor de las 2:00 p.m.
+        </span>{" "}
+        A esa hora bajo a comer. Casi siempre llevo mi propia comida y la caliento en un microondas comunitario que hay en la facultad. La mayoría de las veces como solo, escuchando música o revisando redes sociales. A veces me encuentro con amigos y como con ellos, pero eso varía.
+      </p>
+
+      <img
+        src="/public/blog/4ru.jpeg"
+        alt="Pasillos de la Facultad de Ciencias"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Después tengo otra clase que se llama Teoría de Gráficas (Graph Theory), una materia que me parece sumamente fascinante. Y tras esa clase viene una más: Matemáticas para las Ciencias Aplicadas, que dura de 4:00 p.m. a 6:00 p.m.. En esa tengo un profesor increíble, así que siempre aprendo algo nuevo y disfruto mucho la clase.
+        </span>{" "}
+        En resumen, paso muchas horas en la facultad, pero me gusta. Al terminar el día, regreso a casa —a veces leyendo un libro, escuchando música o simplemente navegando en redes sociales. Escucho muchísima música; de hecho, creo que sin mis AirPods no podría vivir.
+      </p>
+
+      <img
+        src="/public/blog/5ru.jpeg"
+        alt="Setup de estudio en casa"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Ya en casa, lo que hago es avanzar un poco más en tareas o proyectos, o simplemente dormir y preparar mis cosas para el día siguiente. Esa es mi rutina de lunes, miércoles y viernes. Los martes y jueves son un poco más relajados, porque esos días no tengo clases en la tarde.
+        </span>{" "}
+        Normalmente salgo de la escuela a las 10:00 a.m., y a partir de ahí el resto del día está libre. A veces me regreso a mi casa, otras veces hago ejercicio, o me quedo en la facultad avanzando en algo. Depende del día, pero usualmente esos días como en casa.
+      </p>
+
+      <img
+        src="/public/blog/6ru.jpeg"
+        alt="Momento de relajación"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
 
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          El balance entre estudios, proyectos personales y vida social es todo un arte que todavía estoy aprendiendo. Porque no nada más es estudiar para los exámenes, también tienes que mantenerte al día con tecnologías nuevas, hacer proyectos para tu portafolio, y si quieres ser honesto contigo mismo, también necesitas tiempo para no hacer nada.
+          Esa sería, en resumen, mi rutina como estudiante de Computer Science. Ojalá pudiera transmitir con palabras la presión académica que implica esta carrera, pero es difícil describirlo.
         </span>{" "}
-        Los fines de semana trato de no tocar código, pero siempre termino abriendo VS Code "solo para ver algo rápido" y antes de darme cuenta ya pasaron 4 horas. Es un problema que tenemos todos los que estudiamos esto: el código es adictivo cuando empiezas a entenderle realmente.
+        En los próximos días estaré grabando ya sea un reel, un TikTok o un video de YouTube para mostrar cómo es mi semana, los retos que enfrento y, sobre todo, darles un vistazo real a cómo se ve mi vida como estudiante de Ciencias de la Computación en la UNAM. Muchísimas gracias por leer.
       </p>
     </PersonalBlogTemplate>
   );
@@ -197,101 +236,608 @@ export const EventosTechContent = () => {
     <PersonalBlogTemplate>
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          La primera vez que fui a un evento tech casi me doy la vuelta en la entrada. Era el Google I/O Extended en la CDMX y había como 200 personas, todas súper extrovertidas hablando de frameworks que yo apenas conocía. Pensé "no pertenezco aquí" y casi me voy, pero algo me dijo que me quedara.
+          Voy a empezar aclarando algo: no puedo hablarles desde la experiencia de una persona con 40 años yendo a eventos, organizándolos o con la receta exacta del éxito. Primero, porque esa receta no existe; y segundo, porque todavía no tengo tanta experiencia como para decirles cómo va a ser cada evento tech o cómo "deben" vivirlo.
         </span>{" "}
-        Resulta que ser introvertido en estos eventos no es una desventaja, es literalmente tu superpoder. Mientras todos los extrovertidos están compitiendo por hablar más fuerte, tú puedes observar, escuchar de verdad, y hacer las conexiones que realmente importan. Solo necesitas cambiar tu estrategia.
+        Lo que sí puedo decirles —desde mi experiencia— es que ir a eventos tecnológicos me ha salido completamente gratis. No he pagado ni un solo boleto para asistir, ya que la mayoría de estos eventos en la Ciudad de México son gratuitos. Pero el verdadero reto no ha sido conseguir la entrada: ha sido vencer mi lado introvertido.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        En la industria tecnológica, hay muchísima gente introvertida. En mi carrera, por ejemplo, abunda este tipo de personalidad. No sé exactamente por qué, pero a muchos se nos complica conectar con otras personas, hacer networking, entablar conversación con expertos, reclutadores o futuros socios. Y eso es un problema, porque si no sabes cómo romper esa barrera, te pierdes de muchísimas oportunidades.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Hay quienes ni siquiera se atreven a asistir a estos eventos por miedo, y este texto justamente está dirigido a esas personas: para que vean que sí se puede, que hay un mundo enorme de oportunidades esperándolos afuera, y que solo con ir ya estás ganando.
       </p>
       
       <img
-        src="/blog/Googleentrada.jpeg"
-        alt="Entrada a evento de Google"
-        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+        src="/public/blog/1so.jpeg"
+        alt="Mi experiencia en eventos tech"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
       
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Mi truco favorito es llegar súper temprano, tipo 30 minutos antes. En ese momento solo hay organizadores y speakers preparándose, el ambiente es más relajado y puedes tener conversaciones reales sin competir con el ruido.
-        </span>{" "}
-        También me quedo hasta el final, cuando ya se fue el 80% de la gente y quedan solo los que realmente están interesados en el tema. Ahí es donde suceden las conversaciones más valiosas. He conseguido mentorías, colaboraciones en proyectos y hasta oportunidades de trabajo en esos últimos 20 minutos que nadie más aprovecha.
+          Mi experiencia en eventos tech
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        He asistido a eventos de comunidades como Python CDMX, Google, y otras organizaciones tecnológicas. Llevo más de un año yendo y conociendo gente nueva, y eso inevitablemente me llevó a abrir un perfil en LinkedIn.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Sin embargo, antes de cada evento siempre me asaltaba el mismo pensamiento:
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          "¿Qué van a pensar de mí? ¿De mi cara? ¿De mi cuerpo? ¿De mis proyectos?"
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Ese miedo me acompañó mucho tiempo, incluso fue una de las razones por las que decidí bajar de peso, pero esa historia la contaré otro día.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Con el tiempo entendí que ser social empieza sintiéndote cómodo contigo mismo. Y eso no se logra de un día para otro ni con una simple frase motivacional. Es algo que implica tanto trabajo psicológico como físico.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si no te sientes bien contigo mismo, te recomiendo que primero trabajes en eso. Ve a terapia, mejora tu salud o tu aspecto, pero asegúrate de llegar al evento sintiéndote seguro de quién eres.
       </p>
 
       <img
-        src="/blog/portadapolanco.jpeg"
-        alt="Networking en evento tech"
-        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+        src="/public/blog/2so.jpeg"
+        alt="Eventos de comunidades tech"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
 
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          La clave no es fingir ser extrovertido, es usar tu naturaleza introvertida como ventaja. En lugar de preparar elevator pitches que suenan falsos, preparo preguntas genuinas sobre los proyectos de la gente.
-        </span>{" "}
-        "¿Qué fue lo más difícil de implementar en tu API?" "¿Cómo decidiste entre React y Vue para ese proyecto?" La gente ama hablar de sus proyectos cuando les preguntas algo específico y técnico. Y como introvertido, eres naturalmente bueno escuchando, así que dejas que ellos hablen mientras tú aprendes un montón.
+          Antes del evento: prepárate física y mentalmente
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Vístete cómodo y elegante. No significa llevar esmoquin, pero sí ir presentable. Combina tu ropa, busca ideas en Pinterest, y elige un atuendo que te haga sentir bien.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Come antes de ir. Ir con hambre solo aumenta la incomodidad.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Arréglate lo mejor posible. Báñate, perfúmate, y siéntete bien contigo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Mentalízate. Pregúntate:
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        "¿Quiero ir?"
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        "¿Por qué quiero ir?"
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si las respuestas te convencen, entonces ve con energía y disposición. Ir sin ganas o por obligación es un desperdicio.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Yo he ido a eventos sin motivación y se sienten vacíos. Pero cuando vas con ganas de conocer y conectar, todo cambia.
       </p>
 
       <img
-        src="/blog/Setup1AM.jpeg"
-        alt="Tomando notas después del evento"
-        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+        src="/public/blog/3so.jpeg"
+        alt="Networking en la industria tech"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Si eres introvertido, ve acompañado (o con valor)
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si es tu primer evento tech y decides ir solo, te mando mi respeto. Yo lo hice y fue un reto enorme, incluso siendo una persona social.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si te da mucha ansiedad, ve con un amigo o grupo, pero no te quedes pegado con ellos todo el tiempo. Aprovecha para conocer más gente, aunque sea un par de personas nuevas.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y algo muy importante: libérate mentalmente antes de ir. Si tienes tareas, proyectos o entregas, termínalos. No vas a disfrutar ni aprovechar nada si tu mente está preocupada por otras cosas.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Todos están igual que tú
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Algo que me ayudó mucho fue entender que muchas personas en los eventos también son introvertidas, nerviosas o nuevas. Y, curiosamente, la mayoría son más experimentadas que tú: saben más sobre despliegues, nube, trabajo o estudios.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Cuando empecé a ir a estos eventos tenía 18 años, y me encontraba rodeado de gente que me superaba en experiencia, dinero y conocimiento. Pero en vez de verlo como algo intimidante, lo vi como una oportunidad: podía aprender de todos.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        La mayoría de las personas en el ambiente tech quieren ayudar a los principiantes, porque ellos también empezaron así.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Así que, si eres nuevo, di la verdad:
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        "Soy estudiante."
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        "Soy principiante."
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        "¿Cómo conseguiste tu primer trabajo?"
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        "¿Cómo aprendiste esto?"
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Ser honesto abre más puertas que fingir saberlo todo.
+      </p>
+
+      <img
+        src="/public/blog/4so.jpeg"
+        alt="Aprendiendo de expertos"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          No vayas con ego
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si crees que ya sabes mucho o te sientes demasiado experimentado, no vayas con ego. En serio. No sirve de nada.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Ve con la disposición de aprender, de escuchar y de conocer gente nueva.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          El reto más difícil: la primera conversación
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No hay una palabra mágica que te haga sentir confianza al instante. Pero si te quedas esperando a que alguien más hable, te vas a arrepentir al salir del evento.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Lánzate tú primero.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Di un simple "hola", "¿a qué hora llegaste?" o "¿cómo te llamas?".
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Sí, hay gente que no responde con entusiasmo, pero hay muchísima más que sí. Cuando eso pasa, la conversación fluye. Pregunta de dónde son, a qué se dedican, y si son más experimentados, pídeles consejos.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y sobre todo: escucha.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Escucha lo que te digan, sus historias, sus errores, sus recomendaciones.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Un consejo práctico: no te quedes más de 5 minutos por conversación.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Después de eso, intercambia redes o LinkedIn y pasa con otra persona. Así conocerás a más gente en menos tiempo.
+      </p>
+
+      <img
+        src="/public/blog/5so.jpeg"
+        alt="Construyendo conexiones"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Después del evento
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Crea un LinkedIn si aún no lo tienes. Agrega a la gente que conociste, comenta sus publicaciones y mantén el contacto.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y recuerda: la gente prefiere ayudar a quien tiene ganas de aprender que a quien llega con actitud de sabelotodo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          En resumen
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si eres introvertido y quieres empezar a conocer gente, empieza conociéndote a ti mismo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Habrá eventos donde no te la pases tan bien, y otros que te fascinarán. Pero todos te dejarán algo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Ármate de valor.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Hazlo porque te apasiona esta industria. Es un mundo increíble, lleno de personas con historias únicas y temas infinitos de los que hablar.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Así que, personas introvertidas en tecnología:
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        👉 Salgan un poco de la computadora.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        👉 Aprendan de la gente allá afuera.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Las experiencias humanas no las puede reemplazar ninguna IA, ni ChatGPT, ni nadie.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Empieza a construir tu propio camino.
+      </p>
 
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-        <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          El follow-up es donde realmente ganas como introvertido. Mientras los extrovertidos coleccionan tarjetas de presentación como pokemones y después no hacen nada con ellas, tú puedes enfocarte en las 2-3 conexiones que realmente te importaron.
-        </span>{" "}
-        Llegando a casa, mientras la conversación está fresca, les escribo un mensaje personalizado mencionando algo específico de lo que hablamos. "Oye, me gustó mucho tu punto sobre GraphQL vs REST, encontré este artículo que creo que te puede interesar..." Esa atención al detalle que tenemos los introvertidos es oro puro para hacer networking real.
+        Gracias por leer.
       </p>
     </PersonalBlogTemplate>
   );
 };
 
-// ARTÍCULO 4: Herramientas de productividad
+// ARTÍCULO 4: Apps y sistemas de estudio en la UNAM
 export const HerramientasProductividadContent = () => {
   return (
     <PersonalBlogTemplate>
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Voy a ser súper honesto: he probado como 20 apps de productividad diferentes en estos años de carrera. Desde Todoist hasta apps raras que prometían revolucionar mi vida, todas terminaban en la carpeta de "apps que ya no uso" después de 2 semanas.
-        </span>{" "}
-        El problema es que cuando estudias Computer Science, no necesitas algo que te organize la vida como si fueras CEO de una startup. Necesitas algo que entienda tu flujo de trabajo real: debugging a las 3 AM, proyectos que se extienden por meses, y la constante presión de mantenerte actualizado con tecnologías nuevas.
+          Hola, ¿cómo están? Yo estudio Ciencias de la Computación en la UNAM, una carrera del área I (Físico-Matemáticas) que se fundamenta totalmente en las matemáticas.
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y sí, como podrán imaginar, no es nada sencilla. Por eso hoy quiero compartirles cómo estudio, qué métodos uso y qué aplicaciones realmente me ayudan a sobrevivir los exámenes y tareas dentro de la universidad.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Antes de empezar, aclaro que mi sistema de estudio no tiene nada extraordinario ni mágico. No uso apps secretas ni programas que nadie conozca. Lo que utilizo son herramientas simples y efectivas, pero bien aplicadas.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Mi equipo básico es:
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Una libreta
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Una pluma
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Mi laptop
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Un temporizador Pomodoro
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y música relajante
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Ese es mi ambiente de estudio ideal.
       </p>
       
       <img
-        src="/blog/mydesk.jpeg"
-        alt="Mi setup de productividad"
-        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+        src="/public/blog/mydesk.jpeg"
+        alt="Mi setup de estudio"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
       
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Mi stack actual es súper simple: Notion para todo lo que necesito recordar, Obsidian para conectar ideas, y ya. Notion es como mi segundo cerebro donde vivo literalmente - ahí tengo mis horarios de clase, notas de cada materia, tracker de proyectos personales, y hasta mi lista de tecnologías que quiero aprender.
-        </span>{" "}
-        Obsidian lo uso diferente, es donde hago mis mapas mentales cuando estoy diseñando un algoritmo complejo o tratando de entender una arquitectura nueva. La magia está en que puedes conectar conceptos de diferentes materias. Por ejemplo, vinculo mis notas de estructuras de datos con proyectos reales donde las aplico.
+          Entendiendo el reto
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Las materias de esta carrera requieren mucha abstracción matemática. No se trata solo de memorizar teoría o recitar libros; se trata de entender conceptos profundamente y saber aplicarlos.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y eso, por experiencia, solo se logra con constancia y paciencia.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Estudiar matemáticas implica equivocarte una y otra vez.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Literalmente: equivocarte, equivocarte, equivocarte… y no parar hasta que entiendas.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Así es como se alcanza la verdadera comprensión.
       </p>
 
       <img
-        src="/blog/PizarronLineal.jpeg"
-        alt="Organizando ideas en el pizarrón"
-        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+        src="/public/blog/PizarronLineal.jpeg"
+        alt="Trabajando con álgebra lineal"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
 
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Para manejo del tiempo, olvídense del Pomodoro tradicional. 25 minutos no alcanzan ni para entender un error de compilación, mucho menos para entrar en flow state. Yo trabajo en bloques de 90 minutos con descansos de 20.
-        </span>{" "}
-        Este tiempo es perfecto para resolver un problema complejo sin quemarte mentalmente. Durante el descanso me levanto, camino, a veces hasta me baño si es un día largo. He notado que mis mejores insights vienen en esos 20 minutos cuando no estoy forzando mi cerebro a encontrar la solución.
+          Cómo enfrento una tarea
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Pongamos un ejemplo: tengo una tarea de Álgebra Lineal.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Primero la leo completa.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Marco los puntos que no entiendo o que me parecen confusos. A veces pasa que literalmente no tengo ni idea de qué están preguntando, y está bien. Lo importante es reconocerlo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Después me apoyo en una guía.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Aquí hago un paréntesis importante, porque tengo amigos en la carrera que se burlan de mí por usar inteligencia artificial.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        (Sí, David, si estás leyendo esto: un fuerte y caluroso abrazo, jaja.)
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Lo que hago es preguntarle a la IA qué conceptos necesito dominar para resolver la tarea. Me los explica, los repaso, y trato de entenderlos a fondo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Uso la inteligencia artificial como mi tutora personal. Es una herramienta a la que le puedo hacer todas las preguntas "tontas" que quiera, sin miedo a ser juzgado, y esa es su gran ventaja.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Cuando ya entendí los conceptos, empiezo a plantear mis soluciones.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Hago un bosquejo de mi idea y se la explico a la IA:
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        "¿Está bien mi razonamiento?"
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        "¿Hay algún error?"
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y la IA me da feedback, recomendaciones y correcciones. Paso a paso, voy entendiendo cómo se resuelve cada ejercicio.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Finalmente llego a la solución concreta y paso a la siguiente pregunta.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Ese es mi flujo normal para las tareas.
       </p>
 
       <img
-        src="/blog/Setup1AM.jpeg"
-        alt="Sesión de programación nocturna"
-        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+        src="/public/blog/Setup1AM.jpeg"
+        alt="Sesiones de estudio nocturnas"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Cómo estudio para un examen
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Prepararse para un examen es diferente. Más que memorizar temas, hay que anticipar qué tipo de preguntas vendrán:
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        ¿Serán teóricas o prácticas?
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        ¿Habrá ejercicios nuevos o ya vistos?
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Con base en eso, hago un plan de estudio.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Primero elaboro una lista de temas y me enfoco en los ejercicios, porque la mayoría de los exámenes en la Facultad de Ciencias son así: prácticos. Lo importante no es solo saber el resultado, sino entender el método para resolverlos.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Entrenando con inteligencia artificial
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Cuando estudio ejercicios, vuelvo a usar la IA, pero esta vez como un entrenador personal digital.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Le pido que resolvamos ejercicios paso a paso. Me explica el método, el razonamiento detrás, y luego me pone a practicar. Le digo:
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        "Ponme otro ejercicio, pero que no sea igual."
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Así repito el mismo método en diferentes variaciones hasta dominarlo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        A esto le llamo entrenar el método mecánico, porque hay pasos que se repiten y que, al automatizarlos, te dan abstracción y confianza.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Cuando ya puedo resolver ejercicios sin ayuda, sé que ese tema está cubierto.
+      </p>
+
+      <img
+        src="/public/blog/LibroJulia.jpeg"
+        alt="Estudiando con libros de programación"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Cuando estudio teoría
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Para exámenes teóricos uso herramientas más sencillas:
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Tibias (notas rápidas)
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Cahoots o cuestionarios
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Pero la clave es la misma:
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Primero entiende. Luego memoriza.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Mi regla personal es:
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          "Si puedes explicarle un tema a alguien que nunca lo ha visto y logra entenderte, entonces tú ya lo dominas."
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y sí, hazlo lo más simple posible.
+      </p>
+
+      <img
+        src="/public/blog/Pasillo.jpeg"
+        alt="Estudiando en la facultad"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Las apps que realmente uso
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Aquí no hay secretos:
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Gemini (la uso como IA principal, además tengo descuento de estudiante 😅)
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Recordatorios de iOS (para organizar tareas, pendientes y entregas)
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Temporizador Pomodoro (para medir mis sesiones de estudio)
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y eso es todo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No uso mil apps ni sistemas complejos. Mi enfoque está en usar bien lo que tengo.
+      </p>
+
+      <img
+        src="/public/blog/portadayo.jpeg"
+        alt="Balance entre estudio y descanso"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Este blog lo dediqué a cómo estudio materias teóricas o matemáticas puras.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        En otro blog les contaré cómo estudio programación y código, porque ahí sí cambia todo el método.
+      </p>
 
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-        <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          El hack más importante que he descubierto es configurar mi entorno para eliminar fricciones. Mi teléfono se queda en modo avión durante las sesiones de estudio profundo, tengo shortcuts de teclado para todo, y uso Dark Reader en todas las páginas web para no lastimar mis ojos en sesiones nocturnas.
-        </span>{" "}
-        También tengo una regla personal: si algo me toma más de 2 minutos hacer manualmente más de 3 veces, lo automatizo. He escrito scripts para generar templates de proyectos, organizar archivos de descarga, y hasta para mandar mensajes automáticos cuando no estoy disponible. Un estudiante de CS que no automatiza su vida está desperdiciando su tiempo.
+        Gracias por leer 💻📚. Nos vemos en el siguiente blog.
       </p>
     </PersonalBlogTemplate>
   );
@@ -303,48 +849,203 @@ export const BitacoraDevContent = () => {
     <PersonalBlogTemplate>
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          fciencias.app nació de una frustración súper real que tengo con los grupos de WhatsApp de mi carrera. Imagínense: 15 grupos diferentes, mensajes importantes perdidos entre memes, gente preguntando lo mismo cada semana, y cero organización para compartir recursos o encontrar compañeros de estudio.
+          Suena loco pensar en una red social. Igualmente suena más loco hacerla tú mismo desde cero.
         </span>{" "}
-        Un día estaba en el grupo de "Algoritmos y Estructuras de Datos" viendo como alguien preguntaba por quinta vez dónde conseguir el libro del curso, mientras que otro vato había subido un PDF súper útil hace 3 días pero ya estaba perdido entre 200 mensajes de stickers. Ahí fue cuando dije "tiene que haber una mejor forma de hacer esto".
+        En este blog les voy a compartir un poco del proceso que estoy llevando para crear F Ciencias, una red social para mi facultad. Más que enfocarme en el código, quiero contarles los retos que me he enfrentado y cómo los iré resolviendo. Mi plan es que esto se convierta en una serie de blogs, acompañada de videos en YouTube y Reels, donde también les muestre el avance. Por ahora no he logrado tanto como quisiera, y como estoy solo en este proyecto, quiero contarles cómo le estoy haciendo.
       </p>
       
       <img
-        src="/blog/portadaredsocial.jpeg"
-        alt="Desarrollo de la red social"
-        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+        src="/public/blog/img1cita.jpg"
+        alt="Desarrollo de F Ciencias"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
       
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          La decisión del stack técnico la hice basándome en lo que ya sabía y lo que podía aprender rápido. React para el frontend porque ya lo manejaba decente, Node.js con Express para el backend, y PostgreSQL para la base de datos porque necesitaba algo robusto para manejar relaciones complejas entre usuarios, materias, y recursos.
-        </span>{" "}
-        No quise complicarme con tecnologías súper nuevas porque mi objetivo era resolver un problema real, no hacer un showcase de las últimas tendencias. Aunque sí me está costando trabajo implementar el sistema de notificaciones en tiempo real - Socket.io se ve fácil en los tutoriales pero cuando lo implementas con un sistema de permisos complejo es otro pedo.
+          ¿Qué es F Ciencias?
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Primero, hablemos del origen del proyecto.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        En mi facultad (la Facultad de Ciencias de la UNAM), existe un espacio común entre toda la comunidad: un grupo de Facebook. Ahí se publican anuncios, ventas, críticas y debates sobre lo que pasa en la facultad —si hay paro, eventos, avisos, etc.—.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        El problema es que no es un grupo exclusivo. Hay muchísima gente externa y, además, la comunidad está dispersa entre Telegram, WhatsApp, Instagram y más plataformas.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Mi objetivo con esta red social es crear un espacio verdaderamente común y diseñado específicamente para la facultad, donde se resuelva esta fragmentación y la comunidad tenga su propio lugar digital.
       </p>
 
       <img
-        src="/blog/Setup1AM.jpeg"
-        alt="Coding sessions nocturnas"
-        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+        src="/public/blog/img2cita.jpg"
+        alt="La idea detrás del proyecto"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
 
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          La validación más honesta la conseguí con mis propios compañeros de clase. Les mostré wireframes súper básicos y de inmediato empezaron a dar feedback: "oye, ¿y si también pudiéramos organizar grupos de estudio?" "¿podrías agregar un calendario compartido para exámenes?" "¿qué tal un sistema de calificaciones para profesores?"
-        </span>{" "}
-        Es increíble como cuando construyes algo para gente que conoces, el feedback es brutalmente honesto pero súper constructivo. No es como mostrarle tu app a extraños que van a ser educados y decirte "está cool". Mis compañeros literalmente me dijeron "esta interfaz está fea" y "este flujo no tiene sentido", y tenían razón.
+          Cómo nació la idea
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        La idea surgió mientras aprovechaba los beneficios que GitHub ofrece a estudiantes. Entre ellos, te dan dominios gratuitos, y se me ocurrió buscar la palabra "F" junto con "ciencias". Para mi sorpresa, el dominio estaba disponible… y gratuito. Lo tomé como una señal y dije: "¿Por qué no? Vamos a aventarnos el proyecto".
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Spoiler: no tardé en arrepentirme de esas palabras, porque crear algo así desde cero es cualquier cosa menos trivial.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Tampoco voy a decir que empecé a programar como el creador de Facebook, escribiendo líneas de código desde cero. No. Obviamente me apoyo en Copilot (la inteligencia artificial de GitHub), pero descubrí que no basta con pedirle "hazme una red social". Antes de eso, hay que diseñarla técnicamente.
       </p>
 
       <img
-        src="/blog/Pasillo.jpeg"
-        alt="Validando la app en la facultad"
-        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+        src="/public/blog/portadacita.jpg"
+        alt="Diseño técnico del proyecto"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          El diseño técnico
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Diseñar técnicamente significa escribir todo el proyecto a detalle: cómo estará organizada la aplicación, qué funcionalidades tendrá, cómo se implementarán, cómo se guardarán los datos, etc.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Todo eso lo redacté en más de 100 páginas en PDF. Para lograrlo, tuve que comunicarle muy bien las ideas a la IA y supervisar todo lo que generaba, porque si no lo hacía, podía producir errores graves.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Esa documentación técnica la pasé a formato Markdown, y después la integré en Copilot. Así, el proceso fue:
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Diseñar toda la estructura técnica.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Pasar esa documentación a un formato legible para Copilot.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Empezar a programar el proyecto real.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          El repositorio y el desarrollo
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Después de tener todo el diseño técnico, creé la estructura del repositorio. Pueden verlo directamente en mi sitio web, en la sección de Proyectos, donde está el botón del repositorio oficial de la red social.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si están leyendo esto en octubre de 2025, deben saber que el repositorio cambia constantemente. Así que, si piensan clonarlo, no lo hagan, porque probablemente cambiará demasiado.
+      </p>
+
+      <img
+        src="/public/blog/img1niño.jpg"
+        alt="Primeras funcionalidades"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          La primera funcionalidad
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        La primera funcionalidad completa que logré implementar (y que ya funciona) fue la autenticación de usuarios: el registro y el inicio de sesión.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Quiero que solo los alumnos de la Facultad de Ciencias puedan crear cuentas, usando su correo institucional @ciencias.unam.mx. Así, se autentica que realmente pertenecen a la comunidad.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Para hacerlo, implementé una base de datos y un sistema de autenticación por correo electrónico.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No entraré en detalles técnicos aquí (sería muy largo), pero puedo decir que ya funciona: si eres alumno, puedes autenticarte sin problemas, crear tu cuenta, etc.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Por ahora la red social aún no tiene contenido, pero la parte de registro ya está lista.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Cuando lance la versión final, borraré toda la base de datos, así que no hay problema con poner tus datos de prueba.
+      </p>
+
+      <img
+        src="/public/blog/Img2niño.jpg"
+        alt="Enfoque en el usuario"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Enfoque en el usuario
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Otro reto importante ha sido la interfaz de usuario (UI). Quiero que el usuario sienta la plataforma limpia, rápida y cómoda, y eso es algo que lleva tiempo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Crear una red social no solo es código; también requiere creatividad y empatía con el usuario.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Hacer que una app funcione técnicamente es "fácil" con plataformas como Curso o frameworks modernos, pero hacer que la gente realmente la use es otro nivel.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Ahí la inteligencia artificial no puede reemplazar la parte humana y creativa.
+      </p>
+
+      <img
+        src="/public/blog/img1viral.jpg"
+        alt="Desarrollo en progreso"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Lo que sigue
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Por ahora, eso es lo que llevo desarrollado de la red social F Ciencias. En las siguientes entradas del blog iré contando cómo avanzo en el desarrollo, y probablemente también lo documente en Reels, TikTok o YouTube.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Tal vez incluso haga un video largo en YouTube titulado "Cómo desarrollé F Ciencias desde cero".
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si eres parte de la Facultad de Ciencias, ¡apóyame por favor en este proyecto!
+      </p>
 
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-        <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Cada feature que desarrollo me enseña algo nuevo sobre programación, pero también sobre el comportamiento humano. Por ejemplo, pensé que todo mundo iba a querer perfiles súper detallados, pero resulta que la mayoría prefiere mantenerse semi-anónimo y enfocarse en el contenido académico.
-        </span>{" "}
-        También descubrí que los estudiantes de ciencias somos súper críticos con el diseño - si algo se ve muy "fancy" o como red social tradicional, inmediatamente desconfían. Tuve que redesñar la interfaz para que se sintiera más como una herramienta académica seria que como Instagram para nerds. Es mi laboratorio personal donde aprendo tanto de código como de product management.
+        Muchas gracias por leer 💙
       </p>
     </PersonalBlogTemplate>
   );
@@ -356,48 +1057,172 @@ export const VidaFreelancerContent = () => {
     <PersonalBlogTemplate>
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Mi primer cliente freelance lo conseguí de la manera más random posible. Estaba en un café en la Roma Norte haciendo tarea cuando escuché a unos emprendedores quejándose de que su desarrollador los había ghosteado a media página web. Me armé de valor, me acerqué y les dije "discúlpenme, soy estudiante de Computer Science y escuché su problema, ¿puedo ayudarlos?"
-        </span>{" "}
-        Fue súper awkward al principio, pero resultó que necesitaban algo básico: una landing page con formulario de contacto. Les cobré súper barato porque era mi primera vez, pero me dio la confianza de que sí podía hacer esto del freelancing. Desde entonces entendí que conseguir clientes en CDMX no es tanto sobre ser el mejor programador, sino sobre estar en el lugar correcto y saber comunicar que puedes resolver problemas reales.
+          Ser desarrollador web freelance en Ciudad de México suena fácil hasta que te das cuenta de que el reto más grande no es programar, sino conseguir clientes reales. En este blog quiero contarte exactamente cómo lo estoy haciendo yo, qué estrategias uso, qué errores he cometido y cómo me estoy abriendo paso en este mundo freelance desde cero, sin tener una agencia ni una gran red de contactos.
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          1. Entiende el mercado en el que estás
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Primero lo primero: si quieres conseguir clientes en la CDMX, tienes que entender cómo se mueve el mercado aquí. Hay muchísimos desarrolladores, agencias y freelancers, pero también hay muchísimas pequeñas empresas que necesitan presencia en línea y no tienen ni idea de por dónde empezar.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Panaderías, cafeterías, estudios de tatuajes, escuelas, despachos, todos ellos son clientes potenciales. El problema es que la mayoría no sabe buscar "web developer freelance", así que tú tienes que aparecerles en el camino.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Lo que hago es investigar zonas y negocios locales (por ejemplo, los que están en mi colonia o cerca de mi universidad) y anotar quiénes no tienen página web o la tienen abandonada. Suena básico, pero ese paso me ha conseguido más contactos que subir mi portafolio a internet.
       </p>
       
       <img
-        src="/blog/portadapolanco.jpeg"
-        alt="Reunión con cliente en Polanco"
-        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+        src="/public/blog/gamervisa.jpg"
+        alt="Trabajando con clientes locales"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
       
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          El networking presencial en la CDMX es oro puro, especialmente en zonas como Polanco, Santa Fe, y la Roma Norte. Ahí es donde están las startups que tienen presupuesto pero no saben cómo gastar en tech. Yo voy a eventos de emprendimiento, no tanto de programación.
-        </span>{" "}
-        En los eventos tech todos son desarrolladores compitiendo por las mismas oportunidades. En los eventos de business, soy el único que entiende de tecnología entre puros emprendedores que necesitan desarrollar sus ideas. Es como ser bilingüe en un país extranjero - automáticamente tienes ventaja. Plus, muchos de estos emprendedores tienen presupuestos de 50k-200k pesos para MVPs.
+          2. Crea un portafolio, aunque estés empezando
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No necesitas tener veinte proyectos para empezar. Si no tienes clientes aún, crea proyectos ficticios. Haz páginas web de ejemplo: un sitio para una cafetería, una landing para un gimnasio, una página de portafolio personal.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Sube esos proyectos a un dominio gratuito o incluso a GitHub Pages. La clave es demostrar que sabes construir y entregar algo funcional y bonito.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        En mi caso, lo que hago es tener un portafolio con una sección donde explico qué tecnologías usé y por qué, porque los clientes no entienden qué es React o Next.js, pero sí entienden cuando les dices "tu web cargará más rápido y se verá bien en celulares".
       </p>
 
       <img
-        src="/blog/mydesk.jpeg"
-        alt="Trabajando en proyectos freelance"
-        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+        src="/public/blog/pagovisa.jpg"
+        alt="Creando proyectos de portafolio"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
 
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
         <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          Mi especialidad sin querer se volvió e-commerce para PyMEs y automatización para startups. La CDMX está llena de negocios familiares que necesitan vender en línea pero no saben por dónde empezar, y startups que están perdiendo tiempo en tareas manuales que se pueden automatizar.
-        </span>{" "}
-        He hecho desde sistemas de inventario súper básicos hasta chatbots para atención al cliente. Lo que he aprendido es que no necesitas conocer las tecnologías más nuevas, necesitas entender los problemas específicos de los negocios mexicanos: integración con bancos locales, manejo de facturación del SAT, sistemas que funcionen con internet lento. Esa especialización local me permite cobrar precios premium.
+          3. Usa las redes sociales, pero con estrategia
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Muchos freelancers creen que por abrir una cuenta de Instagram o LinkedIn ya llegarán los clientes, pero la verdad es que tienes que publicar contenido que le hable a las empresas, no a otros programadores.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Por ejemplo, yo subo mini videos o reels donde explico cosas como "por qué una web lenta te hace perder clientes" o "cuánto cuesta realmente una página web". Eso genera confianza y me ha traído mensajes de negocios que necesitan ayuda.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        También sirve mucho publicar en grupos locales de Facebook (por ejemplo, "Emprendedores CDMX", "Negocios en la Roma", etc.) ofreciendo tus servicios. No pongas un mensaje genérico, di algo como:
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        "Soy desarrollador web freelance y ayudo a negocios de la CDMX a tener páginas que sí les traigan clientes. Si tienes un negocio y tu web está caída o no tienes una, puedo ayudarte."
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Simple, directo y sin sonar como bot.
       </p>
 
       <img
-        src="/blog/Googleentrada.jpeg"
-        alt="Evento de tecnología en la ciudad"
-        className="w-full h-80 object-cover rounded-lg mb-8 mx-auto"
+        src="/public/blog/portadavisa.jpg"
+        alt="Estrategias de marketing digital"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          4. Cobra bien, no seas barato
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Lo sé, al principio da miedo cobrar bien porque piensas que nadie te va a contratar. Pero si empiezas cobrando muy barato, es súper difícil subir tus precios después.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Mejor investiga qué cobran otros freelancers en la CDMX. Una página web básica en la ciudad puede ir desde $8,000 hasta $25,000 pesos, dependiendo de lo que incluya. Y no tengas miedo de pedir 50% de anticipo antes de empezar el proyecto.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        También siempre haz contratos, aunque sea un documento sencillo donde pongas qué vas a entregar, cuándo, y cuánto cuesta. Eso te protege de clientes que luego quieren cambiar todo a la mitad del proyecto o que no quieren pagar.
+      </p>
+
+      <img
+        src="/public/blog/img2viral.jpg"
+        alt="Construyendo confianza con clientes"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          5. Gana confianza hablando como persona, no como robot
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        La mayoría de mis clientes potenciales llegan nerviosos porque no entienden de tecnología. Así que trato de hablarles en su idioma. No digo "te haré una landing con API REST y Next.js", digo "te haré una página que se vea bien en celulares y se cargue rápido".
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Además, algo que me ha funcionado muchísimo es mostrar avances por etapas. Por ejemplo, después de dos días les mando un prototipo visual, no código. Eso les hace sentir que están viendo progreso real.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Cuando confían en ti, pagan más fácil y te recomiendan. Cada cliente feliz puede traerte tres nuevos clientes.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          6. Pide testimonios siempre
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Al terminar cada proyecto, pide una reseña o testimonio. No es opcional. Un testimonio te puede abrir las puertas a trabajos más grandes.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Yo tengo testimonios en LinkedIn, en mi portafolio y hasta capturas de WhatsApp donde los clientes me dicen que quedaron contentos. Eso da mucha tranquilidad a clientes nuevos.
+      </p>
+
+      <img
+        src="/public/blog/portadaviral.jpg"
+        alt="Crecimiento del negocio freelance"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          7. Ten paciencia, pero mantente activo
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Conseguir tus primeros clientes freelance no pasa en una semana. A mí me tomó meses tener los primeros tres, pero una vez que entregas bien, los demás llegan por recomendación.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        El secreto es seguir publicando, seguir aprendiendo y sobre todo no compararte con otros developers que ya tienen cinco años en el mercado.
+      </p>
 
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-        <span className="font-bold text-neutral-700 dark:text-neutral-200">
-          La regla de oro que he aprendido es que tus primeros 3 clientes definen tu reputación en esta ciudad. CDMX es gigante pero el ecosistema emprendedor es súper pequeño, todos se conocen. Si haces un buen trabajo, te van a recomendar. Si la riegas, también se van a enterar todos.
-        </span>{" "}
-        Por eso al principio cobraba 40% menos de lo que valía mi trabajo, pero entregaba 120% de lo que prometía. Siempre incluía funcionalidades extra sin costo, documentación súper detallada, y capacitación personal para usar el sistema. Ahora, 2 años después, el 80% de mis clientes vienen por referencia directa. En una ciudad donde la confianza es todo, una buena reputación vale más que cualquier campaña de marketing.
+        Ser freelance en Ciudad de México no es imposible, pero requiere estrategia, paciencia y sobre todo constancia. Tienes que entender que cada proyecto que haces es una inversión en tu reputación, no solo dinero rápido.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        Así que si estás empezando como web developer, te dejo mi consejo final: haz tu portafolio, ofrece tu trabajo, cobra justo y nunca dejes de aprender.
       </p>
     </PersonalBlogTemplate>
   );
