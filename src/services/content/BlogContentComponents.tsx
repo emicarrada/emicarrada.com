@@ -837,7 +837,7 @@ export const HerramientasProductividadContent = () => {
       </p>
 
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-        Gracias por leer 💻📚. Nos vemos en el siguiente blog.
+        Gracias por leer. Nos vemos en el siguiente blog.
       </p>
     </PersonalBlogTemplate>
   );
@@ -855,7 +855,7 @@ export const BitacoraDevContent = () => {
       </p>
       
       <img
-        src="/blog/img1cita.jpg"
+        src="/public/blog/1fc.png"
         alt="Desarrollo de F Ciencias"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -883,7 +883,7 @@ export const BitacoraDevContent = () => {
       </p>
 
       <img
-        src="/blog/img2cita.jpg"
+        src="/public/blog/2fc.png"
         alt="La idea detrás del proyecto"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -907,7 +907,7 @@ export const BitacoraDevContent = () => {
       </p>
 
       <img
-        src="/blog/portadacita.jpg"
+        src="/public/blog/3fc.png"
         alt="Diseño técnico del proyecto"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -957,7 +957,7 @@ export const BitacoraDevContent = () => {
       </p>
 
       <img
-        src="/blog/img1niño.jpg"
+        src="/public/blog/4fc.png"
         alt="Primeras funcionalidades"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -993,7 +993,7 @@ export const BitacoraDevContent = () => {
       </p>
 
       <img
-        src="/blog/Img2niño.jpg"
+        src="/public/blog/5fc.png"
         alt="Enfoque en el usuario"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -1021,7 +1021,7 @@ export const BitacoraDevContent = () => {
       </p>
 
       <img
-        src="/blog/img1viral.jpg"
+        src="/public/blog/6fcc.png"
         alt="Desarrollo en progreso"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -1045,7 +1045,7 @@ export const BitacoraDevContent = () => {
       </p>
 
       <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-        Muchas gracias por leer 💙
+        Muchas gracias por leer 
       </p>
     </PersonalBlogTemplate>
   );
@@ -1080,7 +1080,7 @@ export const VidaFreelancerContent = () => {
       </p>
       
       <img
-        src="/blog/gamervisa.jpg"
+        src="/public/blog/1fre.jpeg"
         alt="Trabajando con clientes locales"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -1104,7 +1104,7 @@ export const VidaFreelancerContent = () => {
       </p>
 
       <img
-        src="/blog/pagovisa.jpg"
+        src="/public/blog/2fre.jpeg"
         alt="Creando proyectos de portafolio"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -1136,7 +1136,7 @@ export const VidaFreelancerContent = () => {
       </p>
 
       <img
-        src="/blog/portadavisa.jpg"
+        src="/public/blog/3fre.jpeg"
         alt="Estrategias de marketing digital"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -1160,7 +1160,7 @@ export const VidaFreelancerContent = () => {
       </p>
 
       <img
-        src="/blog/img2viral.jpg"
+        src="/public/blog/4fre.jpeg"
         alt="Construyendo confianza con clientes"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -1198,7 +1198,7 @@ export const VidaFreelancerContent = () => {
       </p>
 
       <img
-        src="/blog/portadaviral.jpg"
+        src="/public/blog/5fre.jpeg"
         alt="Crecimiento del negocio freelance"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
