@@ -45,7 +45,7 @@ export const IngresoUnamContent = () => {
       </p>
       
       <img
-        src="/public/blog/cchsur.jpeg"
+        src="/blog/cchsur.jpeg"
         alt="Letras en el CCH Sur"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -58,7 +58,7 @@ export const IngresoUnamContent = () => {
       </p>
 
       <img
-        src="/public/blog/cch7am.jpeg"
+        src="/blog/cch7am.jpeg"
         alt="llegando al CCH Sur"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -71,7 +71,7 @@ export const IngresoUnamContent = () => {
       </p>
 
       <img
-        src="/public/blog/jardinbotanico.jpeg"
+        src="/blog/jardinbotanico.jpeg"
         alt="Jardín Botánico de la UNAM"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -84,7 +84,7 @@ export const IngresoUnamContent = () => {
       </p>
 
       <img
-        src="/public/blog/primerafotounam.jpeg"
+        src="/blog/primerafotounam.jpeg"
         alt="Primera foto en la UNAM"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -97,7 +97,7 @@ export const IngresoUnamContent = () => {
       </p>
 
       <img
-        src="/public/blog/primeravisitacu.jpeg"
+        src="/blog/primeravisitacu.jpeg"
         alt="Primera visita a la UNAM"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -110,7 +110,7 @@ export const IngresoUnamContent = () => {
       </p>
 
       <img
-        src="/public/blog/sisepuede.jpeg"
+        src="/blog/sisepuede.jpeg"
         alt="Motivación para el examen"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -123,7 +123,7 @@ export const IngresoUnamContent = () => {
       </p>
 
       <img
-        src="/public/blog/resultados.jpeg"
+        src="/blog/resultados.jpeg"
         alt="Resultados del examen"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -150,7 +150,7 @@ export const VidaDiariaContent = () => {
       </p>
       
       <img
-        src="/public/blog/1ru.jpeg"
+        src="/blog/1ru.jpeg"
         alt="Álgebra Lineal en el pizarrón"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -163,7 +163,7 @@ export const VidaDiariaContent = () => {
       </p>
 
       <img
-        src="/public/blog/2ru.jpeg"
+        src="/blog/2ru.jpeg"
         alt="Materiales de programación"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -176,7 +176,7 @@ export const VidaDiariaContent = () => {
       </p>
 
       <img
-        src="/public/blog/3ru.jpeg"
+        src="/blog/3ru.jpeg"
         alt="Mi espacio de trabajo en el laboratorio"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -189,7 +189,7 @@ export const VidaDiariaContent = () => {
       </p>
 
       <img
-        src="/public/blog/4ru.jpeg"
+        src="/blog/4ru.jpeg"
         alt="Pasillos de la Facultad de Ciencias"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -202,7 +202,7 @@ export const VidaDiariaContent = () => {
       </p>
 
       <img
-        src="/public/blog/5ru.jpeg"
+        src="/blog/5ru.jpeg"
         alt="Setup de estudio en casa"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -215,7 +215,7 @@ export const VidaDiariaContent = () => {
       </p>
 
       <img
-        src="/public/blog/6ru.jpeg"
+        src="/blog/6ru.jpeg"
         alt="Momento de relajación"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -250,7 +250,7 @@ export const EventosTechContent = () => {
       </p>
       
       <img
-        src="/public/blog/1so.jpeg"
+        src="/blog/1so.jpeg"
         alt="Mi experiencia en eventos tech"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -288,7 +288,7 @@ export const EventosTechContent = () => {
       </p>
 
       <img
-        src="/public/blog/2so.jpeg"
+        src="/blog/2so.jpeg"
         alt="Eventos de comunidades tech"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -332,7 +332,7 @@ export const EventosTechContent = () => {
       </p>
 
       <img
-        src="/public/blog/3so.jpeg"
+        src="/blog/3so.jpeg"
         alt="Networking en la industria tech"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -398,7 +398,7 @@ export const EventosTechContent = () => {
       </p>
 
       <img
-        src="/public/blog/4so.jpeg"
+        src="/blog/4so.jpeg"
         alt="Aprendiendo de expertos"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -456,7 +456,7 @@ export const EventosTechContent = () => {
       </p>
 
       <img
-        src="/public/blog/5so.jpeg"
+        src="/blog/5so.jpeg"
         alt="Construyendo conexiones"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -575,7 +575,7 @@ export const HerramientasProductividadContent = () => {
       </p>
       
       <img
-        src="/public/blog/mydesk.jpeg"
+        src="/blog/mydesk.jpeg"
         alt="Mi setup de estudio"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -607,7 +607,7 @@ export const HerramientasProductividadContent = () => {
       </p>
 
       <img
-        src="/public/blog/PizarronLineal.jpeg"
+        src="/blog/PizarronLineal.jpeg"
         alt="Trabajando con álgebra lineal"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -679,7 +679,7 @@ export const HerramientasProductividadContent = () => {
       </p>
 
       <img
-        src="/public/blog/Setup1AM.jpeg"
+        src="/blog/Setup1AM.jpeg"
         alt="Sesiones de estudio nocturnas"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -741,7 +741,7 @@ export const HerramientasProductividadContent = () => {
       </p>
 
       <img
-        src="/public/blog/LibroJulia.jpeg"
+        src="/blog/LibroJulia.jpeg"
         alt="Estudiando con libros de programación"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -787,7 +787,7 @@ export const HerramientasProductividadContent = () => {
       </p>
 
       <img
-        src="/public/blog/Pasillo.jpeg"
+        src="/blog/Pasillo.jpeg"
         alt="Estudiando en la facultad"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -823,7 +823,7 @@ export const HerramientasProductividadContent = () => {
       </p>
 
       <img
-        src="/public/blog/portadayo.jpeg"
+        src="/blog/portadayo.jpeg"
         alt="Balance entre estudio y descanso"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -855,7 +855,7 @@ export const BitacoraDevContent = () => {
       </p>
       
       <img
-        src="/public/blog/img1cita.jpg"
+        src="/blog/img1cita.jpg"
         alt="Desarrollo de F Ciencias"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -883,7 +883,7 @@ export const BitacoraDevContent = () => {
       </p>
 
       <img
-        src="/public/blog/img2cita.jpg"
+        src="/blog/img2cita.jpg"
         alt="La idea detrás del proyecto"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -907,7 +907,7 @@ export const BitacoraDevContent = () => {
       </p>
 
       <img
-        src="/public/blog/portadacita.jpg"
+        src="/blog/portadacita.jpg"
         alt="Diseño técnico del proyecto"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -957,7 +957,7 @@ export const BitacoraDevContent = () => {
       </p>
 
       <img
-        src="/public/blog/img1niño.jpg"
+        src="/blog/img1niño.jpg"
         alt="Primeras funcionalidades"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -993,7 +993,7 @@ export const BitacoraDevContent = () => {
       </p>
 
       <img
-        src="/public/blog/Img2niño.jpg"
+        src="/blog/Img2niño.jpg"
         alt="Enfoque en el usuario"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -1021,7 +1021,7 @@ export const BitacoraDevContent = () => {
       </p>
 
       <img
-        src="/public/blog/img1viral.jpg"
+        src="/blog/img1viral.jpg"
         alt="Desarrollo en progreso"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -1080,7 +1080,7 @@ export const VidaFreelancerContent = () => {
       </p>
       
       <img
-        src="/public/blog/gamervisa.jpg"
+        src="/blog/gamervisa.jpg"
         alt="Trabajando con clientes locales"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -1104,7 +1104,7 @@ export const VidaFreelancerContent = () => {
       </p>
 
       <img
-        src="/public/blog/pagovisa.jpg"
+        src="/blog/pagovisa.jpg"
         alt="Creando proyectos de portafolio"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -1136,7 +1136,7 @@ export const VidaFreelancerContent = () => {
       </p>
 
       <img
-        src="/public/blog/portadavisa.jpg"
+        src="/blog/portadavisa.jpg"
         alt="Estrategias de marketing digital"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -1160,7 +1160,7 @@ export const VidaFreelancerContent = () => {
       </p>
 
       <img
-        src="/public/blog/img2viral.jpg"
+        src="/blog/img2viral.jpg"
         alt="Construyendo confianza con clientes"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -1198,7 +1198,7 @@ export const VidaFreelancerContent = () => {
       </p>
 
       <img
-        src="/public/blog/portadaviral.jpg"
+        src="/blog/portadaviral.jpg"
         alt="Crecimiento del negocio freelance"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
