@@ -575,7 +575,7 @@ export const HerramientasProductividadContent = () => {
       </p>
       
       <img
-        src="/public/blog/1ap.jpeg"
+        src="/blog/1ap.jpeg"
         alt="Mi setup de estudio"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -607,7 +607,7 @@ export const HerramientasProductividadContent = () => {
       </p>
 
       <img
-        src="/public/blog/2ap.jpeg"
+        src="/blog/2ap.jpeg"
         alt="Trabajando con álgebra lineal"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -679,7 +679,7 @@ export const HerramientasProductividadContent = () => {
       </p>
 
       <img
-        src="/public/blog/3ap.jpeg"
+        src="/blog/3ap.jpeg"
         alt="Sesiones de estudio nocturnas"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -741,7 +741,7 @@ export const HerramientasProductividadContent = () => {
       </p>
 
       <img
-        src="/public/blog/4ap.jpeg"
+        src="/blog/4ap.jpeg"
         alt="Estudiando con libros de programación"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -787,7 +787,7 @@ export const HerramientasProductividadContent = () => {
       </p>
 
       <img
-        src="/public/blog/5ap.jpeg"
+        src="/blog/5ap.jpeg"
         alt="Estudiando en la facultad"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -823,7 +823,7 @@ export const HerramientasProductividadContent = () => {
       </p>
 
       <img
-        src="/public/blog/6ap.jpeg"
+        src="/blog/6ap.jpeg"
         alt=""
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -855,7 +855,7 @@ export const BitacoraDevContent = () => {
       </p>
       
       <img
-        src="/public/blog/1fc.png"
+        src="/blog/1fc.png"
         alt="Desarrollo de F Ciencias"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -883,7 +883,7 @@ export const BitacoraDevContent = () => {
       </p>
 
       <img
-        src="/public/blog/2fc.png"
+        src="/blog/2fc.png"
         alt="La idea detrás del proyecto"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -907,7 +907,7 @@ export const BitacoraDevContent = () => {
       </p>
 
       <img
-        src="/public/blog/3fc.png"
+        src="/blog/3fc.png"
         alt="Diseño técnico del proyecto"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -957,7 +957,7 @@ export const BitacoraDevContent = () => {
       </p>
 
       <img
-        src="/public/blog/4fc.png"
+        src="/blog/4fc.png"
         alt="Primeras funcionalidades"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -993,7 +993,7 @@ export const BitacoraDevContent = () => {
       </p>
 
       <img
-        src="/public/blog/5fc.png"
+        src="/blog/5fc.png"
         alt="Enfoque en el usuario"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -1021,7 +1021,7 @@ export const BitacoraDevContent = () => {
       </p>
 
       <img
-        src="/public/blog/6fcc.png"
+        src="/blog/6fcc.png"
         alt="Desarrollo en progreso"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -1080,7 +1080,7 @@ export const VidaFreelancerContent = () => {
       </p>
       
       <img
-        src="/public/blog/1fre.jpeg"
+        src="/blog/1fre.jpeg"
         alt="Trabajando con clientes locales"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -1104,7 +1104,7 @@ export const VidaFreelancerContent = () => {
       </p>
 
       <img
-        src="/public/blog/2fre.jpeg"
+        src="/blog/2fre.jpeg"
         alt="Creando proyectos de portafolio"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -1136,7 +1136,7 @@ export const VidaFreelancerContent = () => {
       </p>
 
       <img
-        src="/public/blog/3fre.jpeg"
+        src="/blog/3fre.jpeg"
         alt="Estrategias de marketing digital"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -1160,7 +1160,7 @@ export const VidaFreelancerContent = () => {
       </p>
 
       <img
-        src="/public/blog/4fre.jpeg"
+        src="/blog/4fre.jpeg"
         alt="Construyendo confianza con clientes"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -1198,7 +1198,7 @@ export const VidaFreelancerContent = () => {
       </p>
 
       <img
-        src="/public/blog/5fre.jpeg"
+        src="/blog/5fre.jpeg"
         alt="Crecimiento del negocio freelance"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
