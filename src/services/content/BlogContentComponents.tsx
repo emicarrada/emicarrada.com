@@ -1228,6 +1228,286 @@ export const VidaFreelancerContent = () => {
   );
 };
 
+// ARTÍCULO 7: Hackathon OpenAI
+export const HackathonOpenAIContent = () => {
+  return (
+    <PersonalBlogTemplate>
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          OK, lo primero es que yo no pensaba que me iban a aceptar. De hecho, descubrí el Hackathon por LinkedIn: vi de qué trataba, quién lo organizaba y me emocionó porque soy muy fanático de la compañía. Así que decidí registrarme.
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Para que te aceptaran, tenías que enviar tu LinkedIn, tu GitHub y tus redes sociales, porque un comité de selección investigaba tu perfil. Aun así, lo hice sin problema, aunque sinceramente pensé que ni me iban a aceptar.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Pero unos días después me llega un correo: había conseguido un lugar. La verdad es que estoy muy contento, porque es algo muy importante para mí. Es mi primer hackathon, mi primera competencia, y quiero dar lo mejor de mí.
+      </p>
+      
+      <img
+        src="/public/blog/POSTER.jpeg"
+        alt="Preparándome para el hackathon"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+      
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          1. El proyecto: una inteligencia artificial que se mejora sola
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Les cuento un poco de lo que estoy haciendo. Vamos a crear un sistema de inteligencia artificial que se mejora solito, con un sistema de auto-mejora.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Este tipo de arquitectura fue descubierta hace muy poco —a inicios de octubre— por investigadores de distintas universidades. Y lo interesante es que ya quieren que experimentemos con eso en la competencia.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Para hacerlo, usaremos un framework especial y tendremos acceso directo a la API de la compañía.
+      </p>
+
+      <img
+        src="/public/blog/PlanOpenai.jpeg"
+        alt="Trabajando en el proyecto"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          2. La organización del equipo
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        En mi equipo nos hemos estado organizando muy bien. Yo tengo las bases teóricas claras, ya definimos qué tipo de proyecto vamos a hacer y cómo estará estructurado.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Solo tendremos 13 horas en total para la competencia, así que el tiempo es clave.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si quieren verlo con una analogía: nosotros tenemos que llegar con las llantas, la estructura y el motor del coche listos, y durante la competencia solo conectamos los cables, sin encender el coche todavía.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Esa es más o menos la lógica del hackathon: llegar listos, bien coordinados y con la parte técnica clara antes de entrar al reloj.
+      </p>
+
+      <img
+        src="/public/blog/diagramaop.png"
+        alt="Colaboración en equipo"
+        className="w-full h-96 object-contain rounded-lg mb-8 mx-auto bg-neutral-100 dark:bg-neutral-800 p-8"
+      />
+      
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          3. La competencia
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Estamos compitiendo con 40 equipos en total, y honestamente esperamos ganar. La comunicación con mi equipo ha sido excelente; cada día tenemos entregables para llegar bien preparados y poder rendir lo mejor posible.
+      </p>
+
+      <img
+        src="/public/blog/Paper1.png"
+        alt="Presentación final"
+        className="w-full h-96 object-contain rounded-lg mb-8 mx-auto bg-neutral-100 dark:bg-neutral-800 p-8"
+      />
+      
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          4. Lo que viene
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        El próximo domingo les estaré contando cómo me fue, qué aprendí y qué cosas interesantes se vivieron durante la competencia.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        También estaré grabando contenido y compartiendo fotos del evento para que puedan ver el proceso desde dentro.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Muchas gracias por leer y acompañarme en esta experiencia que para mí significa muchísimo.
+      </p>
+
+      <img
+        src="/public/blog/cicloaut.png"
+        alt="Conexiones y networking"
+        className="w-full h-96 object-contain rounded-lg mb-8 mx-auto bg-neutral-100 dark:bg-neutral-800 p-8"
+      />
+
+      <img
+        src="/public/blog/logicaauto.png"
+        alt="Experiencia final del hackathon"
+        className="w-full h-96 object-contain rounded-lg mb-8 mx-auto bg-neutral-100 dark:bg-neutral-800 p-8"
+      />
+    </PersonalBlogTemplate>
+  );
+};
+
+// ARTÍCULO 8: Aprendiendo TypeScript - Mi experiencia
+export const AprendiendoTypeScriptContent = () => {
+  return (
+    <PersonalBlogTemplate>
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          TypeScript cambió completamente mi forma de programar. Hace un año ni siquiera sabía qué era, y ahora no puedo imaginar hacer un proyecto sin él. En este blog te voy a contar mi experiencia aprendiendo TypeScript, los errores que cometí, y por qué creo que todos los desarrolladores JavaScript deberían darle una oportunidad.
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          ¿Qué es TypeScript y por qué debería importarte?
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Para los que no lo saben, TypeScript es básicamente JavaScript pero con tipos. Eso significa que puedes decirle a tu código qué tipo de datos esperas en cada variable, función o parámetro. Suena simple, pero cambia todo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Antes de TypeScript, me pasaba horas debuggeando errores tontos como pasar un string donde debía ir un número, o llamar una función con los parámetros en el orden incorrecto. TypeScript te avisa de esos errores antes de que ejecutes el código.
+      </p>
+      
+      <img
+        src="/blog/mydesk.jpeg"
+        alt="Código TypeScript en VS Code"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+      
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Mis primeros días con TypeScript (spoiler: fueron frustrantes)
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Al principio TypeScript me frustraba muchísimo. Estaba acostumbrado a la libertad de JavaScript, donde podías hacer lo que quisieras sin que el editor te molestara con errores rojos por todos lados.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Recuerdo mi primer proyecto en TypeScript: una simple API con Express. Lo que normalmente me tomaba dos horas, me tomó seis porque no entendía los tipos, las interfaces, ni cómo tipar correctamente las peticiones HTTP.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Había momentos donde quería rendirme y volver a JavaScript puro. Pero decidí persistir, y fue la mejor decisión que pude tomar.
+      </p>
+
+      <img
+        src="/blog/Setup1AM.jpeg"
+        alt="Aprendiendo TypeScript desde cero"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Lo que realmente me ayudó a entenderlo
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        1. Empezar con proyectos pequeños: No intentes aprender TypeScript refactorizando un proyecto enorme. Empieza con algo simple, como una calculadora o una to-do list.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        2. Entender las interfaces y types: Al principio no entendía la diferencia. Luego descubrí que las interfaces son perfectas para definir la estructura de objetos, y los types son más flexibles para uniones y otras cosas.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        3. Usar el autocompletado: Una vez que defines bien tus tipos, el autocompletado de VS Code se vuelve tu mejor amigo. Ya no tienes que recordar qué propiedades tiene un objeto, el editor te las muestra.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        4. Leer código de otros: Ver cómo otros developers tipan su código me ayudó un montón. Los repositorios de GitHub con TypeScript son oro puro para aprender.
+      </p>
+
+      <img
+        src="/blog/LibroJulia.jpeg"
+        alt="Beneficios de usar TypeScript"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Por qué ahora no puedo vivir sin TypeScript
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Después de pasar la curva de aprendizaje, TypeScript se convirtió en una herramienta indispensable para mí. Ahora escribo menos bugs, mi código es más limpio, y cuando vuelvo a un proyecto después de meses, entiendo qué hace cada función solo viendo los tipos.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Además, cuando trabajas en equipo, TypeScript es un salvador. Los demás desarrolladores saben exactamente qué esperar de tu código sin tener que leer toda la implementación.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        También me ha ayudado muchísimo en entrevistas técnicas. Saber TypeScript te diferencia de otros candidatos y demuestra que te preocupas por escribir código de calidad.
+      </p>
+
+      <img
+        src="/blog/portadaredsocial.jpeg"
+        alt="Proyecto en TypeScript"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Consejos si estás empezando con TypeScript
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        - No uses "any" en todo: Sé que es tentador, pero estás perdiendo todo el beneficio de TypeScript. Si no sabes qué tipo usar, investiga en lugar de poner "any".
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        - Aprende los utility types: TypeScript trae tipos como Partial, Pick, Omit que te facilitan la vida. Úsalos.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        - Configura bien tu tsconfig.json: Al principio parece intimidante, pero configurar bien las opciones de compilación te ahorra muchos dolores de cabeza.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        - Ten paciencia: La curva de aprendizaje es real, pero vale totalmente la pena.
+      </p>
+
+      <img
+        src="/blog/primerafotounam.jpeg"
+        alt="El futuro con TypeScript"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Conclusión
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si eres desarrollador JavaScript y todavía no has probado TypeScript, te invito a que lo hagas. Sí, al principio vas a batallar. Sí, vas a querer dejarlo. Pero créeme que después de superarlo, no vas a querer volver atrás.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        TypeScript no es solo agregar tipos por agregar. Es una forma de pensar diferente, de escribir código más robusto y mantenible. Y en un mundo donde los proyectos crecen cada vez más, eso es invaluable.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        Gracias por leer. Si tienes preguntas sobre TypeScript o quieres que haga un tutorial más específico, mándame mensaje. ¡Nos vemos en el siguiente blog!
+      </p>
+    </PersonalBlogTemplate>
+  );
+};
+
 // Mantener componentes legacy para compatibilidad
 export const ReactArticleContent = () => <DummyContent />;
 export const AITechArticleContent = () => <DummyContent />;

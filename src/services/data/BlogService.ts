@@ -43,6 +43,16 @@ export class BlogService implements IBlogService {
 
     const articles: BlogArticle[] = [
       {
+        id: 'hackathon-OpenAI-2025',
+        category: "Experiencia",
+        title: "Como logré entrar al Hackathon Kavak x OpenAI México 2025",
+        src: "/blog/portadahackathon.jpg",
+        content: null,
+        publishedAt: new Date('2024-10-05'),
+        author: 'Cristopher Carrada',
+        tags: ['Hackathon', 'OpenAI', 'IA', 'Kavak', 'Experiencia']
+      },
+      {
         id: 'ingreso-unam',
         category: "Anecdotarío",
         title: "¿Cómo entre a la mejor universidad de Latinoamérica estudiando con Youtube?",

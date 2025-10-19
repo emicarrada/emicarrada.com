@@ -66,3 +66,11 @@ coverage/
 # TypeScript cache
 *.tsbuildinfo
 .vercel
+
+#Database Blog Suscription
+DataBaseSuscribers.txt
+DabaBaseSuscribers.txt
+subscribers.txt
+*.subscribers.txt
+suscriptores.txt
+*.suscriptores.txt

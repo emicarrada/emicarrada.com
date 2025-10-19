@@ -12,7 +12,9 @@ import {
   EventosTechContent,
   HerramientasProductividadContent,
   BitacoraDevContent,
-  VidaFreelancerContent
+  VidaFreelancerContent,
+  AprendiendoTypeScriptContent,
+  HackathonOpenAIContent
 } from '../../../services/content/BlogContentComponents';
 
 export const BlogSection: React.FC<BlogSectionProps> = ({ className = '' }) => {
@@ -20,12 +22,14 @@ export const BlogSection: React.FC<BlogSectionProps> = ({ className = '' }) => {
 
   // Map content components to articles
   const contentMap = {
+    'hackathon-OpenAI-2025': <HackathonOpenAIContent />,
     'ingreso-unam': <IngresoUnamContent />,
     'vida-diaria': <VidaDiariaContent />,
     'eventos-tech': <EventosTechContent />,
     'herramientas-productividad': <HerramientasProductividadContent />,
     'Bitacora-de-un-developer': <BitacoraDevContent />,
-    'vida-freelancer': <VidaFreelancerContent />
+    'vida-freelancer': <VidaFreelancerContent />,
+    'aprendiendo-typescript': <AprendiendoTypeScriptContent />
   };
 
   // Add content to articles
