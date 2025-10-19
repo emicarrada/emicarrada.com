@@ -1247,7 +1247,7 @@ export const HackathonOpenAIContent = () => {
       </p>
       
       <img
-        src="/public/blog/POSTER.jpeg"
+        src="/blog/POSTER.jpeg"
         alt="Preparándome para el hackathon"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -1271,7 +1271,7 @@ export const HackathonOpenAIContent = () => {
       </p>
 
       <img
-        src="/public/blog/PlanOpenai.jpeg"
+        src="/blog/PlanOpenai.jpeg"
         alt="Trabajando en el proyecto"
         className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
       />
@@ -1299,7 +1299,7 @@ export const HackathonOpenAIContent = () => {
       </p>
 
       <img
-        src="/public/blog/diagramaop.png"
+        src="/blog/diagramaop.png"
         alt="Colaboración en equipo"
         className="w-full h-96 object-contain rounded-lg mb-8 mx-auto bg-neutral-100 dark:bg-neutral-800 p-8"
       />
@@ -1315,7 +1315,7 @@ export const HackathonOpenAIContent = () => {
       </p>
 
       <img
-        src="/public/blog/Paper1.png"
+        src="/blog/Paper1.png"
         alt="Presentación final"
         className="w-full h-96 object-contain rounded-lg mb-8 mx-auto bg-neutral-100 dark:bg-neutral-800 p-8"
       />
@@ -1339,13 +1339,13 @@ export const HackathonOpenAIContent = () => {
       </p>
 
       <img
-        src="/public/blog/cicloaut.png"
+        src="/blog/cicloaut.png"
         alt="Conexiones y networking"
         className="w-full h-96 object-contain rounded-lg mb-8 mx-auto bg-neutral-100 dark:bg-neutral-800 p-8"
       />
 
       <img
-        src="/public/blog/logicaauto.png"
+        src="/blog/logicaauto.png"
         alt="Experiencia final del hackathon"
         className="w-full h-96 object-contain rounded-lg mb-8 mx-auto bg-neutral-100 dark:bg-neutral-800 p-8"
       />
