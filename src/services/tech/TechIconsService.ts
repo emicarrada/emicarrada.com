@@ -153,6 +153,65 @@ export class TechIconsService implements ITechIconsService {
             <path d="M64 192h128v-16H64zm0-32h128v-16H64zm0-32h128v-16H64zm0-32h128V80H64z"/>
           </g>
         </svg>`
+      },
+      {
+        id: 'langgraph',
+        name: 'LangGraph',
+        title: 'LangGraph',
+        svgContent: `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 256 256" style="fill:#FFFFFF">
+          <g fill="#ffffff">
+            <circle cx="64" cy="64" r="20"/>
+            <circle cx="192" cy="64" r="20"/>
+            <circle cx="64" cy="192" r="20"/>
+            <circle cx="192" cy="192" r="20"/>
+            <line x1="84" y1="64" x2="172" y2="64" stroke="#ffffff" stroke-width="8"/>
+            <line x1="64" y1="84" x2="64" y2="172" stroke="#ffffff" stroke-width="8"/>
+            <line x1="192" y1="84" x2="192" y2="172" stroke="#ffffff" stroke-width="8"/>
+            <line x1="84" y1="192" x2="172" y2="192" stroke="#ffffff" stroke-width="8"/>
+            <line x1="84" y1="84" x2="172" y2="172" stroke="#ffffff" stroke-width="8"/>
+          </g>
+        </svg>`
+      },
+      {
+        id: 'git',
+        name: 'Git',
+        title: 'Git',
+        svgContent: `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 256 256" style="fill:#FFFFFF">
+          <g fill="#ffffff">
+            <path d="M251.172 116.594L139.4 4.828c-6.433-6.437-16.873-6.437-23.314 0l-23.21 23.21 29.443 29.443c6.842-2.312 14.688-.761 20.142 4.693 5.48 5.489 7.02 13.402 4.652 20.266l28.375 28.376c6.865-2.365 14.786-.835 20.269 4.657 7.663 7.66 7.663 20.075 0 27.74-7.665 7.666-20.08 7.666-27.749 0-5.764-5.77-7.188-14.235-4.27-21.336l-26.462-26.462-.003 69.637a19.82 19.82 0 015.188 3.71c7.663 7.66 7.663 20.076 0 27.747-7.665 7.662-20.086 7.662-27.74 0-7.663-7.671-7.663-20.086 0-27.746a19.654 19.654 0 016.421-4.281V94.196a19.378 19.378 0 01-6.421-4.281c-5.806-5.798-7.202-14.317-4.227-21.446L81.47 39.442l-76.64 76.635c-6.44 6.443-6.44 16.884 0 23.322l111.774 111.768c6.435 6.438 16.873 6.438 23.316 0l111.251-111.249c6.438-6.44 6.438-16.887 0-23.324"/>
+          </g>
+        </svg>`
+      },
+      {
+        id: 'matplotlib',
+        name: 'Matplotlib',
+        title: 'Matplotlib',
+        svgContent: `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 256 256" style="fill:#FFFFFF">
+          <g fill="#ffffff">
+            <rect x="40" y="180" width="30" height="40"/>
+            <rect x="80" y="120" width="30" height="100"/>
+            <rect x="120" y="80" width="30" height="140"/>
+            <rect x="160" y="140" width="30" height="80"/>
+            <rect x="200" y="100" width="30" height="120"/>
+            <line x1="30" y1="40" x2="230" y2="40" stroke="#ffffff" stroke-width="4"/>
+            <circle cx="55" cy="35" r="8" fill="#ff8200"/>
+            <circle cx="95" cy="25" r="8" fill="#ff8200"/>
+            <circle cx="135" cy="20" r="8" fill="#ff8200"/>
+            <circle cx="175" cy="30" r="8" fill="#ff8200"/>
+            <circle cx="215" cy="22" r="8" fill="#ff8200"/>
+          </g>
+        </svg>`
+      },
+      {
+        id: 'chatgpt',
+        name: 'ChatGPT',
+        title: 'ChatGPT',
+        svgContent: `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 256 256" style="fill:#FFFFFF">
+          <g fill="#ffffff">
+            <path d="M201.816 54.203c-7.45-12.88-21.397-20.885-36.387-20.885-6.888 0-13.555 1.674-19.438 4.865l-58.644 33.859c-11.774 6.799-19.094 19.433-19.094 33.015v67.718c0 13.582 7.32 26.216 19.094 33.015l58.644 33.859c5.883 3.191 12.55 4.865 19.438 4.865 14.99 0 28.937-8.005 36.387-20.885 3.734-6.467 5.705-13.824 5.705-21.295V75.498c0-7.471-1.971-14.828-5.705-21.295zm-11.705 121.131c0 8.956-4.793 17.253-12.51 21.642-3.867 2.2-8.263 3.364-12.715 3.364-4.452 0-8.848-1.165-12.715-3.364l-58.644-33.859c-7.717-4.456-12.51-12.704-12.51-21.525V73.875c0-8.821 4.793-17.069 12.51-21.525l58.644-33.859c3.867-2.2 8.263-3.364 12.715-3.364s8.848 1.165 12.715 3.364c7.717 4.389 12.51 12.686 12.51 21.642z"/>
+            <circle cx="128" cy="128" r="30"/>
+          </g>
+        </svg>`
       }
     ];
 

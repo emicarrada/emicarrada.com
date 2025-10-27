@@ -1508,6 +1508,127 @@ export const AprendiendoTypeScriptContent = () => {
   );
 };
 
+// ARTÍCULO NUEVO: Experiencia en el Hackathon OpenAI x Kavak 2025
+export const ExperienciaHackathonOpenAIKavak2025Content = () => {
+  return (
+    <PersonalBlogTemplate>
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Bien, para empezar, para este hackathon me preparé durante seis días completos. Estuve coordinándome con mi equipo y organizando el proyecto que íbamos a desarrollar.
+        </span>{" "}
+        Si quieren ver el proyecto completo, pueden ir al apartado de proyectos —ahí dejé el link directo al repositorio en GitHub—.
+        Y si prefieren ver la experiencia en video, ya subí todo el proceso completo a mi canal de YouTube, donde muestro cómo vivimos cada momento del evento.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Ahora sí, les cuento cómo fue todo desde mi perspectiva.
+      </p>
+
+      <img
+        src="/blog/regaloshack.jpeg"
+        alt="Regalos del Hackathon OpenAI x Kavak"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          La llegada y el inicio del reto
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Llegué súper temprano, con toda la emoción. Nos recibieron con una sudadera y una libreta de OpenAI, un detalle que me encantó.
+        Antes de arrancar el hackathon, nos dieron una charla de bienvenida y después una persona de OpenAI nos habló sobre GPT-5, lo cual me pareció impresionante.
+      </p>
+
+      <img
+        src="/blog/gafetehack.jpeg"
+        alt="Gafete del Hackathon"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        A las 9:00 a.m. comenzó oficialmente el reto.
+        Mi equipo y yo ya teníamos planeado casi todo: habíamos diseñado el sistema, hecho pseudocódigo y preparado archivos base.
+        Todo iba conforme a lo planeado hasta que un empleado de Kavak se acercó a darnos una recomendación técnica que nos hizo replantear nuestra estrategia.
+      </p>
+
+      <img
+        src="/blog/oficinahack.jpeg"
+        alt="Oficinas de Kavak durante el Hackathon"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          El cambio de estrategia
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Originalmente íbamos a usar una estructura de tres nodos, porque nos parecía más sencilla de implementar en el tiempo que teníamos.
+        Pero después de analizar la sugerencia, decidimos arriesgarnos y cambiar a una estructura de seis lados.
+        Eso significaba más trabajo y más complejidad, pero también más potencial.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Fue estresante.
+        El reloj corría y cada línea de código contaba, pero poco a poco fuimos avanzando hasta lograr una demo funcional e interactiva, que fue lo que más me emocionó de todo el proceso.
+      </p>
+
+      <img
+        src="/blog/equipohack.jpeg"
+        alt="Mi equipo durante el Hackathon"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          La presentación
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Para la presentación usamos Claude, que nos ayudó a generar una presentación en LaTeX de 40 hojas (sí, 40 😅).
+        El problema fue que los jueces nos dieron solo 8 minutos para mostrar nuestro proyecto, así que no alcanzamos a cubrir todo.
+        Aun así, nuestra demo funcionó perfectamente y eso fue lo más importante para mí.
+      </p>
+
+      <img
+        src="/blog/selfiehack.jpeg"
+        alt="Selfie en el Hackathon"
+        className="w-full h-96 object-cover rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          El cierre y las conexiones
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Después de la presentación vinieron los resultados.
+        No quedamos en el podio, pero honestamente me sentí satisfecho.
+        Conocí a muchísima gente increíble, equipos muy preparados, y me quedo con la experiencia, las conexiones y lo que aprendí durante esas 13 horas intensas.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Sinceramente, fue una de las mejores experiencias que he tenido.
+        Mi equipo fue lo máximo y me llevo una enorme lección: prepararte, adaptarte y mantenerte tranquilo es la clave para disfrutar un hackathon.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si quieren ver cómo se vivió todo minuto a minuto, pueden visitar mi canal de YouTube: <span className="font-bold text-[#FF8200]">emicarrada</span>, donde subí el video completo.
+        Y estén atentos, porque el próximo domingo publicaré una nueva entrada en el blog 👀
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        Gracias por leer 🙌
+      </p>
+    </PersonalBlogTemplate>
+  );
+};
+
 // Mantener componentes legacy para compatibilidad
 export const ReactArticleContent = () => <DummyContent />;
 export const AITechArticleContent = () => <DummyContent />;

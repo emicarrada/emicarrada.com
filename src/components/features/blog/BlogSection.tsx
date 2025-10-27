@@ -14,7 +14,8 @@ import {
   BitacoraDevContent,
   VidaFreelancerContent,
   AprendiendoTypeScriptContent,
-  HackathonOpenAIContent
+  HackathonOpenAIContent,
+  ExperienciaHackathonOpenAIKavak2025Content
 } from '../../../services/content/BlogContentComponents';
 
 export const BlogSection: React.FC<BlogSectionProps> = ({ className = '' }) => {
@@ -22,6 +23,7 @@ export const BlogSection: React.FC<BlogSectionProps> = ({ className = '' }) => {
 
   // Map content components to articles
   const contentMap = {
+    'experiencia-hackathon-openai-kavak-2025': <ExperienciaHackathonOpenAIKavak2025Content />,
     'hackathon-OpenAI-2025': <HackathonOpenAIContent />,
     'ingreso-unam': <IngresoUnamContent />,
     'vida-diaria': <VidaDiariaContent />,

@@ -43,6 +43,16 @@ export class BlogService implements IBlogService {
 
     const articles: BlogArticle[] = [
       {
+        id: 'experiencia-hackathon-openai-kavak-2025',
+        category: "Experiencia",
+        title: "Mi experiencia en el Hackathon OpenAI x Kavak 2025: 13 horas de código intenso",
+        src: "/blog/portadahack.jpeg",
+        content: null,
+        publishedAt: new Date('2024-10-26'),
+        author: 'Cristopher Carrada',
+        tags: ['Hackathon', 'OpenAI', 'Kavak', 'Experiencia', 'IA', 'Desarrollo']
+      },
+      {
         id: 'hackathon-OpenAI-2025',
         category: "Experiencia",
         title: "Como logré entrar al Hackathon Kavak x OpenAI México 2025",

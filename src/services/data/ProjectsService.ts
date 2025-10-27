@@ -41,7 +41,17 @@ export class ProjectsService implements IProjectsService {
       live: 'https://fciencias.app',
       technologies: ['React', 'Node.js', 'PostgreSQL', 'Academia'],
       category: 'scientific'
-    }
+    },
+    {
+    id: 'flux',
+    name: 'Flux',
+    logo: '/fluxlogo.png',
+    description: 'Proyecto desarrollado para el Hackathon OpenAI x Kavak 2025. Flux es un sistema de IA auto-optimizable que reduce hasta en un 80% el uso de tokens mediante análisis inteligente de prompts y respuestas. Utilizando LangGraph y técnicas avanzadas de Machine Learning, optimiza dinámicamente las llamadas a la API de OpenAI, manteniendo la calidad de las respuestas mientras reduce significativamente los costos operacionales.',
+    github: 'https://github.com/emicarrada/hackathon-openai',
+    live: 'https://github.com/emicarrada/hackathon-openai',
+    technologies: ['Python', 'LangGraph', 'Git', 'Matplotlib', 'ChatGPT'],
+    category: 'scientific'
+  }
   ];
 
   async getAllProjects(): Promise<Project[]> {
