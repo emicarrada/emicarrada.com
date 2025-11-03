@@ -9,11 +9,23 @@ import { readFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
-// Simular variables de entorno
-process.env.RESEND_API_KEY = 're_N62KB8ni_EHTXtyiMAjkA2DLxMhTFqcGn';
-process.env.NEWSLETTER_FROM_EMAIL = 'Emi Carrada <cristopher@emicarrada.com>';
-process.env.NEWSLETTER_FROM_NAME = 'Emi Carrada';
-process.env.NEWSLETTER_REPLY_TO = 'cristopher@emicarrada.com';
+// Simular variables de entorno (carga desde .env.local si existe)
+try {
+  const envPath = join(__dirname, '.env.local');
+  const envContent = readFileSync(envPath, 'utf-8');
+  const envLines = envContent.split('\n');
+  
+  envLines.forEach(line => {
+    const [key, value] = line.split('=');
+    if (key && value) {
+      process.env[key.trim()] = value.trim();
+    }
+  });
+} catch (error) {
+  console.log('⚠️  No se encontró .env.local, usando valores por defecto para pruebas');
+  // Valores por defecto para pruebas locales (sin API key real)
+  process.env.RESEND_API_KEY = 'test_api_key_replace_with_real_one';
+}
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
