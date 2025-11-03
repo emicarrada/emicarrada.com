@@ -105,7 +105,7 @@ curl -X POST https://emicarrada.com/api/send-newsletter \
 ### Variables de Entorno
 ```bash
 RESEND_API_KEY=tu_api_key_de_resend
-NEWSLETTER_FROM_EMAIL=Emi Carrada <newsletter@send.emicarrada.com>
+NEWSLETTER_FROM_EMAIL=Emi Carrada <cristopher@emicarrada.com>
 NEWSLETTER_FROM_NAME=Emi Carrada
 NEWSLETTER_REPLY_TO=cristopher@emicarrada.com
 ```

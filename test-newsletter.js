@@ -11,7 +11,7 @@ import { dirname, join } from 'path';
 
 // Simular variables de entorno
 process.env.RESEND_API_KEY = 're_N62KB8ni_EHTXtyiMAjkA2DLxMhTFqcGn';
-process.env.NEWSLETTER_FROM_EMAIL = 'Emi Carrada <newsletter@send.emicarrada.com>';
+process.env.NEWSLETTER_FROM_EMAIL = 'Emi Carrada <cristopher@emicarrada.com>';
 process.env.NEWSLETTER_FROM_NAME = 'Emi Carrada';
 process.env.NEWSLETTER_REPLY_TO = 'cristopher@emicarrada.com';
 
@@ -61,7 +61,7 @@ async function testNewsletterAPI() {
   const testData = {
     articleId: 'experiencia-hackathon-openai-kavak-2025',
     testMode: true,
-    testEmail: 'cristopher@emicarrada.com',
+    testEmail: 'emicarrada.mx@gmail.com',
     customMessage: '¡Hola! Esta es una prueba del sistema de newsletters automatizado.',
     previewText: 'Prueba del sistema de envío automático'
   };
