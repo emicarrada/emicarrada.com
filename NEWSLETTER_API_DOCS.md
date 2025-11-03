@@ -1,91 +1,132 @@
-# Configuración de Newsletter
+Tipo
+Nombre
+Clase
+TTL
+Valor
+MX
+send.emicarrada.com.
+IN
+60
+Prioridad: 10
+Destino: feedback-smtp.us-east-1.amazonses.com
+TXT
+resend._domainkey.emicarrada.com.
+IN
+60
+"p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/Jm9g3rnTxWAw+NWx9P9nbqMaOlU2ET39n/fK1HnzluojNwY+xRdnx+qFXH3+wJVjqF0f1MVI6o0QW8AKXZGHV/gI1Yq/tE3MUUa7Bfs6WtyjuYQ7R/PJ4hNDvYFQ0YIiV78skDkbA92FNAHV8SotkikB8RhJwrQv8AepFgKQbwIDAQAB"
+TXT
+send.emicarrada.com.
+IN
+60
+"v=spf1 include:amazonses.com ~all"
+TXT
+resend._domainkey.emicarrada.com.
+IN
+60
+"p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/Jm9g3rnTxWAw+NWx9P9nbqMaOlU2ET39n/fK1HnzluojNwY+xRdnx+qFXH3+wJVjqF0f1MVI6o0QW8AKXZGHV/gI1Yq/tE3MUUa7Bfs6WtyjuYQ7R/PJ4hNDvYFQ0YIiV78skDkbA92FNAHV8SotkikB8RhJwrQv8AepFgKQbwIDAQAB"
+MX
+send.emicarrada.com.
+IN
+3600
+Prioridad: 10
+Destino: vspf1includeamazonses.comall
+MX
+send.emicarrada.com.
+IN
+60
+Prioridad: 10
+Destino: feedback-smtp.us-east-1.amazon# Sistema de Newsletters Automatizado
 
-## Variables de Entorno Requeridas
+## ✅ SISTEMA COMPLETADO Y FUNCIONANDO
 
-Crea un archivo `.env.local` en la raíz del proyecto con las siguientes variables:
+**Estado:** ✅ Probado y funcionando correctamente
+**Email de prueba:** ✅ Enviado exitosamente a cristopher@emicarrada.com
 
-```bash
-# Resend API Key (obtener de https://resend.com/api-keys)
-RESEND_API_KEY=re_xxxxxxxxxxxxxxxxxxxxxxxxxx
+## 🚀 Próximos Pasos para Producción
 
-# Configuración del remitente
+### 1. Configurar Vercel (Dashboard)
+
+Ve a [vercel.com](https://vercel.com) → Tu proyecto → Settings → Environment Variables:
+
+```
+RESEND_API_KEY=re_N62KB8ni_EHTXtyiMAjkA2DLxMhTFqcGn
 NEWSLETTER_FROM_EMAIL=Emi Carrada <newsletter@send.emicarrada.com>
 NEWSLETTER_FROM_NAME=Emi Carrada
 NEWSLETTER_REPLY_TO=cristopher@emicarrada.com
 ```
 
-## Uso del API
+### 2. Probar en Producción
 
-### 1. Modo Prueba (enviar a un solo email)
+Después del deployment automático:
 
 ```bash
+# Probar con email de prueba
 curl -X POST https://emicarrada.com/api/send-newsletter \
   -H "Content-Type: application/json" \
   -d '{
     "articleId": "experiencia-hackathon-openai-kavak-2025",
     "testMode": true,
-    "testEmail": "tu@email.com",
-    "customMessage": "Hola! Esta semana les traigo un artículo increíble...",
-    "previewText": "Resumen corto para el preview"
+    "testEmail": "cristopher@emicarrada.com"
   }'
 ```
 
-### 2. Modo Producción (enviar a todos los suscriptores)
+### 3. Usar el Script de Envío Fácil
 
 ```bash
-curl -X POST https://emicarrada.com/api/send-newsletter \
-  -H "Content-Type: application/json" \
-  -d '{
-    "articleId": "experiencia-hackathon-openai-kavak-2025",
-    "customMessage": "Hola! 👋\n\nEsta semana les traigo...",
-    "previewText": "Un resumen del artículo"
-  }'
+# Hacer una prueba
+./send-newsletter.sh experiencia-hackathon-openai-kavak-2025 --test
+
+# Enviar a todos los suscriptores
+./send-newsletter.sh experiencia-hackathon-openai-kavak-2025 --message "¡Nuevo artículo disponible!"
 ```
 
-## Parámetros
+## � Características del Sistema
 
-- `articleId` (requerido): ID del artículo del blog (nombre del archivo .json sin extensión)
-- `customMessage` (opcional): Mensaje personalizado al inicio del email
-- `previewText` (opcional): Texto de preview (se muestra en inbox antes de abrir)
-- `testMode` (opcional): `true` para modo prueba
-- `testEmail` (requerido si testMode=true): Email de destino para prueba
+- ✅ **Envío inteligente:** Lotes de 10 emails con delay de 1 segundo
+- ✅ **Templates profesionales:** HTML responsive con diseño moderno
+- ✅ **Modo seguro:** Pruebas antes de envío masivo
+- ✅ **Gestión de suscriptores:** Archivo DataBaseSuscribers.txt
+- ✅ **Estadísticas:** Reporte de envíos exitosos/fallidos
+- ✅ **Unsubscribe ready:** Enlace preparado (endpoint pendiente)
 
-## Respuesta Exitosa
+## 📚 Artículos Disponibles
 
-```json
-{
-  "success": true,
-  "message": "Newsletter enviado a 150 de 152 suscriptores",
-  "stats": {
-    "total": 152,
-    "successful": 150,
-    "failed": 2
-  }
-}
-```
+- `experiencia-hackathon-openai-kavak-2025` - Hackathon OpenAI x Kavak 2025
+- `hackathon-OpenAI-2025` - Cómo entrar al Hackathon
+- `ingreso-unam` - Ingreso a la UNAM
+- `vida-diaria` - Rutina como estudiante
+- `eventos-tech` - Ser social en eventos tech
+- `herramientas-productividad` - Apps para estudiar
+- `Bitacora-de-un-developer` - Desarrollo de fciencias.app
+- `vida-freelancer` - Conseguir clientes freelance
 
-## Deployment en Vercel
+## 🔧 Configuración Técnica
 
-1. Agregar variables de entorno en Vercel Dashboard:
-   - Settings → Environment Variables
-   - Agregar `RESEND_API_KEY` y demás variables
-
-2. Deploy:
+### Variables de Entorno
 ```bash
-git add .
-git commit -m "Add newsletter API endpoint"
-git push origin main
+RESEND_API_KEY=tu_api_key_de_resend
+NEWSLETTER_FROM_EMAIL=Emi Carrada <newsletter@send.emicarrada.com>
+NEWSLETTER_FROM_NAME=Emi Carrada
+NEWSLETTER_REPLY_TO=cristopher@emicarrada.com
 ```
 
-3. Vercel detectará automáticamente la función serverless en `/api/send-newsletter.js`
+### DNS Records Verificados ✅
+- MX send.emicarrada.com → feedback-smtp.us-east-1.amazonses.com
+- TXT send.emicarrada.com → "v=spf1 include:amazonses.com ~all"
+- TXT resend._domainkey.emicarrada.com → [clave DKIM]
+- TXT _dmarc.emicarrada.com → "v=DMARC1; p=none;"
 
-## Características
+## 🎯 Uso Diario
 
-- ✅ Envío en lotes de 10 correos con delay de 1 segundo (respeta rate limits)
-- ✅ Modo prueba antes de envío masivo
-- ✅ Template HTML responsive con diseño profesional
-- ✅ Soporte para imágenes del artículo
-- ✅ Links a redes sociales
-- ✅ Link de unsubscribe (endpoint pendiente)
-- ✅ Manejo de errores robusto
-- ✅ Estadísticas de envío (exitosos/fallidos)
+### Envío Semanal de Newsletters
+
+1. **Domingos:** Elegir artículo de la semana
+2. **Probar:** `./send-newsletter.sh <article-id> --test`
+3. **Verificar:** Email llega correctamente
+4. **Enviar:** `./send-newsletter.sh <article-id> --message "Mensaje personalizado"`
+
+### Monitoreo
+
+- Revisa estadísticas en la respuesta del API
+- Los emails fallidos se reportan automáticamente
+- Rate limiting: 10 emails por segundo máximo
