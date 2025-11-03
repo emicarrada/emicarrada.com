@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react';
 import './styles/globals.css';
 import Hero from './components/Hero';
 import QuienSoy from './components/pages/QuienSoy';
@@ -126,13 +127,16 @@ function Home() {
 
 export default function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/proyectos" element={<Proyectos />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/contacto" element={<Contact />} />
-      </Routes>
-    </Router>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/proyectos" element={<Proyectos />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/contacto" element={<Contact />} />
+        </Routes>
+      </Router>
+      <Analytics />
+    </>
   );
 }
