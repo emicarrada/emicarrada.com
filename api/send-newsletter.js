@@ -163,87 +163,237 @@ function generateNewsletterHTML(article, customMessage, previewText) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="color-scheme" content="light dark">
-  <meta name="supported-color-schemes" content="light dark">
+  <meta name="color-scheme" content="dark light">
+  <meta name="supported-color-schemes" content="dark light">
   <title>${article.title}</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;700&display=swap');
+    
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { 
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-family: 'Be Vietnam', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
       line-height: 1.6;
-      color: #333333;
-      background-color: #f4f4f4;
+      color: #ffffff;
+      background: linear-gradient(135deg, #041737 0%, #0a1929 100%);
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
     }
-    .container { max-width: 600px; margin: 0 auto; background-color: #ffffff; }
-    .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 40px 30px; text-align: center; }
-    .header h1 { color: #ffffff; font-size: 28px; margin-bottom: 10px; }
-    .content { padding: 40px 30px; }
-    .article-image { width: 100%; height: auto; border-radius: 8px; margin: 20px 0; }
-    .cta-button {
-      display: inline-block;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: #ffffff !important;
-      text-decoration: none;
-      padding: 15px 30px;
-      border-radius: 8px;
-      font-weight: bold;
+    .container { 
+      max-width: 600px; 
+      margin: 0 auto; 
+      background: linear-gradient(135deg, #041737 0%, #0a1929 100%);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    }
+    .header { 
+      background: linear-gradient(135deg, #041737 0%, #0a1929 100%);
+      padding: 40px 30px; 
+      text-align: center; 
+      border-bottom: 1px solid rgba(255,107,0,0.2);
+      position: relative;
+    }
+    .header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: radial-gradient(circle at center, rgba(255,107,0,0.1) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .logo {
+      width: 80px;
+      height: auto;
+      margin-bottom: 20px;
+      filter: drop-shadow(0 4px 8px rgba(255,107,0,0.3));
+    }
+    .header h1 { 
+      color: #FF6B00; 
+      font-size: 32px; 
+      margin-bottom: 10px; 
+      font-weight: 700;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    }
+    .header p {
+      color: #ffffff;
+      opacity: 0.9;
+      font-size: 16px;
+    }
+    .content { 
+      padding: 40px 30px; 
+      background: linear-gradient(135deg, #041737 0%, #0a1929 100%);
+    }
+    .message {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,107,0,0.2);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 30px;
+      color: #ffffff;
+      line-height: 1.7;
+    }
+    .article-card {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,107,0,0.3);
+      border-radius: 16px;
+      padding: 30px;
+      margin: 30px 0;
+      transition: all 0.3s ease;
+    }
+    .article-card:hover {
+      border-color: #FF6B00;
+      box-shadow: 0 8px 25px rgba(255,107,0,0.2);
+    }
+    .article-title {
+      color: #FF6B00;
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 15px;
+      line-height: 1.3;
+    }
+    .article-image { 
+      width: 100%; 
+      height: auto; 
+      border-radius: 12px; 
+      margin: 20px 0;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+    .article-preview {
+      color: #cccccc;
+      font-size: 16px;
+      line-height: 1.6;
       margin: 20px 0;
     }
+    .cta-button {
+      display: inline-block;
+      background: linear-gradient(135deg, #FF6B00 0%, #ff8533 100%);
+      color: #ffffff !important;
+      text-decoration: none;
+      padding: 16px 32px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 16px;
+      margin: 25px 0;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(255,107,0,0.3);
+      border: 2px solid rgba(255,107,0,0.5);
+    }
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(255,107,0,0.4);
+      background: linear-gradient(135deg, #ff8533 0%, #FF6B00 100%);
+    }
+    .article-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      font-size: 14px;
+      color: #aaaaaa;
+    }
     .footer {
-      background-color: #f8f8f8;
+      background: linear-gradient(135deg, #041737 0%, #0a1929 100%);
       padding: 30px;
       text-align: center;
-      font-size: 14px;
-      color: #666666;
+      border-top: 1px solid rgba(255,107,0,0.2);
+    }
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .social-links {
+      display: flex;
+      gap: 15px;
+    }
+    .social-links a {
+      color: #FF6B00;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    .social-links a:hover {
+      color: #ff8533;
+    }
+    .footer-text {
+      font-size: 12px;
+      color: #888888;
+      margin-top: 20px;
+      line-height: 1.5;
+    }
+    .unsubscribe-link {
+      color: #FF6B00;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .unsubscribe-link:hover {
+      color: #ff8533;
     }
     @media (max-width: 600px) {
       .content, .header { padding: 20px 15px; }
+      .header h1 { font-size: 28px; }
+      .article-title { font-size: 20px; }
+      .footer-content { flex-direction: column; text-align: center; }
     }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="header">
-      <h1>📬 Newsletter - Emi Carrada</h1>
-      <p style="color: #ffffff; opacity: 0.9;">Tu dosis semanal de contenido</p>
+      <img src="https://emicarrada.com/logoemicarrada.png" alt="Emi Carrada Logo" class="logo" />
+      <h1>📰 Newsletter</h1>
+      <p>Tu dosis semanal de contenido</p>
     </div>
     
     <div class="content">
-      <p style="white-space: pre-line; margin-bottom: 20px;">${message}</p>
-      
-      <h2 style="color: #333; margin: 30px 0 15px;">${article.title}</h2>
-      
-      ${article.image ? `<img src="https://emicarrada.com${article.image}" alt="${article.title}" class="article-image" />` : ''}
-      
-      <p style="color: #666; margin: 20px 0;">${preview}</p>
-      
-      <div style="text-align: center; margin: 30px 0;">
-        <a href="https://emicarrada.com/blog/${article.id}" class="cta-button">
-          📖 Leer Artículo Completo
-        </a>
+      <div class="message">
+        ${message.replace(/\n/g, '<br>')}
       </div>
       
-      <div style="margin-top: 30px; padding-top: 30px; border-top: 1px solid #e0e0e0;">
-        <p style="color: #666; font-size: 14px;">
-          <strong>Publicado:</strong> ${formattedDate}<br>
-          <strong>Tiempo de lectura:</strong> ${article.readTime || '5 min'}
-        </p>
+      <div class="article-card">
+        <h2 class="article-title">${article.title}</h2>
+        
+        ${article.image ? `<img src="https://emicarrada.com${article.image}" alt="${article.title}" class="article-image" />` : ''}
+        
+        <p class="article-preview">${preview}</p>
+        
+        <div style="text-align: center;">
+          <a href="https://emicarrada.com/blog/${article.id}" class="cta-button">
+            📖 Leer Artículo Completo
+          </a>
+        </div>
+        
+        <div class="article-meta">
+          <span>✍️ Emi Carrada</span>
+          <span>📅 ${formattedDate}</span>
+          <span>⏱️ ${article.readTime || '5 min'}</span>
+        </div>
       </div>
     </div>
     
     <div class="footer">
-      <p><strong>Emi Carrada</strong></p>
-      <p style="margin: 10px 0;">Desarrollador Full Stack | Creador de contenido</p>
-      
-      <div style="margin: 20px 0;">
-        <a href="https://github.com/emicarrada" style="margin: 0 10px; color: #667eea; text-decoration: none;">GitHub</a>
-        <a href="https://linkedin.com/in/emicarrada" style="margin: 0 10px; color: #667eea; text-decoration: none;">LinkedIn</a>
-        <a href="https://emicarrada.com" style="margin: 0 10px; color: #667eea; text-decoration: none;">Website</a>
+      <div class="footer-content">
+        <div>
+          <strong style="color: #FF6B00;">Emi Carrada</strong><br>
+          <span style="color: #cccccc; font-size: 14px;">Desarrollador Full Stack</span>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/emicarrada">GitHub</a>
+          <a href="https://linkedin.com/in/emicarrada">LinkedIn</a>
+          <a href="https://emicarrada.com">Web</a>
+        </div>
       </div>
       
-      <p style="font-size: 12px; color: #999; margin-top: 20px;">
+      <p class="footer-text">
         Recibes este correo porque te suscribiste al newsletter.<br>
-        <a href="https://emicarrada.com/unsubscribe" style="color: #667eea; text-decoration: none;">Cancelar suscripción</a>
+        <a href="https://emicarrada.com/unsubscribe" class="unsubscribe-link">Cancelar suscripción</a>
       </p>
     </div>
   </div>
