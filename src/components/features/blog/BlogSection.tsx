@@ -7,6 +7,16 @@ import { useBlog } from '../../../hooks/useBlog';
 
 // Import content components for personal blog
 import { 
+  FinDeSemestreContent,
+  ComoLidiarConElFracasoContent,
+  DeZoiAChiikoContent,
+  FluxPresentimientoContent,
+  FcienciasAppRecuentoContent,
+  VerazReunionEUContent,
+  ClubPlusRuidoContent,
+  IANosReemplazaraContent,
+  VentanaLadoPersonalContent,
+  TercerSemestreCierreContent,
   IngresoUnamContent,
   VidaDiariaContent,
   EventosTechContent,
@@ -23,6 +33,16 @@ export const BlogSection: React.FC<BlogSectionProps> = ({ className = '' }) => {
 
   // Map content components to articles
   const contentMap = {
+    'ia-nos-reemplazara': <IANosReemplazaraContent />,
+    'ventana-lado-personal': <VentanaLadoPersonalContent />,
+    'tercer-semestre-cierre': <TercerSemestreCierreContent />,
+    'club-plus-ruido': <ClubPlusRuidoContent />,
+    'fin-de-semestre': <FinDeSemestreContent />,
+    'como-lidiar-con-el-fracaso': <ComoLidiarConElFracasoContent />,
+    'de-zoi-a-chiiko': <DeZoiAChiikoContent />,
+    'flux-presentimiento': <FluxPresentimientoContent />,
+    'fciencias-app-recuento': <FcienciasAppRecuentoContent />,
+    'veraz-reunion-eu': <VerazReunionEUContent />,
     'experiencia-hackathon-openai-kavak-2025': <ExperienciaHackathonOpenAIKavak2025Content />,
     'hackathon-OpenAI-2025': <HackathonOpenAIContent />,
     'ingreso-unam': <IngresoUnamContent />,

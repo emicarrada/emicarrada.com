@@ -43,6 +43,106 @@ export class BlogService implements IBlogService {
 
     const articles: BlogArticle[] = [
       {
+        id: 'ia-nos-reemplazara',
+        category: "Reflexión",
+        title: "¿La IA nos reemplazará?",
+        src: "/blog/LaAInosreem(1).jpeg",
+        content: null,
+        publishedAt: new Date('2025-12-22'),
+        author: 'Cristopher Carrada',
+        tags: ['IA', 'Inteligencia Artificial', 'Programación', 'Investigación']
+      },
+      {
+        id: 'ventana-lado-personal',
+        category: "Reflexión",
+        title: "Una ventana a mi lado personal: mi última introspección del semestre",
+        src: "/blog/portadaUnaVentana.jpeg",
+        content: null,
+        publishedAt: new Date('2025-12-22'),
+        author: 'Cristopher Carrada',
+        tags: ['Reflexión', 'Personal', 'Filosofía', 'Vida Universitaria']
+      },
+      {
+        id: 'tercer-semestre-cierre',
+        category: "Reflexión",
+        title: "Mi tercer semestre: ¿cómo acabaron las cosas?",
+        src: "/blog/mitercerPortada.jpeg",
+        content: null,
+        publishedAt: new Date('2025-12-22'),
+        author: 'Cristopher Carrada',
+        tags: ['Vida Universitaria', 'UNAM', 'Reflexión', 'Ciencias de la Computación']
+      },
+      {
+        id: 'club-plus-ruido',
+        category: "Emprendimiento",
+        title: "Club+: un proyecto del cual no estoy tan orgulloso de haber hecho tanto ruido",
+        src: "/blog/clubplusPortada.jpeg",
+        content: null,
+        publishedAt: new Date('2025-12-22'),
+        author: 'Cristopher Carrada',
+        tags: ['Emprendimiento', 'Club Plus', 'Ética', 'Aprendizaje']
+      },
+      {
+        id: 'fin-de-semestre',
+        category: "Reflexión",
+        title: "Fin de semestre",
+        src: "/blog/portadafindeSem.jpeg",
+        content: null,
+        publishedAt: new Date('2025-12-21'),
+        author: 'Cristopher Carrada',
+        tags: ['Reflexión', 'Vida Universitaria', 'Proyectos', 'UNAM']
+      },
+      {
+        id: 'como-lidiar-con-el-fracaso',
+        category: "Reflexión",
+        title: "Cómo lidiar con el fracaso",
+        src: "/blog/portadaFracasos.jpeg",
+        content: null,
+        publishedAt: new Date('2025-12-21'),
+        author: 'Cristopher Carrada',
+        tags: ['Reflexión', 'Fracaso', 'Aprendizaje', 'Vida Universitaria']
+      },
+      {
+        id: 'de-zoi-a-chiiko',
+        category: "Emprendimiento",
+        title: "De Zoi a Chiikö",
+        src: "/blog/portadaZoi.jpeg",
+        content: null,
+        publishedAt: new Date('2025-12-21'),
+        author: 'Cristopher Carrada',
+        tags: ['Emprendimiento', 'Diseño Web', 'Marca Personal', 'Proyectos']
+      },
+      {
+        id: 'flux-presentimiento',
+        category: "Proyectos",
+        title: "Flux: qué es y por qué tengo un presentimiento raro",
+        src: "/blog/portadaFlux.jpeg",
+        content: null,
+        publishedAt: new Date('2025-12-21'),
+        author: 'Cristopher Carrada',
+        tags: ['Proyectos', 'Flux', 'OpenAI', 'Hackathon', 'Emprendimiento']
+      },
+      {
+        id: 'fciencias-app-recuento',
+        category: "Proyectos",
+        title: "fciencias.app: un recuento para reír o para llorar",
+        src: "/blog/portadaFciencias.jpeg",
+        content: null,
+        publishedAt: new Date('2025-12-21'),
+        author: 'Cristopher Carrada',
+        tags: ['Proyectos', 'fciencias.app', 'Red Social', 'UNAM', 'Desarrollo']
+      },
+      {
+        id: 'veraz-reunion-eu',
+        category: "Proyectos",
+        title: "Veraz: una reunión en EU que salió bastante mal, desinterés y procrastinación al máximo",
+        src: "/blog/portadaveraz.jpeg",
+        content: null,
+        publishedAt: new Date('2025-12-22'),
+        author: 'Cristopher Carrada',
+        tags: ['Proyectos', 'Veraz', 'Emprendimiento', 'Fracaso']
+      },
+      {
         id: 'experiencia-hackathon-openai-kavak-2025',
         category: "Experiencia",
         title: "Mi experiencia en el Hackathon OpenAI x Kavak 2025: 13 horas de código intenso",

@@ -33,6 +33,1290 @@ export const DummyContent = () => {
   );
 };
 
+// ARTÍCULO: ¿La IA nos reemplazará?
+export const IANosReemplazaraContent = () => {
+  return (
+    <PersonalBlogTemplate>
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Una investigación que está a medias
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Hay algo que desde hace meses —tal vez más de un año— no me he podido sacar de la cabeza: la pregunta de si la inteligencia artificial va a reemplazar a los programadores o a los ingenieros de software.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Para muchas personas, la respuesta parece obvia. La IA ya escribe código, así que el razonamiento es inmediato: si escribe código, entonces va a reemplazar a quien lo escribe. El problema es que esa idea parte de un sesgo bastante común: no entender realmente qué hace un ingeniero de software ni qué implica construir buen software.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Es cierto que hoy la IA puede generar código. Pero generar código no es lo mismo que diseñar sistemas, entender un problema real, elegir patrones de diseño adecuados, considerar complejidad computacional, escalabilidad, mantenibilidad y contexto. Muchas veces, sin una buena guía humana, la IA simplemente ignora todo eso.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Ahí entra este término que se ha puesto de moda: vibe coding. Jugar con el código, hacerlo "funcionar", sin preocuparse demasiado por cómo ni por qué. Eso puede servir para prototipos o demos, pero no es lo que define una trayectoria profesional sólida en esta industria.
+      </p>
+
+      <img
+        src="/blog/LaAInosreem(2).png"
+        alt="Desarrollo de software e IA"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Para quienes apenas están empezando en programación o ingeniería de software, esta pregunta ya no es solo una duda: es miedo. Y lo entiendo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Por eso mi idea fue hacer una investigación, acompañada de contenido en video (YouTube y TikTok), que abordara este tema con seriedad. No desde la opinión de alguien que apenas va empezando, sino desde las voces de personas que ya están donde muchos aspiran llegar.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Aquí tengo una ventaja clara: estudio en una de las mejores universidades del país en ciencias de la computación. Eso me ha abierto puertas, me ha dado contactos y, sobre todo, me ha permitido entender mejor cómo funciona realmente esta industria. Pero sé que no todos tienen ese contexto ni ese acceso, y justo por eso quise construir algo útil para más gente.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        La idea era recolectar distintas voces, distintos puntos de vista, y con eso ayudar a quitar el miedo, pero también a orientar mejor a quienes están decidiendo su camino profesional.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        La realidad es que esta investigación está a medias.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Tengo la idea clara. Tengo el plan. Tengo varios testimonios escritos y logré algo que valoro mucho: una entrevista con un Google Developer Expert y conversaciones con personas que trabajan en Oracle. Esa entrevista, en particular, me dio una visión muy clara y muy aterrizada sobre el futuro del desarrollo de software, y definitivamente pienso compartirla.
+      </p>
+
+      <img
+        src="/blog/LaAInosreem(3).jpg"
+        alt="Investigación sobre IA y programación"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Mi intención era contactar a más personas de Big Tech, pero entre el semestre y el tiempo limitado, no ha sido sencillo. Mi único canal de contacto ha sido LinkedIn, y de unas diez personas a las que escribí, solo dos o tres respondieron.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Aun así, el proyecto no está muerto. Está pausado, pero no olvidado.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No quiero hacer una investigación basada en "Juanito que acaba de aprender a programar". Quiero construir conclusiones a partir de referentes reales, de personas que muchos estudiantes sueñan con llegar a ser algún día. A partir de ahí, sí, sacar una reflexión honesta y útil.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No sé exactamente cuándo lo terminaré. Tal vez antes de 2026, tal vez a inicios de ese año. Pero sí sé algo: cuando salga, será un buen recurso. Un buen video. Algo que valga la pena leer y ver.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        También me interesa que este proyecto tenga un enfoque un poco más institucional, incluso académico. Tal vez sea una puerta para explorar ese camino, que últimamente me llama más la atención.
+      </p>
+
+      <img
+        src="/blog/LaAInosreem(4).jpg"
+        alt="Futuro de la programación"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Por ahora, esto es solo una actualización honesta del estado de la investigación.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Gracias por leer.
+      </p>
+    </PersonalBlogTemplate>
+  );
+};
+
+// ARTÍCULO: Una ventana a mi lado personal: mi última introspección del semestre
+export const VentanaLadoPersonalContent = () => {
+  return (
+    <PersonalBlogTemplate>
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Esta entrada es distinta.
+          <br />
+          Más personal.
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        He hablado mucho del aspecto profesional y, sin querer, he dejado de lado esta parte. No porque no exista, sino porque mis motivos —o mi cabeza— decidieron ponerla en pausa. Hoy quiero usar este espacio para desahogar algunos pensamientos que he tenido últimamente.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Todo se ha sentido como un caos.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No sé si es porque intento abarcar demasiadas cosas o porque soy demasiado perfeccionista. Tal vez ambas. Pero, de alguna forma, este desorden me ha llevado a conocerme mejor. A preguntarme cosas incómodas pero necesarias: quién quiero ser, a dónde quiero ir y, sobre todo, por qué hago lo que hago.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Cuando persigues una carrera o un objetivo concreto, tarde o temprano aparece esa pregunta:
+        <br />
+        ¿por qué me esfuerzo tanto?,
+        <br />
+        ¿qué tanto vale este esfuerzo?,
+        <br />
+        ¿qué espero obtener a cambio?
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Hay personas que construyen su sentido de existencia alrededor de esas respuestas. A mí, a veces, no me quedan del todo claras. Estudio esta carrera, sí, pero también me pregunto:
+        <br />
+        ¿qué pensará la industria de mí?,
+        <br />
+        ¿cómo quiero vivir cuando termine?,
+        <br />
+        ¿realmente estoy aprovechando la carrera como debería?
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Son preguntas que, juntas, hacen dudar si todo vale la pena. Al final somos organismos diminutos en un universo enorme, y a veces esa idea pesa más de lo normal.
+      </p>
+
+      <img
+        src="/blog/UnaVentana2.jpeg"
+        alt="Introspección personal"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No sé si es cansancio emocional, saturación mental o simple introspección. Lo que sí sé es que últimamente la filosofía me ha llamado mucho la atención. Tal vez porque soy curioso por naturaleza. Me gusta preguntar, cuestionar, entender. Y cuando estudias ciencia, inevitablemente terminas tocando la filosofía, aunque no quieras.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Estos últimos días, con el semestre terminando, me he sentido raro. Durante semanas mi cortisol estuvo al tope: exámenes, entregas, evaluaciones. Ahora que todo se calmó, es como si algo faltara. Como si el cuerpo no supiera qué hacer sin estrés constante.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Este espacio es importante para mí justamente por eso. Aquí puedo hablar sin filtros. Sé que solo lo leerán quienes realmente tienen interés en mi contenido, y eso me da tranquilidad.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No he ido a varios eventos de tecnología últimamente. No sé bien por qué. Tal vez me aburrieron. Tal vez todos se parecen. Tal vez ya conocí a quienes quería conocer. O tal vez, simplemente, me volví más ermitaño. Antes disfrutaba mucho el networking; estos meses no lo he buscado de forma voluntaria. Y aunque siento que algo ahí está mal, también creo que a veces necesitamos descansar de verdad.
+      </p>
+
+      <img
+        src="/blog/UnaVentana3.jpeg"
+        alt="Reflexión sobre el semestre"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Este semestre me dejó agotado. Hubo noches sin dormir, noches donde ni siquiera me importaba dormir. Entrar a las siete de la mañana se volvió un infierno para mí. Soy una persona nocturna. Me encanta desvelarme escribiendo, programando, pensando, incluso viendo algo sin culpa. Levantarme a las 4:30 o 5:00 am para una clase donde la mitad del tiempo no estoy poniendo atención… sí, es una mierda. Pero es el sistema que hay.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Aun así, sigo siendo humano. Y quiero decirles que, vaya por donde vaya mi camino, todo apunta a un mismo objetivo: vivir de lo que hago. Pero para eso, también es necesario que conozcan esta parte personal. No quiero hacer un video de YouTube explicando esto. Aquí, en texto, me siento más libre.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Curiosamente, me dan ganas de hacer algo especial para Navidad o Año Nuevo. No soy un youtuber enorme, no soy Fernanfloo, pero me dan ganas de crear algo distinto. Navidad siempre ha sido una de mis épocas favoritas. Tal vez salga algo de ahí. No prometo nada, pero estén atentos.
+      </p>
+
+      <img
+        src="/blog/UnaVentana4.jpeg"
+        alt="Semestre y reflexiones"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Acabé el semestre de forma satisfactoria. Eso sí lo puedo decir. En estas vacaciones tengo varias cosas que quiero hacer, no porque alguien me lo exija, sino porque a veces yo mismo me presiono más de la cuenta.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        También se me ha metido en la cabeza esta sensación rara de sentirme "viejo". Ya casi voy a la mitad de la carrera. Aún recuerdo perfectamente quién era cuando entré a esta facultad. Eso me hace pensar en qué tipo de profesionista quiero ser, qué tipo de trabajo quiero hacer y cómo quiero hacerlo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Son preguntas que no he respondido del todo, pero no me pesan tanto. He sido el más joven en muchos espacios profesionales, y eso me dio algo de ego, pero también desventajas. Hoy esas "primeras veces" ya no se sienten igual. Ahora se siente más la responsabilidad sobre el futuro que estoy construyendo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y eso no va a cambiar.
+      </p>
+
+      <img
+        src="/blog/UnaVentana5.jpeg"
+        alt="Futuro y responsabilidad"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Para cerrar este chorote filosófico, solo quiero decir algo:
+        <br />
+        estas entradas son especiales para mí. Importantes.
+        <br />
+        Si las lees, gracias de verdad.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Nos seguimos leyendo.
+      </p>
+    </PersonalBlogTemplate>
+  );
+};
+
+// ARTÍCULO: Mi tercer semestre: ¿cómo acabaron las cosas?
+export const TercerSemestreCierreContent = () => {
+  return (
+    <PersonalBlogTemplate>
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Vienes de varias entradas donde he contado cómo fue mi semestre: cómo lo viví, por qué fue como fue y, sobre todo, cómo se siente exigirte todos los días.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Para empezar, inscribí cinco materias: Probabilidad, Modelado y Programación, Teoría de Gráficas, Matemáticas para las Ciencias Aplicadas y Álgebra Lineal. Desde el inicio me propuse algo claro: intentar alcanzar la máxima calificación posible en todas.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Hoy, al momento de escribir este blog, ya tengo una noción bastante clara de cómo cerré cada materia. Y aunque los números importan, con el tiempo he entendido que no siempre se trata de cuánto sacas, sino cuánto aprendes. En ese sentido, me siento satisfecho.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No pasé Probabilidad. Y, curiosamente, no me hace sentir tan mal como pensé. No porque no me importe, sino porque siento que ahí el aprendizaje vale más que un seis o un número "para pasar". Sé que debo aprender mucho más que eso, y lo tengo claro.
+      </p>
+
+      <img
+        src="/blog/Mitercer1.jpeg"
+        alt="Tercer semestre universitario"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        En las demás materias cerré con nueve y diez. Recuperé mi promedio y lo dejé arriba de 9.10, alrededor de 9.25. Aun así, a veces me pregunto para qué sirve realmente el promedio hoy en día. Tengo uno bueno, sí, pero también he fantaseado con irme de movilidad estudiantil, y eso abre otro conjunto de dudas y escenarios.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No siempre siento que sea la mejor opción, pero cuando llegue la convocatoria quiero aplicar sin miedo. No quiero quedarme con la sensación de "no apliqué y nunca sabré qué habría pasado".
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        En el aspecto profesional, este semestre también trajo cosas que no esperaba vivir tan pronto: el intento de internship en Amazon, la competencia de la ONI, y estar en las oficinas de Google. Son cosas que, honestamente, pensé que llegarían hasta después de terminar la carrera. Que hayan pasado ahora es algo muy gratificante, porque confirma que el esfuerzo no ha sido en vano.
+      </p>
+
+      <img
+        src="/blog/Mitercer2.jpeg"
+        alt="Experiencias profesionales"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Académicamente aprendí. Y también sobreviví.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Logré remontar una calificación complicada, pasé la mayoría de mis materias con muy buenos resultados y, en general, no me siento mal con el cierre del semestre. Pero sí: me dejó agotado. Sin energía. Sin palabras, a ratos.
+      </p>
+
+      <img
+        src="/blog/Mitercer3.jpeg"
+        alt="Reflexiones académicas"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        También me dejó con preguntas importantes:
+        <br />
+        ¿hacia dónde quiero redirigir mi vida profesional?,
+        <br />
+        ¿cómo quiero hacerlo?,
+        <br />
+        ¿por qué?,
+        <br />
+        ¿cuál es el motivo detrás de todo esto?
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Estoy invirtiendo todo mi esfuerzo en esta carrera, y una de las cosas que más necesito para sentirme en paz es tener un plan. Saber con qué visión quiero terminar. Creo que todos deberíamos hacernos estas preguntas. No solo porque son necesarias, sino porque sin ellas es fácil sentir que no eres nadie.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Ese miedo —el de "no ser nadie"— es algo que cargo desde hace tiempo. Sé que no es verdad, pero en momentos así te confunde.
+      </p>
+
+      <img
+        src="/blog/Mitercer4.jpeg"
+        alt="Crecimiento personal"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Al final, eso fue este semestre: sufrí, lloré, fracasé, remonté, recuperé. Me conocí mejor a mí mismo, entendí cómo reacciono bajo presión y, pese a todo, me siento satisfecho.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Salí de mi último examen del semestre contento, tranquilo. El hecho de no pasar una materia no eclipsa que en cuatro me fue muy bien y, más importante aún, aprendí bien.
+      </p>
+
+      <img
+        src="/blog/Mitercer5.jpeg"
+        alt="Cierre del semestre"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        A veces las decisiones difíciles requieren voluntad. Y muchas veces toca ser el director de orquesta de tu propia trayectoria profesional, sin importar lo que la sociedad o incluso tus círculos cercanos esperen de ti.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No sé cuántas entradas del blog van ya. Son la una de la madrugada y sigo escribiendo. Este espacio, aunque en teoría también sirve para "presumir", es sobre todo un lugar para desahogarme. Un rincón pequeño de la web donde puedo expresarme como quiero, cuando quiero, y con quien quiero: con ustedes.
+      </p>
+
+      <img
+        src="/blog/Mitercer6.jpeg"
+        alt="Agradecimiento final"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Gracias por leer estas entradas.
+        <br />
+        Si se me ocurre otro tema, lo escribiré.
+        <br />
+        Por ahora, esta es la última actualización de lo que ha pasado en mi vida y de cómo he manejado todo esto.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Estoy agotado en muchos sentidos, pero si llegaste hasta aquí, de verdad: gracias por tu tiempo.
+      </p>
+    </PersonalBlogTemplate>
+  );
+};
+
+// ARTÍCULO: Club+: un proyecto del cual no estoy tan orgulloso de haber hecho tanto ruido
+export const ClubPlusRuidoContent = () => {
+  return (
+    <PersonalBlogTemplate>
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          ¿Qué pasó con Club Plus?
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Quienes me conocen de cerca saben bien de qué iba este proyecto. Durante un tiempo creí profundamente en él. Pensé que tenía futuro. Pensé que podía funcionar. Pero no salió como esperaba, por muchas razones. Algunas fueron completamente mi responsabilidad. Otras las fui descubriendo conforme entendía mejor en qué me estaba metiendo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y aquí viene algo importante: dejé de sentir pasión por el proyecto.
+        <br />
+        Y cuando haces algo que no te gusta, lo haces mal.
+        <br />
+        Y cuando lo haces mal, fallas.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Es una regla simple que, viendo mis proyectos, se repite más de lo que me gustaría admitir.
+      </p>
+
+      <img
+        src="/blog/clubplus1.jpeg"
+        alt="Proyecto Club Plus"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Con Club Plus intenté traer gente, moverlo, empujarlo. Salió mal. Llegó un punto en el que simplemente dejé de tocar el proyecto y lo pausé sin más. No fue una decisión elegante ni planeada; fue cansancio acumulado y ruido interno.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Al profundizar más, me di cuenta de varias cosas que no me gustaron. Para empezar, la documentación técnica era mucho más compleja de lo que había anticipado, y durante un tiempo le resté importancia cuando en realidad sí la tenía.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Pero lo más pesado fue otra cosa: la línea ética.
+      </p>
+
+      <img
+        src="/blog/clubplus2.jpeg"
+        alt="Reflexiones sobre emprendimiento"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        El proyecto operaba en una zona gris. No completamente ilegal, pero tampoco completamente alineada con lo que yo considero correcto. Y me di cuenta de que lo que más me estaba motivando era la parte monetaria, no la funcional ni la creativa.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y eso no soy yo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si lo único que me interesara fuera el dinero, hoy mismo podría montar una agencia genérica, vender servicios baratos, agarrar diez clientes locales, lidiar con clientes tóxicos y aguantar. Pero entendí que eso no es todo. Porque tu trabajo también es tu reputación. Y tu reputación abre o cierra puertas.
+      </p>
+
+      <img
+        src="/blog/clubplus3.jpeg"
+        alt="Ética en emprendimiento"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Club Plus empezó a romper algo ahí.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Llegó un punto donde ya no me sentía bien haciéndolo. No me sentía correcto. No me sentía capaz de defenderlo con orgullo. Tal vez no quise ser ese tipo de emprendedor. Tal vez simplemente no era el momento. Pero seguir habría significado ignorar una incomodidad que no se iba.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si hubiera seguido, si hubiera empujado más y dejado de lado el semestre, probablemente hoy tendría una fecha de lanzamiento clara. Tal vez ya estaría funcionando. Pero ese "tal vez" no pesa más que la sensación de que no era lo correcto para mí.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Así que el proyecto terminó explotando solo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        El dominio ahí está, pero no lo voy a usar. Club Plus se queda como un proyecto cerrado. Y aunque es un fracaso, también es una lección. Aprendí qué tipo de cosas no quiero hacer y qué tipo de trayectoria sí quiero construir.
+      </p>
+
+      <img
+        src="/blog/clubplus4.jpeg"
+        alt="Aprendizajes del proyecto"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Hice bastante ruido en LinkedIn y en Instagram para, al final, tomar esta decisión. No me importa tanto, pero sí se siente raro. Como gritar que hay una fiesta en casa de Brad Pitt… y luego cancelarla.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Es incómodo.
+        <br />
+        Pero es honesto.
+      </p>
+
+      <img
+        src="/blog/clubplus5.jpeg"
+        alt="Ser honesto sobre los fracasos"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y prefiero eso a seguir algo en lo que ya no creo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Gracias por leer.
+      </p>
+    </PersonalBlogTemplate>
+  );
+};
+
+// ARTÍCULO: Veraz - una reunión en EU que salió bastante mal
+export const VerazReunionEUContent = () => {
+  return (
+    <PersonalBlogTemplate>
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Como ya he dicho antes, hablar de los fracasos también es parte de ser real. Y este proyecto es uno de ellos.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Veraz es una idea que pensé que tendría más impacto. Tal vez lo sigo creyendo. Tal vez fue un error mío al definir expectativas. No lo sé con certeza. Lo que sí sé es que hoy está en pausa, y que duele un poco admitirlo porque, en el fondo, es uno de esos proyectos con los que realmente me gustaría vivir —monetariamente hablando— en algún punto.
+      </p>
+
+      <img
+        src="/blog/veraz1.png"
+        alt="Proyecto Veraz"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          ¿Qué ha pasado con Veraz?
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si soy brutalmente honesto:
+        <br />
+        dos publicaciones en Instagram,
+        <br />
+        una cuenta de Instagram,
+        <br />
+        un dominio comprado,
+        <br />
+        y una landing page con un cronómetro que ya expiró…
+        <br />
+        y que no he tocado en más de dos meses.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Eso es todo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        La idea, eso sí, está clara. No en documentación técnica formal, pero sí en mi cabeza. Tengo el boceto mental de lo que quiero que sea, de cómo funcione y de a quién va dirigido. Incluso hubo algo que me sorprendió bastante: alguien de Estados Unidos se interesó en el proyecto.
+      </p>
+
+      <img
+        src="/blog/veraz2.jpeg"
+        alt="Interés internacional en Veraz"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Hago casi todo mi contenido en español, pero aun así esta persona me contactó. Me dijo que le interesaba la idea y que quería unirse al proyecto de manera gratuita. Eso no me había pasado antes. Le expliqué la misión, el enfoque, y acordamos una reunión en línea.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Y salió… bastante mal.
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Para empezar, había una barrera fuerte con el idioma. No sé si fue mi falta de costumbre hablando inglés, su acento, o simplemente que no se comunicaba bien. Se notaba que no era nativo, y la conversación nunca fluyó. Pero más allá de eso, no sentí conexión. No sentí que realmente fuera a aportar valor ni que estuviéramos alineados.
+      </p>
+
+      <img
+        src="/blog/veraz3.jpeg"
+        alt="Desafíos de comunicación"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Después de eso, y con todo lo que se vino encima en el semestre, simplemente dejé el proyecto de lado. No fue una decisión consciente. Fue más bien agotamiento, desinterés momentáneo y procrastinación acumulada.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Aun así, quiero creer que esto puede volverse una ventaja.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Tengo la idea de convertir todo esto en contenido: un videoblog de un fin de semana construyendo la aplicación, o quizá una semana documentando todo el proceso desde cero. Mostrar qué funciona, qué no, cómo me siento, qué decisiones tomo. No vender humo, solo el proceso real.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        En el camino he descubierto más herramientas de frontend y también dudas nuevas:
+        <br />
+        ¿necesita ser una app externa?
+        <br />
+        ¿esa necesidad realmente existe?
+        <br />
+        ¿o solo es algo que yo quiero resolver porque a mí me molesta?
+      </p>
+
+      <img
+        src="/blog/veraz4.jpeg"
+        alt="Reflexiones sobre el proyecto"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Porque sí, este proyecto nace de una incomodidad personal. De no querer anuncios. De querer evadirlos, o al menos reducirlos. Y sé que no soy el único con ese problema.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si una plataforma así se volviera viral, probablemente afectaría a otras empresas, incluso a medios de periodismo. Pero siendo sincero, eso me importa poco. Yo construyo mis proyectos pensando en mi público objetivo, no en las implicaciones para una "competencia" que, además, está a años luz de donde yo estoy.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Soy demasiado pequeño para que me tomen en serio como competencia. Y está bien.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Este ha sido un proceso al que me he ido adaptando. Tengo las ganas. Tengo la convicción. Y, sobre todo, tengo esa pregunta insistente en la cabeza:
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          ¿por qué no hacerlo?
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Por ahora, Veraz sigue en pausa. Pero no muerto. Esperen contenido sobre esto. Los mantendré informados.
+      </p>
+
+      <img
+        src="/blog/veraz5.jpeg"
+        alt="Futuro de Veraz"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        Gracias por leer.
+      </p>
+    </PersonalBlogTemplate>
+  );
+};
+
+// ARTÍCULO: fciencias.app - un recuento para reír o para llorar
+export const FcienciasAppRecuentoContent = () => {
+  return (
+    <PersonalBlogTemplate>
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          ¿Qué ha pasado con fciencias.app?
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si soy completamente honesto, hoy el proyecto se resume en esto: una landing page medio hecha con inteligencia artificial, un login y un sistema de registro que —eso sí— funciona bastante bien. Nada más. Y nada menos.
+      </p>
+
+      <img
+        src="/blog/fciencias1.jpeg"
+        alt="Estado actual de fciencias.app"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        En estos últimos días he pensado mucho en este proyecto. No tanto en lo técnico, sino en todo lo que implica realmente construir una red social desde cero. Aunque la idea original ya la he contado, lo que más me ha dejado fciencias.app es algo distinto: me abrió los ojos sobre la experiencia de usuario y, sobre todo, sobre la psicología del usuario.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y ahí es donde todo se complica.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        La conversación de la Facultad de Ciencias hoy está en Facebook. Ese es el punto de partida, nos guste o no. Mi idea no busca parecerse a Facebook, pero siendo realistas, sí es una especie de extensión: intentar resolver cosas que Facebook no resuelve bien dentro del contexto específico de la facultad.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        El problema es… Facebook.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Facebook es una app nativa. La gente ya tiene su perfil, sus amigos, sus grupos, una interfaz pulida, memes, contenido externo, años de costumbre. Funciona bien. Es cómoda.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        fciencias.app, en cambio, es una web app hecha por un estudiante con una laptop que a veces ya ni la batería le aguanta bien.
+      </p>
+
+      <img
+        src="/blog/fciencias2.jpeg"
+        alt="Desafíos del desarrollo"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Competir contra eso no solo es difícil: es agotador. A veces me hace sentir incapaz, como si el proyecto fuera demasiado grande para mí. Hay días en los que ese sentimiento pesa, y otros en los que simplemente lo ignoro, me siento a pensar mejor las ideas… y algo empieza a encajar.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Lo que he entendido es que construir una red social es mucho más un problema de psicología que de funcionalidades. Puedes hacer un producto técnicamente decente en una semana usando IA. Pero lograr que la gente lo use, que vuelva, que confíe, que lo sienta suyo… eso es otro nivel de complejidad.
+      </p>
+
+      <img
+        src="/blog/fciencias3.jpeg"
+        alt="Psicología del usuario"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        La pregunta no es solo:
+        <br />
+        ¿qué tan bonita es?
+        <br />
+        ¿qué tan bien funciona?
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Sino:
+        <br />
+        ¿qué tan útil es para la gente?
+        <br />
+        ¿qué tanto valor real aporta?
+        <br />
+        ¿por qué alguien dejaría lo que ya usa?
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Esa es la parte verdaderamente difícil.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Mi idea, siendo optimista, es que en estas vacaciones pueda terminar al menos un MVP. No prometo nada. Me fascina el proyecto, pero sé que si quiero hacer algo bien, tengo que enfocarme al máximo. Y algo sí tengo claro: será open. No quiero anuncios, no quiero monetización rara. Solo quiero que funcione. Y sí, de paso, que sume a mi currículum.
+      </p>
+
+      <img
+        src="/blog/fciencias4.jpeg"
+        alt="Planes para el MVP"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Pero hay otro tema que no puedo ignorar: la responsabilidad.
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Al final del día, esta sería una red social hecha por una sola persona. Sin equipo. Eso te vuelve más vulnerable a errores, señalamientos, acusaciones. Y conociéndome, no sé qué tan bien podría manejar ciertas situaciones si se salen de control.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Además, está el factor institucional. Sé que la dirección de la facultad —e incluso rectoría— está presente en los grupos de Facebook. Observan, leen, analizan lo que dicen los estudiantes. Crear una plataforma alternativa puede volverse algo… delicado. Caótico. Incluso peligroso, entre comillas.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Tal vez es solo paranoia mía. Tal vez no. Pero pensar en las implicaciones externas también es parte del proceso.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Este proyecto puede ayudar a mi reputación como estudiante… o afectarla. Y eso pesa, porque mi vida diaria ocurre ahí: estudio ahí, convivo ahí, tengo mis relaciones sociales ahí.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Por ahora, esto es solo una actualización. Un recuento honesto de dónde está fciencias.app, qué cosas estoy considerando y por qué no es tan simple como "hacer otra app".
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si todo sale bien, me gustaría lanzarla antes de 2026. Si voy a hacer esto, quiero hacerlo en serio.
+      </p>
+
+      <img
+        src="/blog/fciencias5.jpeg"
+        alt="Futuro de fciencias.app"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        Gracias por leer.
+      </p>
+    </PersonalBlogTemplate>
+  );
+};
+
+// ARTÍCULO: Flux - qué es y por qué tengo un presentimiento raro
+export const FluxPresentimientoContent = () => {
+  return (
+    <PersonalBlogTemplate>
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si viste mi video de YouTube, ya sabes que Flux es el proyecto que desarrollé para la competencia de OpenAI. Esta entrada es para responder dos preguntas simples, pero incómodas: qué pasó con ese proyecto y por qué tengo una sensación extraña cada vez que pienso en su futuro.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Cuando la idea de Flux se planteó dentro del equipo, la reacción fue inmediata: les fascinó. No solo porque resolvía un problema real, sino porque era una solución disruptiva. No era un refrito ni una idea genérica. De hecho, hubo otras ideas que exploré antes, pero me parecieron demasiado comunes y ni siquiera las propuse.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Irónicamente, una de esas ideas "genéricas" terminó ganando la competencia.
+      </p>
+
+      <img
+        src="/blog/Flux2.jpeg"
+        alt="Competencia OpenAI"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No voy a decir que me robaron nada, pero sí me sentí… injusto conmigo mismo. Sentí que mi proyecto fue minimizado, cuando en realidad sí valía más. Y no lo digo desde el ego: tengo la maqueta completa, una demo funcional y un boceto bastante claro de lo que Flux puede llegar a ser.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Flux no es perfecto, pero es útil. Muy útil. Especialmente para su público objetivo. Hoy no hay una alternativa clara que haga exactamente lo mismo. Hay algo parecido —ni siquiera recuerdo bien el nombre—, pero sé que Flux puede ir más lejos.
+      </p>
+
+      <img
+        src="/blog/Flux3.jpeg"
+        alt="Utilidad de Flux"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          El problema empieza cuando uno cae en el juego de las comparaciones.
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si te pones a consumir contenido de computación en Twitter o Instagram, ves gente construyendo proyectos increíbles todo el tiempo. Y sin darte cuenta entras en el ciclo de: yo hice esto, él hizo aquello, yo soy más, yo soy menos.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Eso no te motiva. Te quema. Terminas con un burnout silencioso y una pregunta incómoda: ¿para qué estoy haciendo todo esto?
+      </p>
+
+      <img
+        src="/blog/Flux4.jpeg"
+        alt="Reflexión sobre el proyecto"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Con Flux tengo claro algo: no quiero forzarlo ahora. No quiero convertirlo en algo que todavía no entiendo al 100%.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Mi idea es que para 2026 explore este proyecto con más calma y más criterio. Que evolucione hacia una herramienta B2B, algo que pueda venderse, implementarse de forma relativamente autónoma y que, como mínimo, sume de forma real a mi currículum.
+      </p>
+
+      <img
+        src="/blog/Flux5.jpeg"
+        alt="Planes futuros para Flux"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si no, siempre existe otra opción: hacerlo open source y cerrar el ciclo ahí.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        El nombre, lo admito, es genérico. Tal vez cambie. Tal vez termine siendo algo más mexicano, más mío.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Esta entrada es corta porque todavía no he explorado del todo el mercado ni el verdadero alcance de Flux. Pero lo haré. Y cuando tenga más claridad, lo contaré aquí.
+      </p>
+
+      <img
+        src="/blog/Flux6.jpeg"
+        alt="Futuro de Flux"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        Por ahora, solo necesitaba escribirlo. Desahogarme un poco y dejar constancia de lo que siento con este proyecto.
+      </p>
+    </PersonalBlogTemplate>
+  );
+};
+
+// ARTÍCULO: De Zoi a Chiikö
+export const DeZoiAChiikoContent = () => {
+  return (
+    <PersonalBlogTemplate>
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+      Fuck… la verdad es que este ha sido un proceso largo. Uno de esos que piensas demasiado, postergas, dudas, pero que al final sabes que es lo correcto.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Después de darle muchas vueltas, llegué a la conclusión de que quiero seguir esta línea: diseño web, pero bien hecho. Y no solo porque "funcione", sino porque me llene a mí.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Para entender por qué nace chiikö, primero tengo que contar un poco la historia de Zoi Marketing.
+      </p>
+
+      <img
+        src="/blog/Zoi1.jpeg"
+        alt="Historia de Zoi Marketing"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Antes de Zoi, yo tenía una marca que se llamaba Creativa Carrada. Ahí hacía sitios web como podía. Usaba Canva, no sabía qué era frontend, JavaScript ni nada por el estilo, pero lo intentaba. Tenía iniciativa, ganas y curiosidad, aunque técnicamente estaba muy verde.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Cuando me asocié con Diego, todo empezó a tomar más forma. Con Zoi llegaron mis primeros clientes reales, mis primeros portafolios y, sobre todo, mis primeras lecciones duras sobre cómo funcionan las relaciones laborales entre un cliente y un prestador de servicios.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Aprendí muchas cosas… casi todas a la mala. Pero no me arrepiento. Todo eso hoy me sirve.
+      </p>
+
+      <img
+        src="/blog/Zoi2.jpeg"
+        alt="Lecciones aprendidas"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        El problema con Zoi Marketing es que abarcábamos demasiado. Hacíamos de todo: redes, diseño, páginas, lo que cayera. Básicamente era buscar chamba por donde fuera y cobrar barato.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          ¿El resultado?
+        </span>
+        <br />
+        Clientes tóxicos.
+        <br />
+        Clientes sin disposición.
+        <br />
+        Malentendidos.
+        <br />
+        Peleas.
+        <br />
+        Despidos.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No era grato ni para mí ni para la marca. Llegó un punto donde ya ni siquiera valía la pena pelear ciertas cosas. Y ahí fue cuando me pregunté seriamente:
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        ¿Qué quiero hacer con todo lo que aprendí?
+        <br />
+        ¿Vale la pena pausar esto sin más?
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        La respuesta fue no.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No quiero que toda esa experiencia se quede ahí. Quiero que valga la pena también a futuro. Así que decidí transformar la marca.
+      </p>
+
+      <img
+        src="/blog/Zoi3.jpeg"
+        alt="Transformación de la marca"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Ya no voy a ofrecer un sinfín de servicios. Me voy a enfocar en diseño web premium, profesional, que venda y que se sienta bien hecho.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Así nace chiikö.
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        El nombre no tiene un significado literal. Es una palabra inventada. Pero me gusta cómo suena, cómo se ve y, sobre todo, se siente original. Hoy en día todo está en inglés, todo suena igual, todo parece copiado. Yo quiero ir un poco en contra de eso.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Mi idea con chiikö no es solo hacer sitios web. Quiero hacer artesanías digitales. Productos que se sientan hechos a mano, no generados en masa. Sitios con intención, con criterio, con diseño real.
+      </p>
+
+      <img
+        src="/blog/Zoi4.jpeg"
+        alt="Artesanías digitales chiikö"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Hoy cualquier plataforma con inteligencia artificial te arma un sitio en minutos, pero todos se ven iguales. Genéricos. Sin alma. Ahí es donde quiero diferenciarme.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        (Nota mental: el logo de chiikö se ve tan bien que algún día me voy a hacer una playera con él. Cuando pase, se las enseñaré).
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Algo curioso es que con el tiempo sentía menos ganas de tener una agencia. Pensé que ya no me gustaba… hasta que entendí que el problema no era la agencia, sino querer abarcar todo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Cuando me enfoco solo en diseño web —algo que llevo haciendo desde hace años y que de verdad me apasiona— todo vuelve a tener sentido.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Mi idea es que para 2026 chiikö esté funcionando formalmente. Haré publicidad, probaré cosas, veré si llegan muchos clientes o pocos, y documentaré lo que pase. También quiero llevarla a un enfoque más internacional.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Esto es simplemente una nueva faceta de uno de mis proyectos profesionales. No es un reinicio vacío, es una evolución con cicatrices incluidas.
+      </p>
+
+      <img
+        src="/blog/Zoi5.jpeg"
+        alt="Evolución de chiikö"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        Gracias por leer.
+      </p>
+    </PersonalBlogTemplate>
+  );
+};
+
+// ARTÍCULO: Cómo lidiar con el fracaso
+export const ComoLidiarConElFracasoContent = () => {
+  return (
+    <PersonalBlogTemplate>
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Escrito por un estudiante que aún no aprende a vivir al 100% con él
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si estás leyendo esto, ojalá te encuentres en una situación similar a la mía, o al menos cercana. Últimamente no me he sentido desanimado, pero sí raro. Extraño.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        En redes sociales suelo contar cuando logro algo: un proyecto, un proceso, un avance. Pero casi nunca hablo de mis fracasos ni de lo que he aprendido de ellos. Y creo que eso es un error. No solo para crecer, sino para ser real.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No intento construir redes sociales perfectas. No soy perfecto. No soy alguien artificial. Así que en esta entrada quiero hablar de dos fracasos recientes: cómo perdí una materia y cómo perdí la oportunidad de un internship en Amazon.
+      </p>
+
+      <img
+        src="/blog/fracasos1.jpeg"
+        alt="Reflexión sobre el fracaso"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Fracaso 1: Probabilidad
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Probabilidad es, honestamente, una materia complicada. Confusa. Y me dejó un mal sabor de boca.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Para dar un poco de contexto: cuando me inscribí a una competencia de programación de OpenAI, coincidió exactamente con un examen importante de probabilidad. En ese momento tuve que decidir: estudiar para la materia o prepararme para el hackatón.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Elegí el hackatón. Me llenaba más, le veía más beneficio a corto plazo y me motivaba de verdad.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        El resultado: no pasé a la final del hackatón como yo esperaba… y también terminé perdiendo la materia. Perdí ambas cosas.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Aun así, no fue tiempo completamente perdido. Aprendí bastante: cómo organizarme con otras personas, cómo asumir un rol más de liderazgo, y cómo lidiar con presión constante cuando nada parece salir a tu favor.
+      </p>
+
+      <img
+        src="/blog/fracasos2.jpeg"
+        alt="Aprendizajes del fracaso"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Con la materia, decidí pasarla al siguiente semestre. Me compré un libro de probabilidad con ejercicios y planeo estudiarlo durante vacaciones para llegar con bases más sólidas. No prometo nada, pero quiero intentarlo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        De este fracaso aprendí algo importante: más que culparme, entendí que nadie va a venir a rescatarme. Nadie va a preocuparse por mi carrera más que yo mismo. Si quiero tener buenas bases y eventualmente hacer una tesis relacionada con inteligencia artificial, tengo que enfrentar esto.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        La buena noticia es que mi carrera me apasiona. Así que, aunque sea un reto, tal vez pueda disfrutar el proceso.
+      </p>
+
+      <img
+        src="/blog/fracasos3.jpeg"
+        alt="Pasión por la carrera"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Fracaso 2: El internship de Amazon
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Este fue un fallo épico, pero interesante.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Apliqué porque me llegó una invitación por LinkedIn. Lo hice más por curiosidad que con esperanza real. Pensé: capaz ni me aceptan. Para mi sorpresa, me invitaron al Online Assessment.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Era una prueba de programación más una evaluación "psicológica" sobre cómo reaccionas ante distintas situaciones laborales. Esa misma semana intenté estudiar LeetCode y algoritmos. Aprendí a estructurar mejor soluciones, a pensar en patrones y a crear una especie de "caja de herramientas" mental.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        El problema fue que esa semana también tenía otros exámenes: álgebra lineal y matemáticas aplicadas. Combinar todo fue brutal. Me terminé quemando.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Sobreviví, sí. Pero descuidé bastante la parte de Amazon.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Algo curioso es que en ese tipo de assessments nadie te vigila. No es en vivo. Todo parece automatizado. Por un momento pensé en hacer trampa: copiar una solución, pasar el filtro y ya. Pero decidí no hacerlo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Quise hacerlo por mi cuenta, aunque eso significara fallar. Resolví medianamente bien solo uno de los dos problemas en una hora.
+      </p>
+
+      <img
+        src="/blog/fracasos4.jpeg"
+        alt="Experiencia con Amazon"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No me arrepiento.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Tal vez simplemente no era el momento para un internship. Después de eso seguí sobreviviendo el semestre y me di cuenta de varias carencias reales: deuda técnica, falta de práctica en ciertos lenguajes, dificultad para estructurar bien algunas respuestas.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Eso también es información valiosa.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Reflexión final
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Parte de escribir esto es reconocer que también fracaso. Y no creo que mucha gente lea esta entrada, pero si tú estás pasando por algo parecido, quiero decirte esto:
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No creo que el fracaso sea casual. Creo que la vida te pone ahí para obligarte a mejorar. No tengo todas las soluciones claras ni las he ejecutado todavía, pero no me siento mal conmigo mismo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        En el assessment de Amazon no respondió una inteligencia artificial: respondí yo. Y esa materia no la reprobó "alguien más": la reprobé yo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Eso duele, pero también genera algo raro: responsabilidad… y pertenencia. La sensación de que tengo que hacerlo por mí, no por validación externa.
+      </p>
+
+      <img
+        src="/blog/fracasos5.jpeg"
+        alt="Reflexión final sobre el fracaso"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        No sé explicarlo mejor, pero espero que se entienda. Gracias por leer.
+      </p>
+    </PersonalBlogTemplate>
+  );
+};
+
+// ARTÍCULO: Fin de semestre
+export const FinDeSemestreContent = () => {
+  return (
+    <PersonalBlogTemplate>
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Hola, queridos suscriptores. Sé que me ausenté por bastante tiempo. No había escrito nada desde que salí del Hackathon de OpenAI, y la verdad es que han pasado muchas cosas que valía la pena contar.
+      </p>
+
+      <img
+        src="/blog/findesem1.jpeg"
+        alt="Fin de semestre"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Este cierre de semestre fue pesado. Después del hackathon de Open, me enfoqué tanto en el proyecto y en estudiar lo necesario para sacarlo adelante que terminé descuidando varias cosas de la escuela. Exámenes que no estudié a tiempo, evaluaciones que tuve que reponer, semanas donde se juntaron dos o tres exámenes importantes y la presión se volvió constante.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Normalmente suelo organizarme bien: hago planes de estudio con anticipación, estudio con calma y llego a los exámenes con bases sólidas. Esta vez no fue así, y se notó. Fue frustrante tener que improvisar y sobrevivir más que aprender.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        También tuve que hacer una exposición. Originalmente era sobre redes neuronales, pero decidí usar el tema del Hackathon porque ya tenía una demo funcional. Además, se me cruzó por la cabeza que quizá de ahí podría salir algo más grande, incluso un negocio. Eso quedó pendiente.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Pasé álgebra y matemáticas para las ciencias aplicadas (una especie de cálculo para computación) y entregué un proyecto de modelado y programación que, siendo honesto, no fue mi mejor trabajo. Aun así, aquí estoy. Vivo. Y, aunque con un sabor un poco amargo, puedo decir que terminé el semestre de forma satisfactoria. Incluso logré pasar con buena calificación una materia que venía arrastrando desde antes, y eso se siente bien.
+      </p>
+
+      <img
+        src="/blog/findesem2.jpeg"
+        alt="Experiencias del semestre"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Ahora viene algo que quiero dejar para el récord: Apliqué a un internship en Amazon… y fallé épicamente.
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        La verdad lo hice más por curiosidad que con verdadera esperanza. Avancé hasta el Online Assessment, lo cual ya fue una sorpresa. Eran dos problemas técnicos en una hora. Solo logré resolver uno, y el otro apenas y lo entendí. No pasé. Pero no lo veo como un fracaso total; más bien como una señal clara de que tengo una deuda técnica importante. Este invierno quiero meterle muy duro a LeetCode y reforzar fundamentos que dejé de lado este semestre.
+      </p>
+
+      <img
+        src="/blog/findesem3.jpeg"
+        alt="Desafíos académicos"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Otro tema que me ha tenido inquieto es una red social que estoy desarrollando para la Facultad de Ciencias. Se ha vuelto un reto grande, no solo técnico, sino personal. Mucho tiene que ver con autoestima y con la duda constante de si soy capaz de hacerlo bien, bien de verdad. Aun así, me emociona. Quiero aprender más sobre psicología del usuario, diseño, tendencias, y construir algo útil y atractivo para estudiantes.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        En estos días he estado muy reflexivo. A veces siento que me estoy volviendo viejo, que debería exigirme más, que el tiempo pasa rápido. Todo se ha sentido un poco pesado… pero también auténtico. Me apasiona lo que hago, incluso cuando me cansa.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          Tomé dos decisiones importantes:
+        </span>
+      </p>
+
+      <img
+        src="/blog/findesem4.jpeg"
+        alt="Decisiones importantes"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        La primera fue cerrar Club Plus. Ya no le veía futuro. Con el tiempo se volvió inviable y, sobre todo, dejó de sentirse ético. Eso pesó mucho en la decisión final.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        La segunda es que mi agencia de marketing va a cambiar. Voy a ofrecer menos servicios, pero mejor hechos. Principalmente diseño web, pero de una forma que realmente impresione. Quiero calidad real, no volumen.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Tengo otro proyecto pendiente para el que incluso ya compré el dominio. Se me ocurrió documentar todo el proceso en un video de YouTube: tres días trabajando intensamente, desde cero hasta algo funcional. Un video largo, de unos 20 o 25 minutos, y de ahí sacar clips para TikTok. No sé si lo haré, pero la idea está ahí.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        La creación de contenido es otro tema complicado. Tengo ganas, pero entre la flojera, el perfeccionismo y la falta de ideas, termino no haciendo nada. Se ha vuelto un patrón: muchos proyectos, muchas ideas, poco avance. Lo único realmente sólido es que sobreviví el semestre y que tengo de mediados de diciembre a febrero para ordenar todo esto.
+      </p>
+
+      <img
+        src="/blog/findesem5.jpeg"
+        alt="Proyectos y contenido"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Tal vez haga más contenido, vaya a más eventos… aunque últimamente me he vuelto bastante ermitaño. Antes era muy social, ahora prefiero quedarme en mi computadora. No sé si sea normal, pero es donde me siento más cómodo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Todo esto me trae confundido, un poco perdido. Pero, curiosamente, me gusta. Porque en medio de ese caos, siento que aquí hay algo que me da propósito, o al menos la posibilidad de construirlo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Esta entrada es más personal. No es para el currículum ni para aparentar productividad. Es solo contexto, una forma de decir: esto es lo que ha estado pasando en mi día a día.
+      </p>
+
+      <img
+        src="/blog/findesem6.jpeg"
+        alt="Reflexión final del semestre"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        En las siguientes entradas les contaré cómo Zoi Marketing va a transformarse en otra marca, y también quiero escribir sobre cómo lidiar con el fracaso, porque últimamente me ha tocado más de lo que me gustaría admitir.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        Por ahora, eso es todo. Gracias por leer.
+      </p>
+    </PersonalBlogTemplate>
+  );
+};
+
 // ARTÍCULO 1: Ingreso a la UNAM
 export const IngresoUnamContent = () => {
   return (

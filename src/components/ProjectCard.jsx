@@ -13,7 +13,7 @@ export default function ProjectCard({ logo, name, github, live, description, tec
       <img
         src={logo}
         alt={name}
-        className={`${['Zoi Marketing', 'Club+', 'Veraz', 'fciencias', 'Flux'].includes(name) ? 'w-40 h-40' : 'w-20 h-20'} object-contain mb-4 rounded-xl`}
+        className={`${['Chiiko', 'Flux', 'Veraz', 'fciencias'].includes(name) ? 'w-40 h-40' : 'w-20 h-20'} object-contain mb-4 rounded-xl`}
         style={{ marginTop: 8 }}
       />
       <h3 className="text-2xl mb-4 font-semibold text-white" style={{ fontFamily: 'Null Free, sans-serif' }}>{name}</h3>
