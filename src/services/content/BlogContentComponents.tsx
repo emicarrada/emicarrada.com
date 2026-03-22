@@ -2913,6 +2913,575 @@ export const ExperienciaHackathonOpenAIKavak2025Content = () => {
   );
 };
 
+// ARTÍCULO: Inicio de 2026
+export const InicioDe2026Content = () => {
+  return (
+    <PersonalBlogTemplate>
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Inicio de 2026
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Hola, ¿cómo están?
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Hace tiempo que no subía nada al blog. Han pasado varias cosas que no había contado por aquí. No sé si alguien lea esto —ojalá que sí— pero bueno, aquí va.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          ¿Cómo inició 2026?
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        La verdad, con varias cosas moviéndose al mismo tiempo. Desde diciembre estuve trabajando en el sitio web de chiikö design, y por fin este año lo lancé. Me esmeré bastante en hacerlo, así que si pueden darse una vuelta, lo agradecería mucho:<br />
+        👉 <span className="font-bold text-[#FF8200]">chiiko.design</span>
+      </p>
+
+      <img
+        src="/blog/meetup2026-1.jpg"
+        alt="Evento inicio 2026"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        En estas vacaciones de invierno estuve prácticamente en dos modos: la mitad del tiempo enfermo, y la otra mitad trabajando.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        También hubo cambios importantes. Ahora estoy trabajando solo. Ya no estoy con el socio que tenía, y aunque al inicio era raro, me di cuenta de que funciono mejor así. Hay muchas cosas que quería hacer y que simplemente no podía, y ahora todo fluye más.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y algo interesante: <span className="font-bold text-neutral-700 dark:text-neutral-200">sí vale la pena esmerarte en un buen sitio web.</span> Se nota. Especialmente cuando haces networking o te presentas con otras personas.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Últimamente me he estado cuestionando mucho cuál es mi rumbo al salir de la carrera. Antes lo tenía muy claro: entrar a Big Tech, "ser feliz" y listo. Pero la vida no es tan simple.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Ahora que le he dedicado tiempo a mi estudio creativo, me he dado cuenta de algo importante:<br />
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">me apasiona.</span><br />
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">Me hace sentir vivo.</span><br />
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">Siento que mi trabajo vale lo que debería valer.</span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y eso cambia todo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No tengo completamente claro qué voy a hacer, pero sí tengo algo decidido: <span className="font-bold text-neutral-700 dark:text-neutral-200">si esto llega a ser suficiente para mantenerme, lo voy a seguir.</span>
+      </p>
+
+      <img
+        src="/blog/credencialpint.jpg"
+        alt="Credencial evento"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        También he estado haciendo mucha introspección. No soy perfecto. Tengo momentos altos y momentos bajos, y la verdad está bien. Es parte de. Pero sí siento que tengo que trabajar más en esa parte emocional.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Por otro lado… subí de peso.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Me pasa algo curioso: cuando me va bien en el trabajo, descuido mi físico. Dejé de correr, dejé de hacer ejercicio. Se me venció el gimnasio, no renové, y simplemente no me han dado ganas. No lo justifico, pero es algo que tengo que retomar.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Otra cosa: tengo pendiente un video de una visita que grabé. No lo he editado ni estoy cerca de hacerlo. No por falta de tiempo… por flojera. Editar es una friega y me cuesta empezar. Pero lo voy a sacar. Eventualmente.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        También pausé la investigación de inteligencia artificial. Por hueva, siendo honesto. Perdón, Juan Gómez, si estás leyendo esto.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Han sido muchas cosas en la cabeza al mismo tiempo. Pero justo por eso se siente bien volver a escribir aquí. Este espacio es importante para mí porque puedo expresarme libremente y contar lo que realmente está pasando, sin filtros.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Esta es la primera entrada de 2026.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No quiero alargarme demasiado porque vienen más. Si estás leyendo esto, gracias por quedarte.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        Nos seguimos leyendo.
+      </p>
+    </PersonalBlogTemplate>
+  );
+};
+
+// ARTÍCULO: El nuevo inicio de mi estudio creativo
+export const NuevoInicioChiikoDesignContent = () => {
+  return (
+    <PersonalBlogTemplate>
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          El nuevo inicio de mi estudio creativo: chiikö design
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Quiero contarles cómo va esta nueva etapa con chiikö design.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Para empezar: me ha ido bien. Conseguí mi primer cliente y curiosamente se dedica a algo muy similar a lo mío. Más adelante les contaré más sobre eso, pero por ahora solo puedo decir que me emociona bastante.
+      </p>
+
+      <img
+        src="/blog/cena2026-1.jpg"
+        alt="Nuevo inicio de chiikö design"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Lancé el sitio en enero y desde el inicio tuve algo claro: no iba a ir a negocios locales a ofrecer páginas web baratas.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No porque esté mal, sino porque no es el punto en el que estoy. Siento que mi nivel actual de diseño web no vale cinco pesos. Vale más. Y quiero tratarlo como tal.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Porque también entendí algo importante: si empiezo cobrando poco, haciendo proyectos sin exigencia, eventualmente me voy a aburrir. Voy a dejar de esforzarme. Y eso mata el crecimiento.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        En cambio, si apunto más alto: me obligo a hacer mejores diseños, a pensar mejor cada detalle y a seguir subiendo mi nivel.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y eso ya está dando resultados.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        En uno o dos meses de existencia, ya logré facturar más de lo que hacía en mi emprendimiento anterior. Eso, sinceramente, no me lo esperaba tan rápido.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        También estoy próximo a patrocinar un evento de computación. Todavía no puedo decir mucho, pero es algo importante y me emociona bastante.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y hay otra idea que me ronda la cabeza: hacer mercancía oficial. Tal vez para mis amigos cercanos y mi familia primero. No es algo urgente, pero me gusta pensar en ello.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Más allá de números o cosas externas, hubo un cambio importante en mi mentalidad.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Antes hacía sitios web por entregar. Cumplía y ya.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Ahora entiendo que un sitio web no solo muestra qué haces. Comunica el nivel en el que operas.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Cuando hablas con clientes de alto nivel, tu sitio tiene que estar a la altura de esa conversación. Porque dice todo de ti: si tienes clientes o no, si te importa tu imagen, si sabes lo que estás haciendo, si estás jugando en serio o no.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        He visto sitios de otros diseñadores web que, siendo honestos, están por debajo de lo que yo hago. Y no lo digo desde arrogancia, sino desde una pregunta real: ¿no se lo toman en serio?, ¿les da flojera?, ¿o simplemente no lo ven como algo estratégico?
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Porque para mí dejó de ser solo hacer páginas.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Me estoy convirtiendo más en alguien que piensa, estructura y comunica, más estratega que obrero del código. Y eso es lo que más me gusta de chiikö design.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Antes hacía de todo y terminaba frustrado. Ahora sigo haciendo mucho, pero en otro nivel: con mejores clientes, mejor pagado y con más sentido.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Los siguientes meses quiero seguir moviéndome: ir a eventos de networking, fortalecer relaciones y seguir entrando más en el entorno tecnológico.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Porque al final, eso es lo que me apasiona: estar cerca de lo que se está construyendo hoy y de lo que se va a construir mañana.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        Gracias por leer.
+      </p>
+    </PersonalBlogTemplate>
+  );
+};
+
+// ARTÍCULO: ¿Y si no quiero ser influencer?
+export const YSiNoQuieroSerInfluencerContent = () => {
+  return (
+    <PersonalBlogTemplate>
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          ¿Y si no quiero ser influencer?
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Hay algo que también he estado pensando últimamente.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Tal vez... no soy un influencer. O al menos, no quiero serlo.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        El año pasado, desde verano, me esforcé mucho en construir mi marca personal. Subí contenido, intenté ser constante, traté de entender cómo funciona todo ese mundo. Pero con el tiempo me di cuenta de algo: no sé si estoy hecho para eso.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No quiero ser un "Juanpa Zurita" o algo por el estilo. Y no lo digo desde arrogancia, lo digo desde lo que realmente siento.
+      </p>
+
+      <img
+        src="/blog/pizarron2026-2.jpg"
+        alt="Reflexión sobre redes y autenticidad"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Incluso pagué la verificación de Instagram y sinceramente fue una mala experiencia. No te deja cambiar la foto de perfil como quieres, el servicio fue pésimo y nunca me resolvieron varios problemas. Y al final, ¿para qué? Para que tu cara esté aún más expuesta.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Eso me hizo cuestionarme más.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Subí un video random de un hámster y llegó a 11,000 vistas. No sé cómo. Está padre, sí, pero también me hizo pensar: ¿de verdad quiero una vida donde tengo que grabar todo, exponer todo y estar constantemente "activo" para mantener atención?
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No estoy seguro.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Porque hay algo que no se dice mucho: la fama no es natural.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Existe esta idea de que ser famoso es el objetivo máximo, pero en realidad no garantiza nada. Hay estudios que dicen que el cerebro humano ni siquiera está preparado para procesar la fama. Estamos hechos para lidiar con pérdidas fuertes, sí, pero no con miles o millones de personas observándote, juzgándote, opinando de ti.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Es raro.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y sí, ya en la facultad, que de por sí puede ser un ambiente hostil, tengo gente que critica, que observa, que opina. No me afecta tanto, pero escalar eso a miles de personas... no sé si lo quiero.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Prefiero otra cosa.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Me gusta la vida que tengo: ser universitario, trabajar en mis proyectos, construir algo propio y sentirme bien con eso. Me gusta ser alguien más de nicho. Me gusta cuando alguien se acerca y me dice que le gustó algo que hice o que le inspiró un proyecto. Eso sí me llena.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No necesito millones.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y no estoy seguro de querer pagar el precio de lo que implica tenerlos. Porque si realmente quisiera, podría intentarlo en serio: subir cinco videos al día, optimizar contenido, jugar el juego. Pero no es lo que quiero.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Además, siendo honestos, hoy en día mucha gente sigue cosas bastante cuestionables: peleas absurdas, contenido vacío, incluso figuras que representan cosas bastante oscuras y eso se normaliza. No es el tipo de atención que me interesa atraer.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Prefiero tener a los míos. Pasármela bien. Construir algo con sentido.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Me gustaría más que mi estudio creativo se vuelva reconocido antes que yo. Que el foco esté en lo que construyo, no en mi cara.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y también hay algo más: cuando eres "famoso", conocer gente pierde cierta magia. Ya saben quién eres. Ya hay una idea previa. Se pierde un poco lo real. Incluso en relaciones personales.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        A mí me interesa lo contrario.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Lo auténtico. Lo que no está filtrado por el estatus.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Tal vez en el futuro cambie de opinión. No lo sé. Pero hoy, sinceramente, prefiero este camino.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        Gracias por leer.
+      </p>
+    </PersonalBlogTemplate>
+  );
+};
+
+// ARTÍCULO: ¿Por qué ya no seguí con fciencias.app?
+export const PorQueYaNoSeguiFcienciasAppContent = () => {
+  return (
+    <PersonalBlogTemplate>
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          ¿Por qué ya no seguí con fciencias.app?
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        La respuesta corta: por el ambiente en la facultad.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        La respuesta larga: por flojera... y porque me di cuenta de que, en realidad, era una mala idea.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si lo veo con honestidad, la razón por la que quise crear esa red social no era tan pura como pensaba. Tal vez era por aprobación. Tal vez por ego. Tal vez porque quería construir algo grande. O tal vez sí había una parte genuina de querer resolver un problema.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Pero con el tiempo entendí algo incómodo: no era el proyecto correcto para mí.
+      </p>
+
+      <img
+        src="/blog/5ru.jpeg"
+        alt="Reflexión sobre el ambiente en la facultad"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y no porque no pudiera funcionar. De hecho, creo que sí hubiera tenido tracción. Incluso desde la idea ya llamaba la atención.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        El problema era otro.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Yo quiero mucho a mi facultad. A mi carrera. A mis amigos.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Pero siendo completamente sincero: el ambiente general puede ser muy tóxico.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Estoy en el grupo de Facebook de la facultad con un perfil falso, porque no me interesa exponerme ahí, y aun así he recibido bastante hate solo por comentar cosas normales.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Eso me hizo pensar.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si con una cuenta anónima ya hay ese nivel de reacción, ¿qué pasaría si lanzo una red social donde soy el responsable directo?
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Porque una red social no es solo código.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Es: lidiar con odio, lidiar con bots, lidiar con usuarios enojados, lidiar con críticas constantes, y muchas veces, críticas hacia ti como persona.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y eso desgasta. Mucho más de lo que parece.
+      </p>
+
+      <img
+        src="/blog/5fc.png"
+        alt="Reflexión sobre exposición y redes sociales"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        En verano investigué bastante sobre lo que implica lanzar una plataforma así. No solo a nivel técnico, sino social. Y entendí algo muy claro: si quieres paz, tienes que cuidar tu nivel de exposición.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y este proyecto iba en dirección contraria a eso.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Porque aunque pudiera ocultar mi identidad, al final iba a estar ahí, detrás. Y en algún punto eso se filtra, se sabe o simplemente se siente.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Además, hay algo que me terminó de hacer ruido.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        En el grupo de Facebook, mucha gente comenta desde el anonimato cosas que jamás dirían en persona: comentarios ofensivos, ataques gratuitos, opiniones cargadas de odio.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y eso no es el tipo de entorno que quiero construir. Ni en internet, ni en mi vida.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Entonces empecé a hacerme una pregunta más honesta: ¿de verdad quiero crear algo que probablemente se convierta en eso?
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        La respuesta fue no.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Porque incluso si funcionaba, incluso si crecía, sabía que me iba a terminar sintiendo mal por haberlo creado.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y cuando un proyecto te genera eso desde antes de lanzarlo, es señal suficiente.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        También hay algo personal.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Si en un entorno pequeño ya recibo críticas de personas que ni conozco, en uno más grande probablemente sería peor.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y la facultad, al final, es un lugar importante para mí: es donde estudio, donde aprendo, donde también encuentro paz.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No quiero convertir ese espacio en algo incómodo por un proyecto.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Así que tomé la decisión. fciencias.app no va a salir.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Probablemente borre todo rastro con el tiempo. No por miedo, sino porque ya no me representa.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Cuando algo deja de hacer sentido para mí, simplemente lo suelto.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Quería contar esto porque ya le había hablado del proyecto a varias personas. Y si estás leyendo esto, esta es la razón real.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        Gracias por leer.
+      </p>
+    </PersonalBlogTemplate>
+  );
+};
+
+// ARTÍCULO: La última entrada del blog
+export const LaUltimaEntradaDelBlogContent = () => {
+  return (
+    <PersonalBlogTemplate>
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+          La última entrada del blog
+        </span>
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y pues bueno... en esta entrada me despido. No del blog para siempre, no se emocionen, pero sí de este momento.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No soy la persona más constante escribiendo aquí, y lo saben. Pero cuando vuelvo, es porque realmente lo necesito. Y por eso este espacio sigue siendo importante para mí. Si no lo cuido, se muere. Y no quiero que eso pase.
+      </p>
+
+      <img
+        src="/blog/4ru.jpeg"
+        alt="Despedida y reflexión personal"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Quiero aprovechar para decir algo que casi no digo: a las personas que me apoyan, muchas de ellas mis amigos, que han estado conmigo, que conocen mis problemas, mis procesos, mis subidas y bajadas... gracias. De verdad.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        A las personas que me leen, que me escriben, que me preguntan cosas, que de alguna forma admiran lo que hago... también gracias.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No lo digo por compromiso. Lo digo porque es real. Construir algo por tu cuenta y ver que hay gente que lo aprecia, que lo disfruta o que se inspira con eso... es de las cosas más reconfortantes que existen.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Porque siendo sincero, muchas veces este camino es solitario. Cuando estoy construyendo proyectos, haciendo sitios web, pensando ideas... no hay nadie alrededor.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        No tengo a alguien viviendo conmigo, no tengo una rutina compartida con alguien más en ese sentido. Soy yo contra lo que quiero construir.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Y eso tiene dos caras: por un lado, libertad total. Por el otro, una exigencia que a veces pesa demasiado. Porque nadie me presiona... más que yo mismo. Y a veces eso rompe.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Pero también están esos momentos donde alguien llega y te dice algo simple: que le gustó lo que hiciste, que le ayudó, que le inspiró. Y eso... te levanta. Te recuerda por qué empezaste.
+      </p>
+
+      <img
+        src="/blog/findesem4.jpeg"
+        alt="Gratitud y cierre de etapa"
+        className="w-full h-auto rounded-lg mb-8 mx-auto"
+      />
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        También intento mantener los pies en la tierra. No soy perfecto. Hay días en los que no estoy en el mood, días en los que estoy cansado, días en los que simplemente no quiero hacer nada. Y está bien.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Nunca he sido alguien ideal, ni quiero serlo. Solo soy alguien intentando construir algo con lo que cree.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Gracias a los que están. A los que apoyan. A los que recomiendan. Y a los que, poco a poco, se van sumando.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Se vienen cosas grandes. Proyectos importantes. Y espero que quienes están hoy... también estén en esa etapa.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+        Por ahora, me despido. Nos leemos cuando vuelva a tener algo que decir. Cuando vuelva a necesitar escribir.
+      </p>
+
+      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        Cuídense mucho. Y gracias por estar ahí.
+      </p>
+    </PersonalBlogTemplate>
+  );
+};
+
 // Mantener componentes legacy para compatibilidad
 export const ReactArticleContent = () => <DummyContent />;
 export const AITechArticleContent = () => <DummyContent />;

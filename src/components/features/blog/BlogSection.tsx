@@ -25,7 +25,12 @@ import {
   VidaFreelancerContent,
   AprendiendoTypeScriptContent,
   HackathonOpenAIContent,
-  ExperienciaHackathonOpenAIKavak2025Content
+  ExperienciaHackathonOpenAIKavak2025Content,
+  InicioDe2026Content,
+  NuevoInicioChiikoDesignContent,
+  YSiNoQuieroSerInfluencerContent,
+  PorQueYaNoSeguiFcienciasAppContent,
+  LaUltimaEntradaDelBlogContent
 } from '../../../services/content/BlogContentComponents';
 
 export const BlogSection: React.FC<BlogSectionProps> = ({ className = '' }) => {
@@ -43,6 +48,11 @@ export const BlogSection: React.FC<BlogSectionProps> = ({ className = '' }) => {
     'flux-presentimiento': <FluxPresentimientoContent />,
     'fciencias-app-recuento': <FcienciasAppRecuentoContent />,
     'veraz-reunion-eu': <VerazReunionEUContent />,
+    'inicio-2026': <InicioDe2026Content />,
+    'nuevo-inicio-chiiko-design': <NuevoInicioChiikoDesignContent />,
+    'y-si-no-quiero-ser-influencer': <YSiNoQuieroSerInfluencerContent />,
+    'por-que-ya-no-segui-fciencias-app': <PorQueYaNoSeguiFcienciasAppContent />,
+    'la-ultima-entrada-del-blog': <LaUltimaEntradaDelBlogContent />,
     'experiencia-hackathon-openai-kavak-2025': <ExperienciaHackathonOpenAIKavak2025Content />,
     'hackathon-OpenAI-2025': <HackathonOpenAIContent />,
     'ingreso-unam': <IngresoUnamContent />,

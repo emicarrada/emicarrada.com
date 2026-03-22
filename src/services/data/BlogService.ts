@@ -43,6 +43,56 @@ export class BlogService implements IBlogService {
 
     const articles: BlogArticle[] = [
       {
+        id: 'la-ultima-entrada-del-blog',
+        category: "Reflexión",
+        title: "La última entrada del blog",
+        src: "/blog/4ap.jpeg",
+        content: null,
+        publishedAt: new Date('2026-03-22'),
+        author: 'Cristopher Carrada',
+        tags: ['Reflexión', 'Comunidad', 'Blog', 'Gratitud']
+      },
+      {
+        id: 'por-que-ya-no-segui-fciencias-app',
+        category: "Reflexión",
+        title: "¿Por qué ya no seguí con fciencias.app?",
+        src: "/blog/mitercerPortada.jpeg",
+        content: null,
+        publishedAt: new Date('2026-03-22'),
+        author: 'Cristopher Carrada',
+        tags: ['fciencias.app', 'Reflexión', 'Facultad', 'Crecimiento Personal']
+      },
+      {
+        id: 'y-si-no-quiero-ser-influencer',
+        category: "Reflexión",
+        title: "¿Y si no quiero ser influencer?",
+        src: "/blog/conferenciaunam.jpg",
+        content: null,
+        publishedAt: new Date('2026-03-22'),
+        author: 'Cristopher Carrada',
+        tags: ['Reflexión', 'Marca Personal', 'Redes Sociales', 'Chiiko']
+      },
+      {
+        id: 'nuevo-inicio-chiiko-design',
+        category: "Emprendimiento",
+        title: "El nuevo inicio de mi estudio creativo: chiikö design",
+        src: "/blog/cena2026-1.jpg",
+        content: null,
+        publishedAt: new Date('2026-03-22'),
+        author: 'Cristopher Carrada',
+        tags: ['Chiiko', 'Diseño Web', 'Emprendimiento', 'Networking']
+      },
+      {
+        id: 'inicio-2026',
+        category: "Reflexión",
+        title: "Inicio de 2026",
+        src: "/blog/pinterestvisita.jpg",
+        content: null,
+        publishedAt: new Date('2026-03-22'),
+        author: 'Cristopher Carrada',
+        tags: ['2026', 'Reflexión', 'Emprendimiento', 'Crecimiento Personal']
+      },
+      {
         id: 'ia-nos-reemplazara',
         category: "Reflexión",
         title: "¿La IA nos reemplazará?",
