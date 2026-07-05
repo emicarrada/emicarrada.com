@@ -13,16 +13,6 @@ export class ProjectsService implements IProjectsService {
       category: 'startup'
     },
     {
-      id: 'flux',
-      name: 'Flux',
-      logo: '/fluxlogo.png',
-      description: 'Proyecto desarrollado para el Hackathon OpenAI x Kavak 2025. Flux es un sistema de IA auto-optimizable que reduce hasta en un 80% el uso de tokens mediante análisis inteligente de prompts y respuestas. Utilizando LangGraph y técnicas avanzadas de Machine Learning, optimiza dinámicamente las llamadas a la API de OpenAI, manteniendo la calidad de las respuestas mientras reduce significativamente los costos operacionales.',
-      github: 'https://github.com/emicarrada/hackathon-openai',
-      live: 'https://github.com/emicarrada/hackathon-openai',
-      technologies: ['Python', 'LangGraph', 'Git', 'Matplotlib', 'ChatGPT'],
-      category: 'startup'
-    },
-    {
       id: 'veraz',
       name: 'Veraz',
       logo: '/verazlogo.png',
@@ -30,16 +20,6 @@ export class ProjectsService implements IProjectsService {
       github: 'https://github.com/emicarrada/Veraz',
       live: 'https://veraz.app',
       technologies: ['Python', 'NumPy', 'React', 'Three.js', 'Ciencia de Datos'],
-      category: 'scientific'
-    },
-    {
-      id: 'fciencias',
-      name: 'fciencias',
-      logo: '/logofciencias.png',
-      description: 'fciencias.app es una red social académica y colaborativa creada por y para estudiantes de la Facultad de Ciencias de la UNAM. Es una plataforma que organiza la vida universitaria en un solo lugar: apuntes, comunicación entre compañeros, reseñas de profesores, eventos estudiantiles, foros por materia y más.',
-      github: 'https://github.com/emicarrada/fciencias.app',
-      live: 'https://fciencias.app',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'Academia'],
       category: 'scientific'
     }
   ];

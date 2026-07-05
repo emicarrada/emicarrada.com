@@ -163,7 +163,7 @@ export const ProjectsSection: React.FC = () => {
         <p className="text-lg md:text-xl mb-12" style={{ fontFamily: 'Be Vietnam, sans-serif' }}>
           Startups con los que genero ingresos, aplicando tecnología, estrategia y creatividad para resolver problemas reales y construir negocios escalables.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center items-start">
+        <div className="flex flex-wrap justify-center gap-8 items-start">
           {startupProjects.map((project) => (
             <ProjectCard
               key={project.id}
@@ -188,7 +188,7 @@ export const ProjectsSection: React.FC = () => {
           <p className="text-lg md:text-xl mb-12" style={{ fontFamily: 'Be Vietnam, sans-serif' }}>
             Proyectos donde aplico ciencia, lógica y tecnología para entender problemas complejos y crear soluciones reales.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center items-start">
+          <div className="flex flex-wrap justify-center gap-8 items-start">
             {scientificProjects.map((project) => (
               <ProjectCard
                 key={project.id}
