@@ -1,5 +1,6 @@
 import { InteractiveTerminal } from '@/components/features/terminal';
-import { ProfileImage } from '@/components/ui/ProfileImage';
+import SwipeCards from '@/components/ui/SwipeCards.tsx';
+import { SWIPE_CARD_IMAGES } from '@/constants/swipeCards';
 // @ts-ignore - LoQueHago is a JSX file, will be migrated later
 import LoQueHago from '../LoQueHago';
 
@@ -12,11 +13,8 @@ export default function QuienSoy() {
         </h2>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start max-w-6xl mx-auto">
-          <div className="order-1 lg:order-1">
-            <ProfileImage
-              src="/ProfilePicture.jpg"
-              alt="Mi foto"
-            />
+          <div className="order-1 lg:order-1 -mt-6 md:-mt-10">
+            <SwipeCards images={SWIPE_CARD_IMAGES} />
           </div>
           
           <div className="order-2 lg:order-2">

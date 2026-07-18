@@ -16,7 +16,7 @@ export const BlogSubscription: React.FC<BlogSubscriptionProps> = ({
       <p className="text-lg md:text-xl font-bevietnam text-white max-w-2xl mx-auto mb-4">
         {subtitle}
       </p>
-      {/* Formulario de Suscripción Terminal */}
+      {/* Formulario de suscripción */}
       <TerminalSubscribeForm />
     </div>
   );
