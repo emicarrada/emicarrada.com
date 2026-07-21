@@ -2,12 +2,6 @@
 
 import React from "react";
 
-const navLinks = [
-  { href: "#proyectos", label: "Proyectos" },
-  { href: "#blog", label: "Blog" },
-  { href: "#contacto", label: "Contacto" },
-];
-
 const socialLinks = [
   {
     href: "https://instagram.com/emicarrada",
@@ -78,21 +72,6 @@ export default function Footer() {
       </div>
       <div className="text-center text-sm mt-2 font-bevietnam" style={{ fontFamily: "'Be Vietnam', 'BeVietnam', sans-serif" }}>
         © 2026 emicarrada. Todos los derechos reservados.
-      </div>
-      {/* Footer inferior: combinación de iconos SVG */}
-      <div className="flex flex-row items-center justify-center gap-3 mt-4 opacity-80">
-        {/* Icono lentes */}
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 91.21" className="w-8 h-8" fill="currentColor">
-          <path fillRule="evenodd" d="M27.52,36.17a27.54,27.54,0,0,1,26,18.34,15.45,15.45,0,0,1,7.59-2.34,16.06,16.06,0,0,1,8.44,2.08,27.53,27.53,0,0,1,41.59-13.14l-5.47-22.65c-.2-.84-.32-1.41-.42-1.89-.29-1.36-.35-1.65-1.89-3.23L95.89,5.68A3.35,3.35,0,0,1,100.69,1l7.43,7.66c2.89,3,3,3.6,3.64,6.51h0c.1.51.23,1.11.37,1.69l8.58,35.53a3.37,3.37,0,0,1,.09.77,27.52,27.52,0,1,1-53,10.51A25.8,25.8,0,0,1,68,60.9a10.19,10.19,0,0,0-6.66-2.5A9.67,9.67,0,0,0,55,61.48c0,.73.08,1.47.08,2.21a27.52,27.52,0,1,1-53-10.51,2.91,2.91,0,0,1,.1-.77l8.57-35.53c.14-.58.27-1.18.37-1.68.62-2.92.75-3.55,3.64-6.52L22.2,1A3.35,3.35,0,0,1,27,5.68l-7.44,7.67C18,14.93,18,15.21,17.68,16.56c-.1.48-.22,1.05-.42,1.9L11.79,41.11a27.33,27.33,0,0,1,15.73-4.94Zm67.84,6.32a21.21,21.21,0,0,1,18.83,11.45V54a3.28,3.28,0,0,0,.62,1.27A21.2,21.2,0,1,1,95.36,42.49ZM8.68,54a3.14,3.14,0,0,1-.62,1.27,21.26,21.26,0,1,0,.63-1.32V54ZM16,62a2,2,0,0,1-3.83-1A17.63,17.63,0,0,1,23.6,48.74a2,2,0,1,1,1.25,3.73A13.61,13.61,0,0,0,16,62Z"/>
-        </svg>
-        {/* Icono más */}
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-        </svg>
-        {/* Icono laptop */}
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 70.51" className="w-8 h-8" fill="currentColor">
-          <path fillRule="evenodd" clipRule="evenodd" d="M2.54,65.44h12.59c-0.93-0.24-1.63-1.1-1.63-2.1V2.17C13.5,0.98,14.48,0,15.67,0h90.97c1.19,0,2.17,0.98,2.17,2.17v61.16c0,1.01-0.69,1.86-1.63,2.1h13.16c1.4,0,2.54,1.14,2.54,2.54v0c0,1.4-1.14,2.54-2.54,2.54H2.54c-1.4,0-2.54-1.14-2.54-2.54v0C0,66.58,1.14,65.44,2.54,65.44L2.54,65.44z M17.21,3.4h88.19v59.32H17.21V3.4L17.21,3.4z M57.87,66.39h7.14c0.67,0,1.22,0.55,1.22,1.22l0,0c0,0.67-0.55,1.22-1.22,1.22h-7.14c-0.67,0-1.22-0.55-1.22-1.22l0,0C56.65,66.93,57.2,66.39,57.87,66.39L57.87,66.39z"/>
-        </svg>
       </div>
     </footer>
   );

@@ -1,8 +1,7 @@
 import { InteractiveTerminal } from '@/components/features/terminal';
+import { LoQueHagoSection } from '@/components/features/capabilities/LoQueHagoSection';
 import SwipeCards from '@/components/ui/SwipeCards.tsx';
 import { SWIPE_CARD_IMAGES } from '@/constants/swipeCards';
-// @ts-ignore - LoQueHago is a JSX file, will be migrated later
-import LoQueHago from '../LoQueHago';
 
 export default function QuienSoy() {
   return (
@@ -25,7 +24,7 @@ export default function QuienSoy() {
         </div>
       </div>
       
-      <LoQueHago />
+      <LoQueHagoSection />
     </section>
   );
 }

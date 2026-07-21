@@ -4,7 +4,6 @@ import { motion, AnimatePresence } from "framer-motion";
 const navLinks = [
   { href: "#proyectos", label: "Proyectos" },
   { href: "#blog", label: "Blog" },
-  { href: "#contacto", label: "Contacto" },
 ];
 
 export default function MobileDrawerMenu({ isOpen, onClose }) {

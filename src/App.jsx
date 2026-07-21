@@ -5,11 +5,10 @@ import { Analytics } from '@vercel/analytics/react';
 import './styles/globals.css';
 import Hero from './components/Hero';
 import QuienSoy from './components/pages/QuienSoy';
-import StackCards from './components/StackCards';
+import { ServicesSection } from './components/features/capabilities/ServicesSection';
 import Footer from './components/Footer';
 import Proyectos from './components/Proyectos';
 import Blog from './components/Blog';
-import Contact from './components/Contact';
 import LoaderOneDemo from './components/ui/loader-one-demo';
 
 function Home() {
@@ -106,7 +105,7 @@ function Home() {
               ease: [0.25, 0.46, 0.45, 0.94] 
             }}
           >
-            <StackCards />
+            <ServicesSection />
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -133,7 +132,6 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/proyectos" element={<Proyectos />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/contacto" element={<Contact />} />
         </Routes>
       </Router>
       <Analytics />

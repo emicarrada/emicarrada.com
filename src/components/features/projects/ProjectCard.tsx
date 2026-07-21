@@ -33,13 +33,17 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, className = '
           <h3 className="text-xl font-bold text-gray-900">{project.name}</h3>
         </div>
 
-        {/* Description */}
-        <p 
-          className="text-gray-600 mb-6 leading-relaxed"
-          style={{ fontFamily: 'Be Vietnam, sans-serif' }}
-        >
-          {project.description}
-        </p>
+        <div className="space-y-4 mb-6">
+          {project.paragraphs.map((paragraph) => (
+            <p
+              key={paragraph}
+              className="text-gray-600 leading-relaxed"
+              style={{ fontFamily: 'Be Vietnam, sans-serif' }}
+            >
+              {paragraph}
+            </p>
+          ))}
+        </div>
 
         {/* Technologies */}
         <div className="flex flex-wrap gap-4 justify-center mb-6">
