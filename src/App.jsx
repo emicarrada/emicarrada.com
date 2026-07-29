@@ -9,6 +9,7 @@ import { ServicesSection } from './components/features/capabilities/ServicesSect
 import Footer from './components/Footer';
 import Proyectos from './components/Proyectos';
 import Blog from './components/Blog';
+import ProjectCaseStudyPage from './components/pages/ProjectCaseStudyPage';
 import LoaderOneDemo from './components/ui/loader-one-demo';
 
 function Home() {
@@ -131,6 +132,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/proyectos" element={<Proyectos />} />
+          <Route path="/proyectos/:projectId/:studySlug" element={<ProjectCaseStudyPage />} />
           <Route path="/blog" element={<Blog />} />
         </Routes>
       </Router>

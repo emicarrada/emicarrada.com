@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { getCaseStudyPathForProject } from '@/constants/projectCaseStudies';
 import { Project } from '../../../types/projects';
 
 interface ProjectRowProps {
@@ -6,6 +8,8 @@ interface ProjectRowProps {
 }
 
 export const ProjectRow: React.FC<ProjectRowProps> = ({ project }) => {
+  const caseStudyPath = getCaseStudyPathForProject(project.id);
+
   return (
     <article className="group border-b border-white/10 py-10 md:py-14 last:border-b-0">
       <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
@@ -38,7 +42,7 @@ export const ProjectRow: React.FC<ProjectRowProps> = ({ project }) => {
           </div>
         </div>
 
-        <div className="flex shrink-0 items-center gap-5 pl-[4.75rem] text-sm md:flex-col md:items-end md:gap-3 md:pl-0 md:pt-2">
+        <div className="flex shrink-0 flex-col items-start gap-3 pl-[4.75rem] text-sm md:items-end md:pl-0 md:pt-2">
           <a
             href={project.live}
             target="_blank"
@@ -56,6 +60,14 @@ export const ProjectRow: React.FC<ProjectRowProps> = ({ project }) => {
           >
             GitHub
           </a>
+          {caseStudyPath && (
+            <Link
+              to={caseStudyPath}
+              className="text-white/45 transition-colors duration-200 hover:text-[#FF8200]"
+            >
+              Detrás del código
+            </Link>
+          )}
         </div>
       </div>
     </article>
