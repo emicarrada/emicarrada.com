@@ -47,24 +47,51 @@ export function CaseStudySectionBlock({ section, isLast }: CaseStudySectionBlock
         )}
 
         {section.stackRows && section.stackRows.length > 0 && (
-          <div className="mt-5 overflow-hidden rounded-2xl border border-white/10">
-            <div className="grid grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)_minmax(0,1.4fr)] gap-px bg-white/10 text-[11px] uppercase tracking-wider text-white/40 md:text-xs">
-              <div className="bg-[#061b3a] px-3 py-2.5 md:px-4">Capa</div>
-              <div className="bg-[#061b3a] px-3 py-2.5 md:px-4">Tecnología</div>
-              <div className="bg-[#061b3a] px-3 py-2.5 md:px-4 hidden sm:block">Función</div>
+          <>
+            {/* Mobile: tarjetas por fila */}
+            <div className="mt-5 space-y-3 md:hidden">
+              {section.stackRows.map((row) => (
+                <div
+                  key={row.layer}
+                  className="rounded-2xl border border-white/10 bg-white/[0.03] p-4"
+                  style={bodyFont}
+                >
+                  <div>
+                    <p className="text-[10px] uppercase tracking-wider text-white/35">Capa</p>
+                    <p className="mt-1 text-base font-medium leading-snug text-[#FF8200]">{row.layer}</p>
+                  </div>
+                  <div className="mt-4 border-t border-white/10 pt-4">
+                    <p className="text-[10px] uppercase tracking-wider text-white/35">Tecnología</p>
+                    <p className="mt-1 text-sm leading-relaxed text-white/85">{row.tech}</p>
+                  </div>
+                  <div className="mt-4 border-t border-white/10 pt-4">
+                    <p className="text-[10px] uppercase tracking-wider text-white/35">Función</p>
+                    <p className="mt-1 text-sm leading-relaxed text-white/55">{row.role}</p>
+                  </div>
+                </div>
+              ))}
             </div>
-            {section.stackRows.map((row) => (
-              <div
-                key={row.layer}
-                className="grid grid-cols-1 gap-1 border-t border-white/10 bg-[#041737]/80 px-3 py-3 sm:grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)_minmax(0,1.4fr)] sm:gap-px sm:bg-white/10 md:px-4 md:py-3.5"
-                style={bodyFont}
-              >
-                <div className="text-sm font-medium text-[#FF8200] sm:bg-[#041737]/90 sm:px-2 sm:py-1">{row.layer}</div>
-                <div className="text-sm text-white/80 sm:bg-[#041737]/90 sm:px-2 sm:py-1">{row.tech}</div>
-                <div className="text-sm text-white/50 sm:bg-[#041737]/90 sm:px-2 sm:py-1">{row.role}</div>
+
+            {/* Desktop: tabla */}
+            <div className="mt-5 hidden overflow-hidden rounded-2xl border border-white/10 md:block">
+              <div className="grid grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)_minmax(0,1.4fr)] gap-px bg-white/10 text-xs uppercase tracking-wider text-white/40">
+                <div className="bg-[#061b3a] px-4 py-2.5">Capa</div>
+                <div className="bg-[#061b3a] px-4 py-2.5">Tecnología</div>
+                <div className="bg-[#061b3a] px-4 py-2.5">Función</div>
               </div>
-            ))}
-          </div>
+              {section.stackRows.map((row) => (
+                <div
+                  key={row.layer}
+                  className="grid grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)_minmax(0,1.4fr)] gap-px border-t border-white/10 bg-white/10"
+                  style={bodyFont}
+                >
+                  <div className="bg-[#041737]/90 px-4 py-3.5 text-sm font-medium text-[#FF8200]">{row.layer}</div>
+                  <div className="bg-[#041737]/90 px-4 py-3.5 text-sm text-white/80">{row.tech}</div>
+                  <div className="bg-[#041737]/90 px-4 py-3.5 text-sm leading-relaxed text-white/50">{row.role}</div>
+                </div>
+              ))}
+            </div>
+          </>
         )}
 
         {section.brandRows && section.brandRows.length > 0 && (
@@ -84,13 +111,13 @@ export function CaseStudySectionBlock({ section, isLast }: CaseStudySectionBlock
         )}
 
         {section.flow && (
-          <pre className="mt-5 overflow-x-auto rounded-2xl border border-white/10 bg-[#061b3a] p-4 text-xs leading-relaxed text-white/70 md:text-sm">
+          <pre className="mt-5 max-w-full overflow-x-auto overscroll-x-contain rounded-2xl border border-white/10 bg-[#061b3a] p-3 text-[11px] leading-relaxed text-white/70 sm:p-4 sm:text-xs md:text-sm">
             {section.flow}
           </pre>
         )}
 
         {section.codeTree && (
-          <pre className="mt-5 overflow-x-auto rounded-2xl border border-white/10 bg-[#061b3a] p-4 text-xs leading-relaxed text-emerald-400/80 md:text-sm">
+          <pre className="mt-5 max-w-full overflow-x-auto overscroll-x-contain rounded-2xl border border-white/10 bg-[#061b3a] p-3 text-[11px] leading-relaxed text-emerald-400/80 sm:p-4 sm:text-xs md:text-sm">
             {section.codeTree}
           </pre>
         )}
