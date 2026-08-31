@@ -205,6 +205,14 @@ export const Card = ({
               >
                 {card.category}
               </motion.p>
+              {card.publishedAt && (
+                <motion.p
+                  layoutId={layout ? `date-${card.title}` : undefined}
+                  className="mt-1 text-sm font-normal text-neutral-500 dark:text-neutral-400"
+                >
+                  {card.publishedAt}
+                </motion.p>
+              )}
               <motion.p
                 layoutId={layout ? `title-${card.title}` : undefined}
                 className="mt-4 text-2xl font-semibold text-neutral-700 md:text-5xl dark:text-white"
@@ -229,6 +237,14 @@ export const Card = ({
           >
             {card.category}
           </motion.p>
+          {card.publishedAt && (
+            <motion.p
+              layoutId={layout ? `date-${card.title}` : undefined}
+              className="mt-1 text-left font-sans text-xs font-normal text-white/80 md:text-sm"
+            >
+              {card.publishedAt}
+            </motion.p>
+          )}
           <motion.p
             layoutId={layout ? `title-${card.title}` : undefined}
             className="mt-2 max-w-xs text-left font-sans text-xl font-semibold [text-wrap:balance] text-white md:text-3xl"

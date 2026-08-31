@@ -1,5 +1,6 @@
 import React from 'react';
 import { BlogCarouselProps } from '../../../types/blog';
+import { formatDate } from '../../../utils';
 // @ts-ignore
 import { Carousel, Card } from '../../ui/apple-cards-carousel';
 
@@ -10,7 +11,8 @@ export const BlogCarousel: React.FC<BlogCarouselProps> = ({ articles, className 
       category: article.category,
       title: article.title,
       src: article.src,
-      content: article.content || <div>Contenido no disponible</div>
+      content: article.content || <div>Contenido no disponible</div>,
+      publishedAt: article.publishedAt ? formatDate(article.publishedAt) : undefined,
     };
     
     return <Card key={article.id} card={cardData} index={index} />;

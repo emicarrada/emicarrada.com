@@ -16,12 +16,14 @@ export function cn(...inputs: ClassValue[]): string {
  * @param locale - Locale for formatting (default: 'es-ES')
  * @returns Formatted date string
  */
-export function formatDate(date: Date, locale = 'es-ES'): string {
+export function formatDate(date: Date | string, locale = 'es-MX'): string {
+  const parsed = date instanceof Date ? date : new Date(date);
   return new Intl.DateTimeFormat(locale, {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
-  }).format(date);
+    timeZone: 'UTC',
+  }).format(parsed);
 }
 
 /**

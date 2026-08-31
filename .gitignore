@@ -74,3 +74,4 @@ subscribers.txt
 *.subscribers.txt
 suscriptores.txt
 *.suscriptores.txt
+.env*
